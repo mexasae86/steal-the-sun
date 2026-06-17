@@ -1,0 +1,13 @@
+name = "Steal the Sun"
+author = "mexasae86 & INiKkEI"
+version = "2.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "51118a27014d3e8ac158b35bbf325f753533ac1db88c4b30640351d30e9bc333"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.233"

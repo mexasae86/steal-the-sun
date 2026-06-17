@@ -1,0 +1,19 @@
+{
+	id: "d74da3e8-bc8f-4489-bacb-70699c6dc60b"
+	type: "player"
+	player_name: "mexasae86"
+	ranks: {
+		d74da3e8-bc8f-4489-bacb-70699c6dc60b: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "mexasae86"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF9559"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbteams:team_stages": [ ]
+		"ftbteams:lives_remaining": 0
+	}
+	message_history: [ ]
+	extra: { }
+}
