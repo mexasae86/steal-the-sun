@@ -1,0 +1,13 @@
+name = "ProgressiveStages"
+filename = "progressivestages-2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "864c1cfdd1309ae38513b1c3a00b22b93243c2eb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8226628
+project-id = 1460273
