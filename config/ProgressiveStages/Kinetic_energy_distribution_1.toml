@@ -1,0 +1,33 @@
+[stage]
+id = "Kinetic_energy_distribution_1"
+display_name = "Kinetic energy distribution 1"
+description = ""
+icon = "create:gearbox"
+unlock_message = "&7&lKinetic energy distribution 1 Unlocked!"
+
+# Starting stage: no dependency. To require another stage, add:
+dependency = "Automation_science_pack"
+# or multiple:
+#   dependency = ["tutorial_complete", "spawn_visit"]
+
+[items]
+locked = [
+    "create:speedometer",
+    "create:stressometer",
+    "create:gearbox",
+    "create:vertical_gearbox",
+    "create:clutch",
+    "create:gearshift",
+    "create:encased_chain_drive"
+]
+always_unlocked = []
+
+[blocks]
+locked = []
+always_unlocked = []
+
+[dimensions]
+locked = []
+
+# See diamond_age.toml for a complete 2.0 category reference (crops, loot,
+# enchants, pets, screens, mobs, regions, structures, etc.).

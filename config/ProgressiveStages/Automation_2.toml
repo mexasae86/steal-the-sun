@@ -1,0 +1,38 @@
+[stage]
+id = "Automation_2"
+display_name = "Automation 2"
+description = ""
+icon = "create:cart_assembler"
+unlock_message = "&7&lAutomation 2 Unlocked!"
+
+# Starting stage: no dependency. To require another stage, add:
+dependency = ["Automation", "Logistics_science_pack"]
+
+
+[items]
+locked = [    
+      "create:mechanical_piston",
+      "create:sticky_mechanical_piston",
+      "create:piston_extension_pole",
+      "create:gantry_carriage",
+      "create:gantry_shaft",
+      "create:mechanical_bearing",
+      "create:rope_pulley",
+      "create:cart_assembler",
+      "create:linear_chassis",
+      "create:secondary_linear_chassis",
+      "create:radial_chassis",
+      "create:sticker",
+      "create:redstone_contact"
+]
+always_unlocked = []
+
+[blocks]
+locked = []
+always_unlocked = []
+
+[dimensions]
+locked = []
+
+# See diamond_age.toml for a complete 2.0 category reference (crops, loot,
+# enchants, pets, screens, mobs, regions, structures, etc.).

@@ -1,0 +1,30 @@
+[stage]
+id = "Recource_gathering"
+display_name = "Recource gathering"
+description = ""
+icon = "create:mechanical_harvester"
+unlock_message = "&7&lRecource gathering Unlocked!"
+
+# Starting stage: no dependency. To require another stage, add:
+dependency = "Automation_science_pack"
+# or multiple:
+#   dependency = ["tutorial_complete", "spawn_visit"]
+
+[items]
+locked = [    
+    "create:mechanical_drill",
+    "create:mechanical_saw",
+    "create:mechanical_plough",
+    "create:mechanical_harvester"
+]
+always_unlocked = []
+
+[blocks]
+locked = []
+always_unlocked = []
+
+[dimensions]
+locked = []
+
+# See diamond_age.toml for a complete 2.0 category reference (crops, loot,
+# enchants, pets, screens, mobs, regions, structures, etc.).

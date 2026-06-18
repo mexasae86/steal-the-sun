@@ -1,0 +1,440 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tech_tree"
+	group: ""
+	id: "0AE9C821D6FEEA78"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6960652B849131D4"
+			tasks: [
+				{
+					id: "0DF416B8020C7C46"
+					item: { count: 1, id: "create:water_wheel" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "46EA556C829491BB"
+					item: { count: 1, id: "create:windmill_bearing" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "16C64F47047078DD"
+					item: { count: 1, id: "create:white_sail" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2B0346EFC1F80561"
+					item: { count: 1, id: "create:large_water_wheel" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"46FD40ECB84EA9E0"
+				"6960652B849131D4"
+			]
+			id: "0E9E0B24967C70E5"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "6F405E3C21193D3F"
+					stage: "Automation_science_pack"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "minecraft:red_wool"
+					}
+					id: "04A9644CC966544B"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "3B6A9406B8D87FC6"
+				item: { count: 1, id: "ftbquests:screen_1" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "46FD40ECB84EA9E0"
+			tasks: [{
+				count: 64L
+				id: "7FA51F6ABBC5DB36"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E9E0B24967C70E5"]
+			id: "2614A07F6414C8BE"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "01E2D9024BCC4C43"
+					stage: "Logistics_science_pack"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "minecraft:green_wool"
+					}
+					id: "4C462970C75F3B3F"
+					type: "custom"
+				}
+			]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0E9E0B24967C70E5"]
+			id: "5063E99816CC7B99"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "6CE76AFEB36819BD"
+					stage: "Automation"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "create:millstone"
+					}
+					id: "6EF4BAD03F7A0307"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:mechanical_mixer"
+					}
+					id: "784C2445F37A7CCE"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:mechanical_press"
+					}
+					id: "1722F4624DD0F233"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:basin"
+					}
+					id: "532C4D418640181E"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:depot"
+					}
+					id: "27DDA03FAF0DEAE2"
+					type: "custom"
+				}
+			]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0E9E0B24967C70E5"]
+			id: "2562EEDEA40310D5"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "5E4CBBDD1800655C"
+					stage: "Recource_gathering"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "create:mechanical_drill"
+					}
+					id: "67D91BD5ED381B55"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:mechanical_saw"
+					}
+					id: "2F677FA001F47E37"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:mechanical_plough"
+					}
+					id: "0285EFC69D1FB7E6"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:mechanical_plough"
+					}
+					id: "460A86473DCFD35D"
+					type: "custom"
+				}
+			]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0E9E0B24967C70E5"]
+			id: "296F4A14A2C12D38"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "579CCEDEDA340AD8"
+					stage: "Logistics"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "create:turntable"
+					}
+					id: "44BC17B0A4B7F7D6"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:filter"
+					}
+					id: "5128AB999B8629E6"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:belt_connector"
+					}
+					id: "75BD01DD858CB435"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:weighted_ejector"
+					}
+					id: "0E05E08355A6D23D"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:chute"
+					}
+					id: "0B4FA67D55906FAF"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:andesite_funnel"
+					}
+					id: "5CCE37F627698012"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:andesite_tunnel"
+					}
+					id: "426491FF791AC658"
+					type: "custom"
+				}
+			]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0E9E0B24967C70E5"]
+			id: "267DFD6BD93EF192"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "3F2E167A09D9389D"
+					stage: "Kinetic energy distribution 1"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "create:speedometer"
+					}
+					id: "229B90FA42E81FA9"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:stressometer"
+					}
+					id: "652EDD53253189B7"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:gearbox"
+					}
+					id: "7555B5E0C1A1B145"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:vertical_gearbox"
+					}
+					id: "0A88B74DA878E9F2"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:clutch"
+					}
+					id: "271A8F9CC79E6577"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:gearshift"
+					}
+					id: "666DFF3D197F3197"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:encased_chain_drive"
+					}
+					id: "7B507017C78D1A13"
+					type: "custom"
+				}
+			]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5063E99816CC7B99"
+				"2614A07F6414C8BE"
+			]
+			id: "06821CB315796A1F"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "58B05480C7B9AC65"
+					stage: "Automation_2"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "create:mechanical_piston"
+					}
+					id: "573D25813B59EF62"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:sticky_mechanical_piston"
+					}
+					id: "038D486BBAC4DA7F"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:piston_extension_pole"
+					}
+					id: "7F59987107DAD8DC"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:gantry_carriage"
+					}
+					id: "4454C23BBB865DD1"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:gantry_shaft"
+					}
+					id: "7C9220DD6BC7B8F1"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:mechanical_bearing"
+					}
+					id: "0ECAD363B6E83DF4"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:rope_pulley"
+					}
+					id: "595EBA06F32BCD32"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:cart_assembler"
+					}
+					id: "1BC8F7CCB601AC5E"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:linear_chassis"
+					}
+					id: "679A4BB949D03E05"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:secondary_linear_chassis"
+					}
+					id: "4243ED96B934890C"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:radial_chassis"
+					}
+					id: "5B2CBD8FCF6CE2F6"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:sticker"
+					}
+					id: "25B60C8FB45E0A50"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:redstone_contact"
+					}
+					id: "12EE6A69FF3A3412"
+					type: "custom"
+				}
+			]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2614A07F6414C8BE"]
+			id: "1109E68DF8996AA0"
+			rewards: [{
+				auto: "invisible"
+				id: "7D2E90E02D3B139A"
+				stage: "Fluid_handling"
+				type: "gamestage"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+	]
+}

@@ -9,6 +9,38 @@ file = "README.md"
 hash = "129ddc43cfd7e93078c6a71511379378d06ab1d70db6262663fc74701eeaed01"
 
 [[files]]
+file = "config/ProgressiveStages/Automation.toml"
+hash = "c68cc7f551b5f968bc66b54fd8f52e8b7e6988512f99228a489e4111eaca7d40"
+
+[[files]]
+file = "config/ProgressiveStages/Automation_2.toml"
+hash = "4207f9d81fa63bbb973e2481d84c8b3f288905e66e2d62714b30d71b1da69325"
+
+[[files]]
+file = "config/ProgressiveStages/Automation_science_pack.toml"
+hash = "30e1db3e009b44321cb8bd1f35b55db3937c366689cdfc243094786685d35fcb"
+
+[[files]]
+file = "config/ProgressiveStages/Fluid_handling.toml"
+hash = "7bec679fa947f0d4d98ab0cd32f672a0afff23c7dc7212782167731560361c19"
+
+[[files]]
+file = "config/ProgressiveStages/Kinetic_energy_distribution_1.toml"
+hash = "0d3ce0ebd301acb15fc9eb87fffee11291501f7243940ad644c679349accb0dd"
+
+[[files]]
+file = "config/ProgressiveStages/Logistics.toml"
+hash = "76222540e731ce67b84985809d5567bfe43fdf4a37caf35e49fe6bffcd9f559f"
+
+[[files]]
+file = "config/ProgressiveStages/Logistics_science_pack.toml"
+hash = "8acad634b7c1b3137b70f0b6e9c6d3aa1d17648a8379704163a27670866dbf36"
+
+[[files]]
+file = "config/ProgressiveStages/Recource_gathering.toml"
+hash = "387fe44611f2287e83c95152adc8c59f37c47f463a8b42d3ab4d82f81c0f989b"
+
+[[files]]
 file = "config/ProgressiveStages/diamond_age.toml"
 hash = "48731ee09c761d291d135d5698ab7d5f92f423f31cae9fefa4ba467cf602c244"
 
@@ -42,7 +74,7 @@ hash = "36216a05f3ed63106ba587c8c24ed6315385829e7f3dae695dcf545aba41a270"
 
 [[files]]
 file = "config/emi.css"
-hash = "b2fefce8b997851759990d1ec0c71d4be631e435857eb7b19516e4806986ac34"
+hash = "9a6d348cd9d0ca233091f4f1472ea2a16fe9f340176e601a359c89fe5f4e2b02"
 
 [[files]]
 file = "config/flywheel-client.toml"
@@ -59,6 +91,22 @@ hash = "4a98161835ae188156dbc1f1015287c0c17aa91db082a083ba6a505de99923f1"
 [[files]]
 file = "config/ftbquests-client.snbt"
 hash = "6359364663ea3c418cacb79500bb529d4988ce1089d6e73ed5b2eef526f2e6d1"
+
+[[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/tech_tree.snbt"
+hash = "712ea7ef23805802e934dde14dee70ef5e3743d3b045eea4b8ad68afd43671a7"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us.snbt"
+hash = "57536407550e1d2dffa13006ede0cbb745e7ba7d2ebc448915f938e94d1675bd"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -111,6 +159,10 @@ hash = "b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f"
 [[files]]
 file = "config/ponder-client.toml"
 hash = "55affffe67e84dfe11e590769e235aee999b77f9484a3adf7ee8247a9f3d35ba"
+
+[[files]]
+file = "config/progressivestages-1.toml.bak"
+hash = "b289b4a32fe22ec4c7e480b1ddec14f9826a9ef947cb937d83f1b7faa039ef03"
 
 [[files]]
 file = "config/progressivestages.toml"

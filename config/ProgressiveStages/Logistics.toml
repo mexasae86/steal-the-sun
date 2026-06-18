@@ -1,0 +1,33 @@
+[stage]
+id = "Logistics"
+display_name = "Logistics"
+description = ""
+icon = "create:andesite_tunnel"
+unlock_message = "&7&lLogistics Unlocked!"
+
+# Starting stage: no dependency. To require another stage, add:
+dependency = "Automation_science_pack"
+# or multiple:
+#   dependency = ["tutorial_complete", "spawn_visit"]
+
+[items]
+locked = [    
+	"create:turntable",
+    "create:filter",
+    "create:belt_connector",
+    "create:weighted_ejector",
+    "create:chute",
+    "create:andesite_funnel",
+    "create:andesite_tunnel"
+]
+always_unlocked = []
+
+[blocks]
+locked = []
+always_unlocked = []
+
+[dimensions]
+locked = []
+
+# See diamond_age.toml for a complete 2.0 category reference (crops, loot,
+# enchants, pets, screens, mobs, regions, structures, etc.).

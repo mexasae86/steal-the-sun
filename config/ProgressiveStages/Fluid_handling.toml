@@ -1,0 +1,37 @@
+[stage]
+id = "Fluid_handling"
+display_name = "Fluid handling"
+description = ""
+icon = "create:fluid_tank"
+unlock_message = "&7&lFluid handling Unlocked!"
+
+# Starting stage: no dependency. To require another stage, add:
+dependency = "Logistics_science_pack"
+# or multiple:
+#   dependency = ["tutorial_complete", "spawn_visit"]
+
+[items]
+locked = [    
+      "create:fluid_tank",
+      "create:fluid_pipe",
+      "create:mechanical_pump",
+      "create:smart_fluid_pipe",
+      "create:copper_valve_handle",
+      "create:spout",
+      "create:portable_fluid_interface",
+      "create:item_drain",
+      "create:hose_pulley",
+      "create:fluid_valve",
+      "name:valve_handle"
+]
+always_unlocked = []
+
+[blocks]
+locked = []
+always_unlocked = []
+
+[dimensions]
+locked = []
+
+# See diamond_age.toml for a complete 2.0 category reference (crops, loot,
+# enchants, pets, screens, mobs, regions, structures, etc.).
