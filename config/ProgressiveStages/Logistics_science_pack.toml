@@ -6,9 +6,9 @@ icon = ""
 unlock_message = "&7&lLogistics science pack Unlocked!"
 
 # Starting stage: no dependency. To require another stage, add:
-dependency = "Automation_science_pack"
+# dependency = "Automation_science_pack"
 # or multiple:
-#   dependency = ["tutorial_complete", "spawn_visit"]
+dependency = []
 
 [items]
 locked = []

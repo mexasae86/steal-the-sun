@@ -1,0 +1,32 @@
+
+[stage]
+id = "Automated_rail_transportation"
+display_name = "Automated rail transportation"
+description = ""
+icon = ""
+unlock_message = "&7&lAutomated rail transportation Unlocked!"
+
+# Starting stage: no dependency. To require another stage, add:
+dependency = ["Railway"]
+# or multiple:
+#   dependency = ["tutorial_complete", "spawn_visit"]
+
+[items]
+locked = [    
+      "create:schedule",
+      "create:track_station",
+      "create:track_signal",
+      "create:track_observer",
+      "name:postbox"
+]
+always_unlocked = []
+
+[blocks]
+locked = []
+always_unlocked = []
+
+[dimensions]
+locked = []
+
+# See diamond_age.toml for a complete 2.0 category reference (crops, loot,
+# enchants, pets, screens, mobs, regions, structures, etc.).

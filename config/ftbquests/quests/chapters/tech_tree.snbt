@@ -79,7 +79,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0E9E0B24967C70E5"]
+			dependencies: ["23429E28DFEE3BC2"]
 			id: "2614A07F6414C8BE"
 			rewards: [
 				{
@@ -97,10 +97,13 @@
 				}
 			]
 			x: 0.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0E9E0B24967C70E5"]
+			icon: {
+				id: "create:mechanical_press"
+			}
 			id: "5063E99816CC7B99"
 			rewards: [
 				{
@@ -150,6 +153,9 @@
 		}
 		{
 			dependencies: ["0E9E0B24967C70E5"]
+			icon: {
+				id: "create:mechanical_harvester"
+			}
 			id: "2562EEDEA40310D5"
 			rewards: [
 				{
@@ -192,6 +198,9 @@
 		}
 		{
 			dependencies: ["0E9E0B24967C70E5"]
+			icon: {
+				id: "create:andesite_funnel"
+			}
 			id: "296F4A14A2C12D38"
 			rewards: [
 				{
@@ -255,6 +264,9 @@
 		}
 		{
 			dependencies: ["0E9E0B24967C70E5"]
+			icon: {
+				id: "create:gearbox"
+			}
 			id: "267DFD6BD93EF192"
 			rewards: [
 				{
@@ -313,14 +325,14 @@
 					type: "custom"
 				}
 			]
-			x: 1.5d
+			x: 3.0d
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"5063E99816CC7B99"
-				"2614A07F6414C8BE"
-			]
+			dependencies: ["5063E99816CC7B99"]
+			icon: {
+				id: "create:cart_assembler"
+			}
 			id: "06821CB315796A1F"
 			rewards: [
 				{
@@ -420,21 +432,658 @@
 					id: "12EE6A69FF3A3412"
 					type: "custom"
 				}
+				{
+					icon: {
+						id: "create:encased_fan"
+					}
+					id: "5B1A504975BCA44F"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:nozzle"
+					}
+					id: "69883ABF289D51C0"
+					type: "custom"
+				}
 			]
 			x: -1.5d
 			y: 5.0d
 		}
 		{
-			dependencies: ["2614A07F6414C8BE"]
+			dependencies: ["0E9E0B24967C70E5"]
+			icon: {
+				id: "create:fluid_tank"
+			}
 			id: "1109E68DF8996AA0"
-			rewards: [{
-				auto: "invisible"
-				id: "7D2E90E02D3B139A"
-				stage: "Fluid_handling"
-				type: "gamestage"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "7D2E90E02D3B139A"
+					stage: "Fluid_handling"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "create:fluid_tank"
+					}
+					id: "6DFF17F504942949"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:fluid_pipe"
+					}
+					id: "5E1CD066EE2782FA"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:mechanical_pump"
+					}
+					id: "3E5C4524019512EA"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:copper_valve_handle"
+					}
+					id: "2F450E49EB2E8178"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:spout"
+					}
+					id: "06013910CD95E190"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:portable_fluid_interface"
+					}
+					id: "572DFA2B0B981EF7"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:item_drain"
+					}
+					id: "5AE9AE6727539FAD"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:hose_pulley"
+					}
+					id: "04FF79ED597E8BB0"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:fluid_valve"
+					}
+					id: "21192A63649D068B"
+					type: "custom"
+				}
+			]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["296F4A14A2C12D38"]
+			icon: {
+				id: "create:package_frogport"
+			}
+			id: "2FA1D048986BE125"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "7B6D7FF9CC0122B3"
+					stage: "Logistics_2"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "create:chain_conveyor"
+					}
+					id: "56B741993B18D51F"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:item_vault"
+					}
+					id: "0F50A19B8673ECEF"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:item_hatch"
+					}
+					id: "0B4840C5CE9B02AB"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:packager"
+					}
+					id: "188D0AE458A93E6D"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:repackager"
+					}
+					id: "6FBA04067D9019C6"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:package_frogport"
+					}
+					id: "5301537650FD877F"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:stock_link"
+					}
+					id: "77EE494F8E5FA2EF"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:stock_ticker"
+					}
+					id: "3422645EA4C35E37"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:redstone_requester"
+					}
+					id: "102C4238048B187C"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:portable_storage_interface"
+					}
+					id: "3388E824698FED63"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:package_filter"
+					}
+					id: "229D2864FEACE4A2"
+					type: "custom"
+				}
+			]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0E9E0B24967C70E5"]
+			id: "23429E28DFEE3BC2"
+			tasks: [{
+				count: 64L
+				id: "0D07633DADB7A341"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
 			}]
 			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"267DFD6BD93EF192"
+				"2614A07F6414C8BE"
+			]
+			icon: {
+				id: "create:rotation_speed_controller"
+			}
+			id: "5943FD71EADF60F2"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "540E1D04E99E5871"
+					stage: "Kinetic_energy_distribution_2"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "create:adjustable_chain_gearshift"
+					}
+					id: "7E50475DC4101ED1"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:rotation_speed_controller"
+					}
+					id: "5953A22AAAB98395"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:sequenced_gearshift"
+					}
+					id: "729DE91D14681F05"
+					type: "custom"
+				}
+			]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"2FA1D048986BE125"
+				"2614A07F6414C8BE"
+			]
+			icon: {
+				id: "create:brass_funnel"
+			}
+			id: "68689304BDFCCE6D"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "73EAF414202C3C06"
+					stage: "Logistics_3"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "create:mechanical_arm"
+					}
+					id: "0CAF909517D80343"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:attribute_filter"
+					}
+					id: "00EC54E360E48032"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:brass_funnel"
+					}
+					id: "01F0E950E26D556C"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:brass_tunnel"
+					}
+					id: "6FC2C3675689BFAA"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:smart_chute"
+					}
+					id: "341216743D457643"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:factory_gauge"
+					}
+					id: "41F08A88C73C7978"
+					type: "custom"
+				}
+			]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"06821CB315796A1F"
+				"2614A07F6414C8BE"
+			]
+			icon: {
+				id: "create:mechanical_crafter"
+			}
+			id: "61F05D542CD9C9A1"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "4A90F9A2B0F4AB9C"
+					stage: "Automation_3"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "create:deployer"
+					}
+					id: "0D0A63FA21D1EA51"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:mechanical_roller"
+					}
+					id: "03EC0D450EE45D76"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:mechanical_crafter"
+					}
+					id: "39FCE09038F0DEE0"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:elevator_pulley"
+					}
+					id: "6C047FE481111E99"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:contraption_controls"
+					}
+					id: "14154B5D9DAE116B"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:controller_rail"
+					}
+					id: "0B8373E4BD6E8A6D"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:crushing_wheel"
+					}
+					id: "348CDD3B7A31BBA7"
+					type: "custom"
+				}
+			]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["68689304BDFCCE6D"]
+			icon: {
+				id: "create:track"
+			}
+			id: "371A8BFB511BB76F"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "7BA14F98ED073384"
+					stage: "Railway"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "create:controls"
+					}
+					id: "0B7C0BC7F38B33A9"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:track"
+					}
+					id: "584485AF21FEE005"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:railway_casing"
+					}
+					id: "45DD3C2B6C0A025E"
+					type: "custom"
+				}
+			]
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["371A8BFB511BB76F"]
+			icon: {
+				id: "create:track_station"
+			}
+			id: "3CD6B3E7A1F91F31"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "3C16C93429BD292D"
+					stage: "Automated_rail_transportation"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "create:schedule"
+					}
+					id: "05D30C78C71CF7E1"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:track_station"
+					}
+					id: "245CCCB03E19F0DC"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:track_signal"
+					}
+					id: "77CB5EF3B3A8EE6B"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:track_observer"
+					}
+					id: "382B09C49FCEC45F"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:white_postbox"
+					}
+					id: "17E8BC520D36DF6C"
+					type: "custom"
+				}
+			]
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0E9E0B24967C70E5"]
+			icon: {
+				id: "create:redstone_link"
+			}
+			id: "2D3D43D08F46F1DE"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "6F01EECB85771DA2"
+					stage: "Circuit_network"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "create:redstone_link"
+					}
+					id: "2F744E7868370F35"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:analog_lever"
+					}
+					id: "7C007776650D9878"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:powered_latch"
+					}
+					id: "1744F2593DFD6947"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:powered_toggle_latch"
+					}
+					id: "1CD6A094D6189A27"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:linked_controller"
+					}
+					id: "182D24AB768A72F8"
+					type: "custom"
+				}
+			]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2D3D43D08F46F1DE"
+				"2614A07F6414C8BE"
+			]
+			icon: {
+				id: "create:pulse_repeater"
+			}
+			id: "7E3E8843F259B354"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "4DDEAE0C5FFF4B17"
+					stage: "Advanced_combinators"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "create:display_link"
+					}
+					id: "240895C15715829F"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:display_board"
+					}
+					id: "1E1B9ADA17FA195D"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:nixie_tube"
+					}
+					id: "67525CDFA37C6F97"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:placard"
+					}
+					id: "1EC0BB711E923A95"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:pulse_repeater"
+					}
+					id: "210449B0CBDA1557"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:pulse_extender"
+					}
+					id: "12EE6C2F9FFAFA82"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:pulse_timer"
+					}
+					id: "2C2C077B76BBE444"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:content_observer"
+					}
+					id: "782014DDCDF467B1"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "create:stockpile_switch"
+					}
+					id: "25F508E62BC10B25"
+					type: "custom"
+				}
+			]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			id: "6CC2EB3E1B2B66D7"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "5F0ADB9C56C1788B"
+					stage: "Steam_engine"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "create:steam_engine"
+					}
+					id: "6533D569546AD89E"
+					type: "custom"
+				}
+			]
+			x: 6.0d
 			y: 5.0d
+		}
+		{
+			id: "199470152122977C"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1109E68DF8996AA0"
+				"2614A07F6414C8BE"
+			]
+			icon: {
+				id: "create:smart_fluid_pipe"
+			}
+			id: "338379D12866952D"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "6B6B08BE034B1E8C"
+					stage: "Fluid_handling_2"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "create:smart_fluid_pipe"
+					}
+					id: "44709BEC0CCA9CFC"
+					type: "custom"
+				}
+			]
+			x: 1.5d
+			y: 6.5d
 		}
 	]
 }

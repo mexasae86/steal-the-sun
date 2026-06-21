@@ -1,0 +1,37 @@
+[stage]
+id = "Logistics_2"
+display_name = "Logistics 2"
+description = ""
+icon = ""
+unlock_message = "&7&lLogistics 2 Unlocked!"
+
+# Starting stage: no dependency. To require another stage, add:
+dependency = ["Logistics"]
+# or multiple:
+#   dependency = ["tutorial_complete", "spawn_visit"]
+
+[items]
+locked = [    
+      "create:chain_conveyor",
+      "create:item_vault",
+      "create:item_hatch",
+      "create:packager",
+      "create:repackager",
+      "create:package_frogport",
+      "create:stock_link",
+      "create:stock_ticker",
+      "create:redstone_requester",
+      "create:portable_storage_interface",
+      "create:package_filter"
+]
+always_unlocked = []
+
+[blocks]
+locked = []
+always_unlocked = []
+
+[dimensions]
+locked = []
+
+# See diamond_age.toml for a complete 2.0 category reference (crops, loot,
+# enchants, pets, screens, mobs, regions, structures, etc.).

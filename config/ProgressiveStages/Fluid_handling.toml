@@ -6,7 +6,7 @@ icon = "create:fluid_tank"
 unlock_message = "&7&lFluid handling Unlocked!"
 
 # Starting stage: no dependency. To require another stage, add:
-dependency = "Logistics_science_pack"
+dependency = "Automation_science_pack"
 # or multiple:
 #   dependency = ["tutorial_complete", "spawn_visit"]
 
@@ -15,8 +15,6 @@ locked = [
       "create:fluid_tank",
       "create:fluid_pipe",
       "create:mechanical_pump",
-      "create:smart_fluid_pipe",
-      "create:copper_valve_handle",
       "create:spout",
       "create:portable_fluid_interface",
       "create:item_drain",

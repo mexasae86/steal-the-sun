@@ -6,7 +6,7 @@ icon = "create:cart_assembler"
 unlock_message = "&7&lAutomation 2 Unlocked!"
 
 # Starting stage: no dependency. To require another stage, add:
-dependency = ["Automation", "Logistics_science_pack"]
+dependency = ["Automation"]
 
 
 [items]
@@ -23,7 +23,9 @@ locked = [
       "create:secondary_linear_chassis",
       "create:radial_chassis",
       "create:sticker",
-      "create:redstone_contact"
+      "create:redstone_contact",
+      "create:encased_fan",
+      "create:nozzle"
 ]
 always_unlocked = []
 

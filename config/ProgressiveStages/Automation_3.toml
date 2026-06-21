@@ -1,0 +1,33 @@
+[stage]
+id = "Automation_3"
+display_name = "Automation 3"
+description = ""
+icon = "create:cart_assembler"
+unlock_message = "&7&lAutomation 3 Unlocked!"
+
+# Starting stage: no dependency. To require another stage, add:
+dependency = ["Automation_2", "Logistics_science_pack"]
+
+
+[items]
+locked = [    
+      "create:deployer",
+      "create:mechanical_roller",
+      "create:mechanical_crafter",
+      "create:elevator_pulley",
+      "create:contraption_controls",
+      "create:controller_rail",
+      "create:crushing_wheel",
+      "create:crafter_slot_cover"
+]
+always_unlocked = []
+
+[blocks]
+locked = []
+always_unlocked = []
+
+[dimensions]
+locked = []
+
+# See diamond_age.toml for a complete 2.0 category reference (crops, loot,
+# enchants, pets, screens, mobs, regions, structures, etc.).

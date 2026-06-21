@@ -1,0 +1,35 @@
+[stage]
+id = "Advanced_combinators"
+display_name = "Advanced combinators"
+description = ""
+icon = "create:mechanical_press"
+unlock_message = "&7&lAdvanced combinators Unlocked!"
+
+# Starting stage: no dependency. To require another stage, add:
+dependency = ["Logistics_science_pack", "Circuit_network"]
+# or multiple:
+#   dependency = ["tutorial_complete", "spawn_visit"]
+
+[items]
+locked = [    
+      "create:display_link",
+      "create:display_board",
+      "create:nixie_tube",
+      "create:placard",
+      "create:pulse_repeater",
+      "create:pulse_extender",
+      "create:pulse_timer",
+      "create:content_observer",
+      "create:stockpile_switch"
+]
+always_unlocked = []
+
+[blocks]
+locked = []
+always_unlocked = []
+
+[dimensions]
+locked = []
+
+# See diamond_age.toml for a complete 2.0 category reference (crops, loot,
+# enchants, pets, screens, mobs, regions, structures, etc.).

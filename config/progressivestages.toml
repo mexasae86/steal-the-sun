@@ -3,7 +3,7 @@
 	#List of stage IDs to auto-grant on first join
 	#Example: ["stone_age", "tutorial_complete"]
 	#Set to empty list [] for no starting stages
-	starting_stages = ["stone_age"]
+	starting_stages = ["Automation_science_pack"]
 	#Team mode: "ftb_teams" (requires FTB Teams mod) or "solo" (each player is their own team)
 	#If "ftb_teams", stages are shared across team members
 	#If "solo", each player has independent progression

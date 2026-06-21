@@ -1,12 +1,11 @@
 name = "steal-the-sun"
-author = "mexasae86 & INiKkEI"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "d291de713b00f123137bbb47c9a66e0eb5d0ce4b96f51dde6bdef350f246a50e"
+hash = "28ade6d81d2226412c3d95dc9c96c3c3a3e070b167ea0bdbf3ce7233b20453bd"
 
 [versions]
 minecraft = "1.21.1"
