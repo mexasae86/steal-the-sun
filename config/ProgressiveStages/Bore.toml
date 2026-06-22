@@ -1,24 +1,19 @@
 [stage]
-id = "Logistics_3"
-display_name = "Logistics 3"
+id = "Bore"
+display_name = "Bore"
 description = ""
-icon = ""
-unlock_message = "&7&lLogistics 3 Unlocked!"
+icon = "create:mechanical_harvester"
+unlock_message = "&7&lBore Unlocked!"
 
 # Starting stage: no dependency. To require another stage, add:
-dependency = ["Logistics_2", "Logistics_science_pack"]
+dependency = "Recource_gathering"
 # or multiple:
 #   dependency = ["tutorial_complete", "spawn_visit"]
 
 [items]
 locked = [    
-      "create:mechanical_arm",
-      "create:attribute_filter",
-      "create:smart_chute",
-      "create:brass_funnel",
-      "create:brass_tunnel",
-      "create:factory_gauge",
-      "simulated:docking_connector"
+    "offroad:rockcutting_wheel",
+    "offroad:borehead_bearing"
 ]
 always_unlocked = []
 

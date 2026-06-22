@@ -620,6 +620,20 @@
 					id: "229D2864FEACE4A2"
 					type: "custom"
 				}
+				{
+					icon: {
+						id: "simulated:auger_shaft"
+					}
+					id: "1A686795D4E211EF"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "simulated:auger_cog"
+					}
+					id: "6791F65F0EC74E7B"
+					type: "custom"
+				}
 			]
 			x: -4.5d
 			y: 5.0d
@@ -649,7 +663,8 @@
 				{
 					auto: "invisible"
 					id: "540E1D04E99E5871"
-					stage: "Kinetic_energy_distribution_2"
+					ignore_reward_blocking: true
+					stage: "Kinetic_energy_distribution_3"
 					type: "gamestage"
 				}
 				{
@@ -671,6 +686,13 @@
 						id: "create:sequenced_gearshift"
 					}
 					id: "729DE91D14681F05"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "simulated:analog_transmission"
+					}
+					id: "26B4112011D1B64D"
 					type: "custom"
 				}
 			]
@@ -733,6 +755,13 @@
 						id: "create:factory_gauge"
 					}
 					id: "41F08A88C73C7978"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "simulated:docking_connector"
+					}
+					id: "0F5A77142DAFA71C"
 					type: "custom"
 				}
 			]
@@ -946,6 +975,27 @@
 					id: "182D24AB768A72F8"
 					type: "custom"
 				}
+				{
+					icon: {
+						id: "simulated:redstone_accumulator"
+					}
+					id: "20548E7C5896BAD2"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "simulated:laser_pointer"
+					}
+					id: "1A9A8C13B63DA99F"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "simulated:laser_sensor"
+					}
+					id: "5788E3C02E4F91F5"
+					type: "custom"
+				}
 			]
 			x: 4.5d
 			y: 3.5d
@@ -1029,39 +1079,49 @@
 					id: "25F508E62BC10B25"
 					type: "custom"
 				}
+				{
+					icon: {
+						id: "simulated:directional_linked_receiver"
+					}
+					id: "75CCB5E46BAF9DE4"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "simulated:modulating_linked_receiver"
+					}
+					id: "04E04FFD82E96E12"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "simulated:redstone_inductor"
+					}
+					id: "44B0980C3EBEFA5B"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "simulated:linked_typewriter"
+					}
+					id: "7168158D858AA2F5"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "simulated:optical_sensor"
+					}
+					id: "2B475805293E9D69"
+					type: "custom"
+				}
 			]
 			x: 4.5d
 			y: 6.5d
 		}
 		{
-			id: "6CC2EB3E1B2B66D7"
-			rewards: [
-				{
-					auto: "invisible"
-					id: "5F0ADB9C56C1788B"
-					stage: "Steam_engine"
-					type: "gamestage"
-				}
-				{
-					icon: {
-						id: "create:steam_engine"
-					}
-					id: "6533D569546AD89E"
-					type: "custom"
-				}
-			]
-			x: 6.0d
-			y: 5.0d
-		}
-		{
-			id: "199470152122977C"
-			x: 6.0d
-			y: 3.5d
-		}
-		{
 			dependencies: [
-				"1109E68DF8996AA0"
 				"2614A07F6414C8BE"
+				"256DDB50A337ED6A"
 			]
 			icon: {
 				id: "create:smart_fluid_pipe"
@@ -1082,8 +1142,362 @@
 					type: "custom"
 				}
 			]
-			x: 1.5d
+			x: 0.0d
 			y: 6.5d
+		}
+		{
+			dependencies: ["0E9E0B24967C70E5"]
+			icon: {
+				id: "simulated:physics_assembler"
+			}
+			id: "23F1881526AEF5A0"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "5E2728A9B5CD5176"
+					stage: "Basic_physics"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "simulated:physics_assembler"
+					}
+					id: "4B510F627C9734B6"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "simulated:iron_handle"
+					}
+					id: "218BF1282D851DF2"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "simulated:contraption_diagram"
+					}
+					id: "3323594E62491BC7"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "simulated:white_nameplate"
+					}
+					id: "181927C22C85CAB9"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "simulated:rope_winch"
+					}
+					id: "3A00FD208DDA381E"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "simulated:rope_connector"
+					}
+					id: "35EB29CF46EE1426"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "simulated:white_portable_engine"
+					}
+					id: "7445FE5D62688862"
+					type: "custom"
+				}
+			]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				id: "simulated:swivel_bearing"
+			}
+			id: "501E7E67163F00E6"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "6482ED0A4EECC36C"
+					ignore_reward_blocking: true
+					stage: "Kinetic_energy_distribution_2"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "simulated:swivel_bearing"
+					}
+					id: "210BC73E8E1318FA"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "simulated:directional_gearshift"
+					}
+					id: "057C34D7A52AA058"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "simulated:torsion_spring"
+					}
+					id: "685DA3400A23C91D"
+					type: "custom"
+				}
+			]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2562EEDEA40310D5"]
+			icon: {
+				id: "offroad:rockcutting_wheel"
+			}
+			id: "43209B46F1BE6235"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "41FF9D0D5CB7E388"
+					stage: "Bore"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "offroad:borehead_bearing"
+					}
+					id: "4E00E3BB1D58DDD5"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "offroad:rockcutting_wheel"
+					}
+					id: "1067E32875ADC83D"
+					type: "custom"
+				}
+			]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["23F1881526AEF5A0"]
+			icon: {
+				id: "aeronautics:adjustable_burner"
+			}
+			id: "2E1E6F2F23C70866"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "2935CD1741F9C13E"
+					stage: "Aviation"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "aeronautics:white_envelope"
+					}
+					id: "251DE359E80C97B1"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "simulated:white_symmetric_sail"
+					}
+					id: "1DA7BE0578EC65C6"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "simulated:altitude_sensor"
+					}
+					id: "44CE6D2801EAB289"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "simulated:velocity_sensor"
+					}
+					id: "48FF9B3AEED0924F"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "aeronautics:adjustable_burner"
+					}
+					id: "08BAA6A43269ADD9"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "simulated:steering_wheel"
+					}
+					id: "22370CEBBF41895A"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "aeronautics:andesite_propeller"
+					}
+					id: "444C25113A02F8C0"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "aeronautics:wooden_propeller"
+					}
+					id: "75E18F74B2403DE9"
+					type: "custom"
+				}
+			]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["23F1881526AEF5A0"]
+			icon: {
+				id: "offroad:large_tire"
+			}
+			id: "7F83F11058174280"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "1CA9E25621D0F933"
+					stage: "Automobilism"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "offroad:small_tire"
+					}
+					id: "6137ACE338A3C2B5"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "offroad:tire"
+					}
+					id: "5712615E8D53ADBE"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "offroad:large_tire"
+					}
+					id: "5C86080AF3DD878E"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "offroad:monstrous_tire"
+					}
+					id: "2F3DD13A71DAB8E7"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "offroad:wheel_mount"
+					}
+					id: "70A5E79096063D4C"
+					type: "custom"
+				}
+			]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2E1E6F2F23C70866"
+				"2614A07F6414C8BE"
+			]
+			icon: {
+				id: "aeronautics:steam_vent"
+			}
+			id: "4859AE7DA602DA77"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "207F4EA582936091"
+					stage: "Advanced_aviation"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "aeronautics:steam_vent"
+					}
+					id: "22AE1E480BFD9F06"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "simulated:gimbal_sensor"
+					}
+					id: "0BD7EE68A3DF8528"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "simulated:navigation_table"
+					}
+					id: "4CCBC858239AE10A"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "simulated:throttle_lever"
+					}
+					id: "2A78FC0DB0A493C6"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "aeronautics:propeller_bearing"
+					}
+					id: "7AA730CB2DCF78C7"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "aeronautics:gyroscopic_propeller_bearing"
+					}
+					id: "16034E811E6FF7EE"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "aeronautics:smart_propeller"
+					}
+					id: "015D8861DDA8ED70"
+					type: "custom"
+				}
+			]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1109E68DF8996AA0"]
+			icon: {
+				id: "create:steam_engine"
+			}
+			id: "256DDB50A337ED6A"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "59919AF50BFC0C41"
+					ignore_reward_blocking: true
+					stage: "Steam_engine"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "create:steam_engine"
+					}
+					id: "527B40EC19CB8036"
+					type: "custom"
+				}
+			]
+			x: 1.5d
+			y: 5.0d
 		}
 	]
 }

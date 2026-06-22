@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = ".mixin.out/class/dev/engine_room/flywheel/backend/engine/indirect/MatrixBuffer.class"
-hash = "b0c3e4a4a23d26319e593807e6b6ac8fb72aa27de8aa999ee448a667d5c67088"
+hash = "c85eb28b1400058ee2c7c9bd9fea20865f13612129099e66948d362f837f6dad"
 
 [[files]]
 file = ".sable/natives/sable_rapier_x86_64_windows.dll"
@@ -18,11 +18,15 @@ hash = "90c135a0d4b754a116f71129716cc58a87fe048c61f208d95ca894e303198550"
 
 [[files]]
 file = "command_history.txt"
-hash = "21b9ef6e60e17e2cfe6a7e398b899eac65b9f7f8928918849eb76f601f659124"
+hash = "e1442a55db243d87983be20940ec8ffd7da5787cc60b511cefaa4a6a6a88fc3f"
+
+[[files]]
+file = "config/ProgressiveStages/Advanced_aviation.toml"
+hash = "a587f5b6abac911c01f4c45436cc02225d31b3b58826683588e8aaa453462383"
 
 [[files]]
 file = "config/ProgressiveStages/Advanced_combinators.toml"
-hash = "bc1ac8d4060a0edecedd5bcbf0104e8353fcc28be4289d8a8f751a014d821bf0"
+hash = "c0d2ed5ae9ebb308018bfbf341015fd4bbe02dbc051063c88d533a76f80d6acb"
 
 [[files]]
 file = "config/ProgressiveStages/Automated_rail_transportation.toml"
@@ -45,8 +49,24 @@ file = "config/ProgressiveStages/Automation_science_pack.toml"
 hash = "0879d7860cc56bf44572fc4c1d08047d2003a8f6e22303bc4e4c0cc46037f3de"
 
 [[files]]
+file = "config/ProgressiveStages/Automobilism.toml"
+hash = "0666f5603e327547b674f2921db4b0877eb1f4c8a54762e051df975b184d475a"
+
+[[files]]
+file = "config/ProgressiveStages/Aviation.toml"
+hash = "0cc9cb79da0ab8732acc39cf30e228795c76cf4c4d00ddde2a8002c1f66ed7f0"
+
+[[files]]
+file = "config/ProgressiveStages/Basic_physics.toml"
+hash = "e774a286686ba377398c9162be6b099264731a9442d955b3bd8ff567ddf28d3d"
+
+[[files]]
+file = "config/ProgressiveStages/Bore.toml"
+hash = "35d29b9e46d83102ce03c3c925365896018bf54eeb1c8c886338745c1efbddb3"
+
+[[files]]
 file = "config/ProgressiveStages/Circuit_network.toml"
-hash = "cda5ead460385adb0bf7855b07b1a6134ec586839d3681e8485af2f72b59c18d"
+hash = "7bd5a462b328fc2fdda3e3df8f32ee3cbb61a5f0bc82254aa25493e088202e2f"
 
 [[files]]
 file = "config/ProgressiveStages/Fluid_handling.toml"
@@ -62,7 +82,11 @@ hash = "9fc31456d280512180836a674721e082b0ef79a921ef76b446204ba3c240fa60"
 
 [[files]]
 file = "config/ProgressiveStages/Kinetic_energy_distribution_2.toml"
-hash = "01d94d7a9b37939bc5c229a3da86a2f4d03a1f168a97c39c0976678ceaaa712c"
+hash = "a7fd6fa97214e7533d869ed3a48af717298b7d4bcca50d8aba8e1161ac73a39c"
+
+[[files]]
+file = "config/ProgressiveStages/Kinetic_energy_distribution_3.toml"
+hash = "b3ee5c82a436fc4f16836c0b89d1c2a94663c112bbf9f5668b0204c773c475f8"
 
 [[files]]
 file = "config/ProgressiveStages/Logistics.toml"
@@ -70,11 +94,11 @@ hash = "8afaa7e50d343f2068c2544b989da64ffce1f992f7c221dc5822c9e04a8749ff"
 
 [[files]]
 file = "config/ProgressiveStages/Logistics_2.toml"
-hash = "c004da665c2eb9b3da3304ef497293d19b0e3ec56166a0eca8e702084f704175"
+hash = "c1a0c5a3d047b67093b9eafacdfbafbc5a150f7c0376e7fcd3bb7a4928a9eafc"
 
 [[files]]
 file = "config/ProgressiveStages/Logistics_3.toml"
-hash = "08ece79e2efe31dc7e9115a3561e964e3e735564c96402b52c7ab925d6022df2"
+hash = "9357e670096f5329dd5153b790a956bb18705b42bdb6355148297ca92cd0f96f"
 
 [[files]]
 file = "config/ProgressiveStages/Logistics_science_pack.toml"
@@ -87,6 +111,10 @@ hash = "506327b90cbc9ce2e11e0b86f11c822c4b6cce6f2916d322ae68a49f68811925"
 [[files]]
 file = "config/ProgressiveStages/Recource_gathering.toml"
 hash = "cef54ba7549fddc13b96aa7f534ec2a08b493b690130cbbf7367f79e09d73990"
+
+[[files]]
+file = "config/ProgressiveStages/Steam_engine.toml"
+hash = "260fe388265b891b12cd186828c217a09f6c1340bb580fc14b7f7208c81c8f29"
 
 [[files]]
 file = "config/ProgressiveStages/diamond_age.toml"
@@ -150,7 +178,7 @@ hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tech_tree.snbt"
-hash = "74b15366984294f1454a7f2bda3be6ab39c249c5b55f8f83d4cbc9d536f8f56d"
+hash = "f1b84b446f99edebc1d2b5db5b7e85cc25a8c7d0377f07beb78bd4800de718ec"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -158,7 +186,7 @@ hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "778136363b9a74e43ba7c4fa1eb68e974fc7c13ac74b5c4768906efc64fb7a56"
+hash = "20b0a58d235de9a66082ed1ddd60274c7e7c22bd38546aede78ad767d8277c57"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -246,7 +274,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "emi.json"
-hash = "c9d34bf3e75e886ca4810084643a7698b065b8bab37f47acf06c5e8b93a33333"
+hash = "7e03216d5e73d17095082ca849c3af92427316656df0e084329e996400a48e43"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -301,36 +329,44 @@ file = "logs/2026-06-21-2.log.gz"
 hash = "c7b389c8634ba67668319f0fcad5cf97c8f7275b9d0ea7d79832de1d1b51394b"
 
 [[files]]
+file = "logs/2026-06-21-3.log.gz"
+hash = "1f5c9bfe063dbd623f862910892f63e0b27dff7dee2ad69f67a82d7825cb1b40"
+
+[[files]]
 file = "logs/debug-1.log.gz"
-hash = "d8fe4d59dec98214d8df9f658a6c5d9bf62bdb394c3e09443b11117e9f536f24"
+hash = "8a5b39f1d1fcab1ebc6a6c1688ba9588c4f35333c9c16206bcaf9eda88832cdf"
 
 [[files]]
 file = "logs/debug-2.log.gz"
-hash = "25a0ded579cddfbe7f90119c0c7d42240e696f0f6a5a2e57b6bed4c38a1e2276"
+hash = "d8fe4d59dec98214d8df9f658a6c5d9bf62bdb394c3e09443b11117e9f536f24"
 
 [[files]]
 file = "logs/debug-3.log.gz"
+hash = "25a0ded579cddfbe7f90119c0c7d42240e696f0f6a5a2e57b6bed4c38a1e2276"
+
+[[files]]
+file = "logs/debug-4.log.gz"
 hash = "79e8e6322b61de699bca03b5f9c6984f550bf72321a8c3f3c8bf5b2246c94a86"
 
 [[files]]
 file = "logs/debug.log"
-hash = "c4e02bc3ac9beb0b5287eb66e6d08d38ee84e86f5cb02821aeada588c7e7e5e6"
+hash = "8e34f7466f630b2629bc91c006c6a3db1284ba9386c65ddb9edc4c3000e46d73"
 
 [[files]]
 file = "logs/kubejs/client.log"
-hash = "67395a45e4f161f86e0c7a49f756bd1d3a80ebeba674e5dd7ab49960d76d5ca0"
+hash = "3f7b3cff94b90487294b08086098d102b66738073858b243bfffb9fe05053141"
 
 [[files]]
 file = "logs/kubejs/server.log"
-hash = "42d7abb91c3b54e929d6cb94e5cd17043db6b96f7e22d81d9e14ecd7bd6b6163"
+hash = "4017a3e69552bc2c2dff424b3536e80356f6af68b0ad993ff8944d1ca777e63d"
 
 [[files]]
 file = "logs/kubejs/startup.log"
-hash = "d6694d3054bf545fd7cfb97e8339376de4267be2e49caab7e21d41619ea78460"
+hash = "8ac4022b42409f5658ad9968d10c6924ef8f01dd02baeffbb14a17e8f47035e7"
 
 [[files]]
 file = "logs/latest.log"
-hash = "7f3b3d1293c79ab12d8fd1fe7c2e1ed2c2cbcda6c96a7357e123d95d243fb423"
+hash = "ab33367ec6f341b068a49140cc51a9cb94c36f3340147ba93aa9eee4a4880260"
 
 [[files]]
 file = "logs/telemetry/20260618-1.json.gz"
@@ -345,8 +381,12 @@ file = "logs/telemetry/20260621-2.json.gz"
 hash = "35f82c1c9ade9e68fee43dcfe5a083c5bd1295df8c73ea1a2b5f5aaffb64e6e4"
 
 [[files]]
-file = "logs/telemetry/20260621-3.json"
-hash = "e89a19e751c76a43d7b33ecf9822f51d0e8f750df25e3ec7239e12e86e4097a2"
+file = "logs/telemetry/20260621-3.json.gz"
+hash = "3db038e0d9cd362b0104029b5d8895aa417a6873f86dd199584eb0965e1a627d"
+
+[[files]]
+file = "logs/telemetry/20260622-1.json"
+hash = "41630e85ee861787f4dacf3ea374ccf3de4e44e82df28e56edc39a6042f91611"
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
@@ -429,7 +469,7 @@ hash = "71b13ac6bb7a1e6cf84a1b59b0c0b6a2d32b80d3d7a6cd96882c54ab0f7a4a55"
 
 [[files]]
 file = "ponders_watched.json"
-hash = "eff8626a84413f0f88ccced98ef5ddf21b59e02165c804de922b92d49972f654"
+hash = "ca75bcac62f7be7aaa52dabd7df00365e26cf6c193f8c923a9f80c65365fd113"
 
 [[files]]
 file = "saves/New World/DIM-1/data/aeronautics_unloaded_balloons.dat"
@@ -441,7 +481,7 @@ hash = "95486bd4cbd73d4d98f343e42a5792ef5315214015acca508842844d73247562"
 
 [[files]]
 file = "saves/New World/DIM-1/data/raids.dat"
-hash = "4c76385655a5eb4e9608973ad7e0e3ceeaed35a783a7229c0de6a972e2c8251d"
+hash = "9b22cc9ff2c074cebabe6b7e3912734203c170b449bb17d3e087ae62d23b9f12"
 
 [[files]]
 file = "saves/New World/DIM-1/data/sable_sub_level_force_load_tickets.dat"
@@ -457,7 +497,7 @@ hash = "95486bd4cbd73d4d98f343e42a5792ef5315214015acca508842844d73247562"
 
 [[files]]
 file = "saves/New World/DIM1/data/raids_end.dat"
-hash = "4c76385655a5eb4e9608973ad7e0e3ceeaed35a783a7229c0de6a972e2c8251d"
+hash = "9b22cc9ff2c074cebabe6b7e3912734203c170b449bb17d3e087ae62d23b9f12"
 
 [[files]]
 file = "saves/New World/DIM1/data/sable_sub_level_force_load_tickets.dat"
@@ -481,7 +521,7 @@ hash = "282aa38ce0f10036ab5929ad5a53bca264cc92bb287ad2702c66d42252f5a9ae"
 
 [[files]]
 file = "saves/New World/data/raids.dat"
-hash = "4c76385655a5eb4e9608973ad7e0e3ceeaed35a783a7229c0de6a972e2c8251d"
+hash = "9b22cc9ff2c074cebabe6b7e3912734203c170b449bb17d3e087ae62d23b9f12"
 
 [[files]]
 file = "saves/New World/data/sable_sub_level_force_load_tickets.dat"
@@ -493,15 +533,15 @@ hash = "38d9e7f97ef068865a5041c4340bc41f85620de0881eece5d06b93809a198ef7"
 
 [[files]]
 file = "saves/New World/entities/r.-1.0.mca"
-hash = "f5a6f223f52a3c3cd3cd35cd3ea84ed108f3f2c0f6ed4d0cb80e391c44421493"
+hash = "8da4bb6fe395b17ae15cea5edd9b2c7d01f2d480aa190851eeb2e68be5afaa52"
 
 [[files]]
 file = "saves/New World/entities/r.0.-1.mca"
-hash = "e733c9f54943bf063ada77d098ea93d49e4fbdd48700f2628a37d445722dd189"
+hash = "1b0d5929347cfa37794f53e4b347173211e377da082212dade34abb4972f4714"
 
 [[files]]
 file = "saves/New World/entities/r.0.0.mca"
-hash = "1436102bff4d4315295a8bac10560f413e6b42441b58b124d2166aa37b764a0f"
+hash = "64912e3381a3c53fc2f23136191f30e4e42ab98c6509250d26da54c6b434c4f8"
 
 [[files]]
 file = "saves/New World/ftbquests/38039ca1-a6e2-47f9-9719-607243385661.snbt"
@@ -525,19 +565,19 @@ hash = "0c5f40fb642781709ce4bd9b2443628b345a2abc34cff20dea6564ca014875f9"
 
 [[files]]
 file = "saves/New World/level.dat"
-hash = "3179ae74338d5dbf46bf3ec599fb787f3bbc3a07e40b80be1d455e9fb2024c3d"
+hash = "56905c496c5c7e8ee88502f78ae06a3014ab17a73f5e8eb7bcf1bd4cc16cfc9b"
 
 [[files]]
 file = "saves/New World/level.dat_old"
-hash = "f5a715342920ebc3c63d417fce19837ad64cad2662cef775e898f20032735250"
+hash = "acdfbc4986bf89e4b326216e536956c37ffc74b289ce1477737cf7b041618e7f"
 
 [[files]]
 file = "saves/New World/playerdata/38039ca1-a6e2-47f9-9719-607243385661.dat"
-hash = "c3b36b0ed18310b3d985b1274f952411636e5ce96c517f4f030bd5d03bf90522"
+hash = "be9a0d7fca513640166bcf5b476a8a25c2d227938b1f8d22bac15d19d03fd915"
 
 [[files]]
 file = "saves/New World/playerdata/38039ca1-a6e2-47f9-9719-607243385661.dat_old"
-hash = "c0b674a84aa5dc7467ae028351a16cb911ee838eda358e22ce9dac5d53106e31"
+hash = "de982e33c74135dcb7869eabb9d2514f75f7f6a450154f098e2983cd1f67f27b"
 
 [[files]]
 file = "saves/New World/poi/r.-1.-1.mca"
@@ -557,19 +597,19 @@ hash = "1bdf18591006b39b7c5e780a5c9d7984bc086caf20a7ea48bc6471680d2c74c7"
 
 [[files]]
 file = "saves/New World/region/r.-1.-1.mca"
-hash = "276227b776a3d65398ff3a4da441f1886337abe72836172d44afd24fc52722ef"
+hash = "59ac15256df0dfbc94e0c46c497a5a9bed72b295df6228c65b7d0ce94e6b0974"
 
 [[files]]
 file = "saves/New World/region/r.-1.0.mca"
-hash = "076bf074f26ab00b78e457e1d431cbe50f85aa9e6ff5614286b2fd95a2c3aa40"
+hash = "9e2d5348bee9024d5a3fef1ad779b7b4f1ac7373e2de8d2632f54a9df001ff91"
 
 [[files]]
 file = "saves/New World/region/r.0.-1.mca"
-hash = "8536eb453a13d2f6a10121cf011f02941a528ed95eab44305001524236460070"
+hash = "a7aab230b81437e600cae820e39ef90c2acb6f3fff36027f76718a4e03ce9529"
 
 [[files]]
 file = "saves/New World/region/r.0.0.mca"
-hash = "ffc204d4fc85dd39fa15368f519cbdc143650417562aa6c7fc7f233dc503d560"
+hash = "99e82db56e7d95fd5d96047deaf983c4238dd7fe843722ac7a4f26ab0c29bbe5"
 
 [[files]]
 file = "saves/New World/serverconfig/readme.txt"
@@ -581,7 +621,7 @@ hash = "51643361c79ecaef25a8de802de24f570ba25d9c2df1d22d94fade11b4f466cc"
 
 [[files]]
 file = "saves/New World/stats/38039ca1-a6e2-47f9-9719-607243385661.json"
-hash = "e3d99bc2d94949f1e103711f83887256937ec94183ea83633958f290ebdc1dbe"
+hash = "42291a4bf0b14f638c190b30a7c97490c7b69e4ee85b0179a9c680c9e6aa487e"
 
 [[files]]
 file = "saves/New World/sublevels/r.-1.-1.slvlr"
@@ -601,7 +641,7 @@ hash = "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
 
 [[files]]
 file = "usercache.json"
-hash = "65a2177865e2440aa3399d76d1c71c11d715c427f4e17e3538e211c47837db46"
+hash = "2971d7bc3119cad0b1b8a35e2ef908f7d8c4f212ec216ab93bc4df26e5bf7ff8"
 
 [[files]]
 file = "usernamecache.json"
