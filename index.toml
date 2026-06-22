@@ -280,7 +280,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-big-cannons.pw.toml"
-hash = "8a0bfc3408cc1baeac6a2561fb2a62d3fa40ffa2fba0e9c89b09f2bea91d0c9c"
+hash = "035403cba5b412bdf71ab59278924758b0af799903e3942efd688166902f05fa"
 metafile = true
 
 [[files]]
@@ -345,7 +345,7 @@ metafile = true
 
 [[files]]
 file = "mods/ritchies-projectile-library.pw.toml"
-hash = "c62b51a8248d15e3cb63880ac123a92dd6a67973a1eafc4c4cb09f3f74481f78"
+hash = "895e09bab9a8e7384ae591b7a7fbe44c87ed742e1312322b5f6e6d981e4c6ee9"
 metafile = true
 
 [[files]]
@@ -355,5 +355,5 @@ metafile = true
 
 [[files]]
 file = "mods/tacz-1-21-1.pw.toml"
-hash = "bb5aec52942c79e677ee8916e56aafcf5ff5df631ac7d819915cd5bf8bfaadff"
+hash = "31a8483cdc81e1230207735e8e91b08204d6f1b2c2c5903e3b7de2666787f65b"
 metafile = true
