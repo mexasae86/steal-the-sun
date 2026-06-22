@@ -22,7 +22,9 @@ locked = [
       "create:stock_ticker",
       "create:redstone_requester",
       "create:portable_storage_interface",
-      "create:package_filter"
+      "create:package_filter",
+      "simulated:auger_shaft",
+      "simulated:auger_cog"
 ]
 always_unlocked = []
 

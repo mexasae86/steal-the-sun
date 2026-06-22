@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".mixin.out/class/dev/engine_room/flywheel/backend/engine/indirect/MatrixBuffer.class"
+hash = "c85eb28b1400058ee2c7c9bd9fea20865f13612129099e66948d362f837f6dad"
+
+[[files]]
+file = ".sable/natives/sable_rapier_x86_64_windows.dll"
+hash = "6096095d71de3d9fa8ebbf495fc145ce023d2e2d74ca25afcab98fee101e7480"
+
+[[files]]
 file = "LICENSE"
 hash = "436a6d536138f203ac333858cff92a568be62797752b3adb94bcaa0f6ffe7ef6"
 
@@ -9,8 +17,16 @@ file = "README.md"
 hash = "129ddc43cfd7e93078c6a71511379378d06ab1d70db6262663fc74701eeaed01"
 
 [[files]]
+file = "command_history.txt"
+hash = "e1442a55db243d87983be20940ec8ffd7da5787cc60b511cefaa4a6a6a88fc3f"
+
+[[files]]
+file = "config/ProgressiveStages/Advanced_aviation.toml"
+hash = "a587f5b6abac911c01f4c45436cc02225d31b3b58826683588e8aaa453462383"
+
+[[files]]
 file = "config/ProgressiveStages/Advanced_combinators.toml"
-hash = "bc1ac8d4060a0edecedd5bcbf0104e8353fcc28be4289d8a8f751a014d821bf0"
+hash = "c0d2ed5ae9ebb308018bfbf341015fd4bbe02dbc051063c88d533a76f80d6acb"
 
 [[files]]
 file = "config/ProgressiveStages/Automated_rail_transportation.toml"
@@ -33,8 +49,24 @@ file = "config/ProgressiveStages/Automation_science_pack.toml"
 hash = "85d7180c19f835b7bf9ba38e3bb65db22ffaae71f142ab046333d351c8d68752"
 
 [[files]]
+file = "config/ProgressiveStages/Automobilism.toml"
+hash = "0666f5603e327547b674f2921db4b0877eb1f4c8a54762e051df975b184d475a"
+
+[[files]]
+file = "config/ProgressiveStages/Aviation.toml"
+hash = "0cc9cb79da0ab8732acc39cf30e228795c76cf4c4d00ddde2a8002c1f66ed7f0"
+
+[[files]]
+file = "config/ProgressiveStages/Basic_physics.toml"
+hash = "e774a286686ba377398c9162be6b099264731a9442d955b3bd8ff567ddf28d3d"
+
+[[files]]
+file = "config/ProgressiveStages/Bore.toml"
+hash = "35d29b9e46d83102ce03c3c925365896018bf54eeb1c8c886338745c1efbddb3"
+
+[[files]]
 file = "config/ProgressiveStages/Circuit_network.toml"
-hash = "cda5ead460385adb0bf7855b07b1a6134ec586839d3681e8485af2f72b59c18d"
+hash = "7bd5a462b328fc2fdda3e3df8f32ee3cbb61a5f0bc82254aa25493e088202e2f"
 
 [[files]]
 file = "config/ProgressiveStages/Fluid_handling.toml"
@@ -50,7 +82,11 @@ hash = "0d3ce0ebd301acb15fc9eb87fffee11291501f7243940ad644c679349accb0dd"
 
 [[files]]
 file = "config/ProgressiveStages/Kinetic_energy_distribution_2.toml"
-hash = "01d94d7a9b37939bc5c229a3da86a2f4d03a1f168a97c39c0976678ceaaa712c"
+hash = "a7fd6fa97214e7533d869ed3a48af717298b7d4bcca50d8aba8e1161ac73a39c"
+
+[[files]]
+file = "config/ProgressiveStages/Kinetic_energy_distribution_3.toml"
+hash = "b3ee5c82a436fc4f16836c0b89d1c2a94663c112bbf9f5668b0204c773c475f8"
 
 [[files]]
 file = "config/ProgressiveStages/Logistics.toml"
@@ -58,11 +94,11 @@ hash = "76222540e731ce67b84985809d5567bfe43fdf4a37caf35e49fe6bffcd9f559f"
 
 [[files]]
 file = "config/ProgressiveStages/Logistics_2.toml"
-hash = "c004da665c2eb9b3da3304ef497293d19b0e3ec56166a0eca8e702084f704175"
+hash = "c1a0c5a3d047b67093b9eafacdfbafbc5a150f7c0376e7fcd3bb7a4928a9eafc"
 
 [[files]]
 file = "config/ProgressiveStages/Logistics_3.toml"
-hash = "08ece79e2efe31dc7e9115a3561e964e3e735564c96402b52c7ab925d6022df2"
+hash = "9357e670096f5329dd5153b790a956bb18705b42bdb6355148297ca92cd0f96f"
 
 [[files]]
 file = "config/ProgressiveStages/Logistics_science_pack.toml"
@@ -75,6 +111,10 @@ hash = "506327b90cbc9ce2e11e0b86f11c822c4b6cce6f2916d322ae68a49f68811925"
 [[files]]
 file = "config/ProgressiveStages/Recource_gathering.toml"
 hash = "387fe44611f2287e83c95152adc8c59f37c47f463a8b42d3ab4d82f81c0f989b"
+
+[[files]]
+file = "config/ProgressiveStages/Steam_engine.toml"
+hash = "260fe388265b891b12cd186828c217a09f6c1340bb580fc14b7f7208c81c8f29"
 
 [[files]]
 file = "config/ProgressiveStages/diamond_age.toml"
@@ -138,7 +178,7 @@ hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tech_tree.snbt"
-hash = "74b15366984294f1454a7f2bda3be6ab39c249c5b55f8f83d4cbc9d536f8f56d"
+hash = "f1b84b446f99edebc1d2b5db5b7e85cc25a8c7d0377f07beb78bd4800de718ec"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -146,7 +186,7 @@ hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "778136363b9a74e43ba7c4fa1eb68e974fc7c13ac74b5c4768906efc64fb7a56"
+hash = "20b0a58d235de9a66082ed1ddd60274c7e7c22bd38546aede78ad767d8277c57"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -230,7 +270,7 @@ hash = "fbcf40465f120ceac12fdc297e8e196ca2774936406404165402d94009f0e53c"
 
 [[files]]
 file = "emi.json"
-hash = "84b14a719b092d74d647bc1868968c0ce5d40d14445b188824a848ea1f15cda6"
+hash = "70fedb9272c65e2ad1b7d78e72f9d445c675c997f2e38fcaeb6f9e86b8b10808"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -357,3 +397,7 @@ metafile = true
 file = "mods/tacz-1-21-1.pw.toml"
 hash = "31a8483cdc81e1230207735e8e91b08204d6f1b2c2c5903e3b7de2666787f65b"
 metafile = true
+
+[[files]]
+file = "ponders_watched.json"
+hash = "ca75bcac62f7be7aaa52dabd7df00365e26cf6c193f8c923a9f80c65365fd113"

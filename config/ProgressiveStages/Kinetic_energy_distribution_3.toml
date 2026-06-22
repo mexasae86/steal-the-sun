@@ -1,20 +1,21 @@
 [stage]
-id = "Kinetic_energy_distribution_2"
-display_name = "Kinetic energy distribution 2"
+id = "Kinetic_energy_distribution_3"
+display_name = "Kinetic energy distribution 3"
 description = ""
 icon = "create:gearbox"
-unlock_message = "&7&lKinetic energy distribution 2 Unlocked!"
+unlock_message = "&7&lKinetic energy distribution 3 Unlocked!"
 
 # Starting stage: no dependency. To require another stage, add:
-dependency = ["Kinetic_energy_distribution_1"]
+dependency = ["Kinetic_energy_distribution_2", "Logistics_science_pack"]
 # or multiple:
 #   dependency = ["tutorial_complete", "spawn_visit"]
 
 [items]
 locked = [
-      "simulated:swivel_bearing",
-      "simulated:directional_gearshift",
-      "simulated:torsion_spring"
+      "create:adjustable_chain_gearshift",
+      "create:rotation_speed_controller",
+      "create:sequenced_gearshift",
+      "simulated:analog_transmission"
 ]
 always_unlocked = []
 

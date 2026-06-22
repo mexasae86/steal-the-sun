@@ -1,25 +1,24 @@
 [stage]
-id = "Circuit_network"
-display_name = "Circuit network"
+id = "Advanced_aviation"
+display_name = "Advanced viation"
 description = ""
 icon = "create:mechanical_press"
-unlock_message = "&7&lCircuit network Unlocked!"
+unlock_message = "&7&lAdvanced aviation Unlocked!"
 
 # Starting stage: no dependency. To require another stage, add:
-dependency = "Automation_science_pack"
+dependency = "Aviation"
 # or multiple:
 #   dependency = ["tutorial_complete", "spawn_visit"]
 
 [items]
 locked = [    
-      "create:redstone_link",
-      "create:analog_lever",
-      "create:powered_latch",
-      "create:powered_toggle_latch",
-      "create:linked_controller",
-      "simulated:redstone_accumulator",
-      "simulated:laser_pointer",
-      "simulated:laser_sensor"
+      "simulated:gimbal_sensor",
+      "simulated:navigation_table",
+      "simulated:throttle_lever",
+      "aeronautics:steam_vent",
+      "aeronautics:propeller_bearing",
+      "aeronautics:gyroscopic_propeller_bearing",
+      "aeronautics:smart_propeller"
 ]
 always_unlocked = []
 
