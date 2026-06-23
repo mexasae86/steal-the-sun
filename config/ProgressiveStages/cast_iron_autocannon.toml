@@ -1,0 +1,35 @@
+[stage]
+id = "cast_iron_autocannon"
+display_name = "Cast Iron Autocannon"
+description = "Shortest barrel (2) — light enough to swing freely, won't strain a mount or carriage."
+icon = "createbigcannons:cast_iron_autocannon_recoil_spring"
+unlock_message = "Cast Iron Autocannon is unlocked! Pitipiwpiw wiw wiw!"
+dependency = "cast_iron_cannon"
+
+[recipes]
+locked_items = [
+	"createbigcannons:empty_autocannon_cartridge",
+    "createbigcannons:filled_autocannon_cartridge",
+    "createbigcannons:autocannon_cartridge",
+    "createbigcannons:ap_autocannon_round",
+    "createbigcannons:flak_autocannon_round",
+    "createbigcannons:machine_gun_round",
+    "createbigcannons:empty_machine_gun_round",
+    "createbigcannons:autocannon_ammo_container",
+    "createbigcannons:empty_autocannon_cartridge",
+    "createbigcannons:autocannon_cartridge_sheet",
+    "createbigcannons:cast_iron_autocannon_breech",
+    "createbigcannons:cast_iron_autocannon_recoil_spring",
+    "createbigcannons:cast_iron_autocannon_barrel",
+    "createbigcannons:unbored_cast_iron_autocannon_breech",
+    "createbigcannons:unbored_cast_iron_autocannon_recoil_spring",
+    "createbigcannons:unbored_cast_iron_autocannon_barrel",
+    "createbigcannons:incomplete_cast_iron_autocannon_breech",
+    "createbigcannons:incomplete_cast_iron_autocannon_recoil_spring",
+    "createbigcannons:cast_iron_autocannon_breech_extractor",
+    "createbigcannons:autocannon_breech_cast_mould",
+    "createbigcannons:autocannon_recoil_spring_cast_mould",
+    "createbigcannons:autocannon_barrel_cast_mould",
+    "createbigcannons:gunpowder_pinch"
+]
+always_unlocked = []

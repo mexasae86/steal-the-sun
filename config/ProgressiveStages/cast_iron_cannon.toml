@@ -1,0 +1,40 @@
+[stage]
+id = "cast_iron_cannon"
+display_name = "Cast Iron Cannon"
+description = "Cast parts, better material, high speed projectiles, autoloading, stationary mounts."
+icon = "createbigcannons:cast_iron_cannon_end"
+unlock_message = "Cast Iron Cannon is unlocked! Zzzzzooommm!"
+dependency = "wrought_iron_cannon"
+
+[recipes]
+locked_items = [
+	"createbigcannons:recoil_spring",
+    "createbigcannons:spring_wire",
+    "createbigcannons:cast_iron_cannon_end",
+    "createbigcannons:cast_iron_sliding_breech",
+    "createbigcannons:cast_iron_quickfiring_breech",
+    "createbigcannons:cast_iron_cannon_chamber",
+    "createbigcannons:cast_iron_cannon_barrel",
+    "createbigcannons:cannon_drill",
+    "createbigcannons:molten_cast_iron_bucket",
+    "createbigcannons:unbored_cast_iron_cannon_barrel",
+    "createbigcannons:unbored_cast_iron_cannon_chamber",
+    "createbigcannons:unbored_cast_iron_sliding_breech",
+    "createbigcannons:incomplete_cast_iron_sliding_breech",
+    "createbigcannons:cast_iron_sliding_breechblock",
+    "createbigcannons:very_small_cast_mould",
+    "createbigcannons:medium_cast_mould",
+    "createbigcannons:casting_sand",
+    "createbigcannons:cannon_end_cast_mould",
+    "createbigcannons:sliding_breech_cast_mould",
+    "createbigcannons:cannon_welder",
+    "createbigcannons:basin_foundry_lid",
+    "createbigcannons:quickfiring_mechanism",
+    "createbigcannons:worm_head",
+    "createbigcannons:ram_head",
+    "createbigcannons:cannon_loader",
+    "createbigcannons:cannon_mount",
+    "createbigcannons:cannon_mount_extension",
+    "createbigcannons:fixed_cannon_mount"
+]
+always_unlocked = []

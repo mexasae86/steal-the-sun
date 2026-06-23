@@ -1,0 +1,21 @@
+[stage]
+id = "bronze_autocannon"
+display_name = "Bronze Autocannon"
+description = "Mid-length barrel (4) — noticeably heavier, needs more stress to traverse on mount."
+icon = "bronze_autocannon_recoil_spring"
+unlock_message = "Bronze Autocannon is unlocked! Heavier hardware, heavier hitter."
+dependency = ["bronze_cannon", "cast_iron_autocannon"]
+
+[recipes]
+locked_items = [
+	"createbigcannons:bronze_autocannon_breech",
+    "createbigcannons:bronze_autocannon_recoil_spring",
+    "createbigcannons:bronze_autocannon_barrel",
+    "createbigcannons:unbored_bronze_autocannon_breech",
+    "createbigcannons:unbored_bronze_autocannon_recoil_spring",
+    "createbigcannons:unbored_bronze_autocannon_barrel",
+    "createbigcannons:incomplete_bronze_autocannon_breech",
+    "createbigcannons:incomplete_bronze_autocannon_recoil_spring",
+    "createbigcannons:bronze_autocannon_breech_extractor"
+]
+always_unlocked = []

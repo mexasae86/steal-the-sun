@@ -1,0 +1,32 @@
+[stage]
+id = "nethersteel_cannon"
+display_name = "Nethersteel Cannon"
+description = "Top-tier alloy, top-tier range. Nothing hits harder or further."
+icon = "createbigcannons:nethersteel_screw_breech"
+unlock_message = "Nethersteel Cannon is unlocked! Dominance."
+dependency = "steel_cannon"
+
+[recipes]
+locked_items = [
+	"createbigcannons:nethersteel_screw_breech",
+    "createbigcannons:thick_nethersteel_cannon_chamber",
+    "createbigcannons:built_up_nethersteel_cannon_chamber",
+    "createbigcannons:nethersteel_cannon_chamber",
+    "createbigcannons:built_up_nethersteel_cannon_barrel",
+    "createbigcannons:nethersteel_cannon_barrel",
+    "createbigcannons:molten_nethersteel_bucket",
+    "createbigcannons:unbored_very_small_nethersteel_cannon_layer",
+    "createbigcannons:unbored_small_nethersteel_cannon_layer",
+    "createbigcannons:unbored_medium_nethersteel_cannon_layer",
+    "createbigcannons:unbored_large_nethersteel_cannon_layer",
+    "createbigcannons:unbored_very_large_nethersteel_cannon_layer",
+    "createbigcannons:very_small_nethersteel_cannon_layer",
+    "createbigcannons:small_nethersteel_cannon_layer",
+    "createbigcannons:medium_nethersteel_cannon_layer",
+    "createbigcannons:large_nethersteel_cannon_layer",
+    "createbigcannons:very_large_nethersteel_cannon_layer",
+    "createbigcannons:unbored_nethersteel_screw_breech",
+    "createbigcannons:incomplete_nethersteel_screw_breech",
+    "createbigcannons:nethersteel_screw_lock"
+]
+always_unlocked = []

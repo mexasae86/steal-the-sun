@@ -117,6 +117,22 @@ file = "config/ProgressiveStages/Steam_engine.toml"
 hash = "260fe388265b891b12cd186828c217a09f6c1340bb580fc14b7f7208c81c8f29"
 
 [[files]]
+file = "config/ProgressiveStages/bronze_autocannon.toml"
+hash = "7fbcbf44cac19221c5ff9889c8128340013c99277ee865e790b4b295049ed7d8"
+
+[[files]]
+file = "config/ProgressiveStages/bronze_cannon.toml"
+hash = "2db6119903054d69d42bf83f13af311ba6ab990e37636d4b1a560e3f74a5cc2d"
+
+[[files]]
+file = "config/ProgressiveStages/cast_iron_autocannon.toml"
+hash = "fe83dc574a48f4c707a267f87c7b265e4d1c0c4485f56a0490100ed451c2d9d9"
+
+[[files]]
+file = "config/ProgressiveStages/cast_iron_cannon.toml"
+hash = "cd256a33e2f9fc4533deb986f334e4ffdef80980e65597893d2993cfb33c6339"
+
+[[files]]
 file = "config/ProgressiveStages/diamond_age.toml"
 hash = "48731ee09c761d291d135d5698ab7d5f92f423f31cae9fefa4ba467cf602c244"
 
@@ -125,12 +141,32 @@ file = "config/ProgressiveStages/iron_age.toml"
 hash = "4d54194ea8fe19aae1a1aaca10ecdffa62a1c3c47d2cc44a6634926500432717"
 
 [[files]]
+file = "config/ProgressiveStages/log_cannon.toml"
+hash = "f7e67e7e542a33f0857f748bbdbdaa783ef6f71970e699a7cdd86bb6d63c03fd"
+
+[[files]]
+file = "config/ProgressiveStages/nethersteel_cannon.toml"
+hash = "6f07ce00ba0d56c364b862a92556a3dec53c0b128ab162e235a5052bfc12479b"
+
+[[files]]
+file = "config/ProgressiveStages/steel_autocannon.toml"
+hash = "b18c14d384a53cdf1265a6ae98751f0f65ebc4551ce8d39a72bcd48c0207e24e"
+
+[[files]]
+file = "config/ProgressiveStages/steel_cannon.toml"
+hash = "14ea94886147d2b1ad45930da7d917727decd9828dfa02f4ac63808e76ffe132"
+
+[[files]]
 file = "config/ProgressiveStages/stone_age.toml"
 hash = "827109b29f34b7a9f72268329b50d32ec0e6b0fcee245e231610716d51e316bd"
 
 [[files]]
 file = "config/ProgressiveStages/triggers.toml"
 hash = "125323c4f5ee68d0f986e9a9afb887f545ed0f86b6ae83cc746de19ea5450668"
+
+[[files]]
+file = "config/ProgressiveStages/wrought_iron_cannon.toml"
+hash = "27d532a066e0812b8c65654a1edd979e8b60a3a98310d28c9e1e30b2a7731ec9"
 
 [[files]]
 file = "config/aeronautics-server.toml"
@@ -153,8 +189,16 @@ file = "config/create-server.toml"
 hash = "36216a05f3ed63106ba587c8c24ed6315385829e7f3dae695dcf545aba41a270"
 
 [[files]]
+file = "config/createbigcannons-client.toml"
+hash = "2d14d343a8fb8130c42d1b7bc9116d1646f74d9a0877d796892c6ec3b666b2b6"
+
+[[files]]
+file = "config/createbigcannons-server.toml"
+hash = "f9b43150ae555d8c43f6a65f41a0c3b31dc344eb01c7f6b2608fd0a016294b0c"
+
+[[files]]
 file = "config/emi.css"
-hash = "9a6d348cd9d0ca233091f4f1472ea2a16fe9f340176e601a359c89fe5f4e2b02"
+hash = "3a3a729bae12441b0efc87563d3db165cc11be87d36a8159f95f64ca8719fbdb"
 
 [[files]]
 file = "config/flywheel-client.toml"
@@ -177,6 +221,10 @@ file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/cannons.snbt"
+hash = "834968e3bae7ab81b9728d2ffa47073ce685657f67d3a129971995687b1b3849"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/tech_tree.snbt"
 hash = "f1b84b446f99edebc1d2b5db5b7e85cc25a8c7d0377f07beb78bd4800de718ec"
 
@@ -186,7 +234,7 @@ hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "20b0a58d235de9a66082ed1ddd60274c7e7c22bd38546aede78ad767d8277c57"
+hash = "42604863680aed06b39f862aac388c0b3bf6de1fe8ff32b16203f91635101e67"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -222,7 +270,7 @@ hash = "6a91c09d1cabc1980d90ab102a03ec58c0551213ab16a459b599d768b334d054"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "acb64d3680730918be22bb3bbefa63b0206bc76f5a2c66ac247e6b03880f1922"
+hash = "a4253376114f9ab7f92d5f0d35eac4eddea02fdd2e997e465581b5e05527f00c"
 
 [[files]]
 file = "config/neoforge-client.toml"
@@ -253,6 +301,10 @@ file = "config/progressivestages.toml"
 hash = "ba827d28a8f9b17ef5c762a93389df10062f76977dd54fd37b9e5adba3335169"
 
 [[files]]
+file = "config/ritchiesprojectilelib-server.toml"
+hash = "793c05c7f9975032f536f7b9702a4f892b8beb31e641af1f12ee9c96aed4d013"
+
+[[files]]
 file = "config/sable-client.toml"
 hash = "7915780a3c652760bc168a0505dcdceefe4c50c43f604b18c31cdcd7287016a4"
 
@@ -267,6 +319,22 @@ hash = "aaeeaedb8179a8e2404a468c0b62fee76dd5becb6c87d870f206733e20009991"
 [[files]]
 file = "config/simulated-server.toml"
 hash = "fbcf40465f120ceac12fdc297e8e196ca2774936406404165402d94009f0e53c"
+
+[[files]]
+file = "config/tacz-client.toml"
+hash = "95f4b4e43349699d4af80303b902daf6197d9a9f3a120f58e826f00ffa818dea"
+
+[[files]]
+file = "config/tacz-common.toml"
+hash = "eaa145c521e5cede1d746c93e43d86c98f73d38deb038e6cd7ca975bc0782bb2"
+
+[[files]]
+file = "config/tacz-pre.toml"
+hash = "b127fc761c8e000a8f1aceaa19d28c644e64ed00137bdcd2d48a372540cc7bdc"
+
+[[files]]
+file = "config/tacz-server.toml"
+hash = "e5492f87645292181b422af6b453d6f91a813cfc7d6a6b11ecfb9c2d034d65f8"
 
 [[files]]
 file = "emi.json"
@@ -315,12 +383,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics.pw.toml"
-hash = "bd68f1008fa2b41f4ba78eac43966265c1d08196e43faf2c2e18ba7a7454def1"
+hash = "59beba57945e374108e22789e8fc32d2758174929ebd9bf17fc139956dc32e30"
 metafile = true
 
 [[files]]
 file = "mods/create-big-cannons.pw.toml"
-hash = "035403cba5b412bdf71ab59278924758b0af799903e3942efd688166902f05fa"
+hash = "b6ac94e91f766466186d350ed45a79fdcf7805f34d9170ccc8612ff47983a5f5"
 metafile = true
 
 [[files]]
@@ -385,17 +453,17 @@ metafile = true
 
 [[files]]
 file = "mods/ritchies-projectile-library.pw.toml"
-hash = "895e09bab9a8e7384ae591b7a7fbe44c87ed742e1312322b5f6e6d981e4c6ee9"
+hash = "c62b51a8248d15e3cb63880ac123a92dd6a67973a1eafc4c4cb09f3f74481f78"
 metafile = true
 
 [[files]]
 file = "mods/sable.pw.toml"
-hash = "c2c5a2bf3a0f5625e4b064c845eccbda4572eedd44c2be0fa232210e8908bde2"
+hash = "56c47f4f4732d86a144c8c86af80411238c3ea74f6b96b0bc5174d2f20073a98"
 metafile = true
 
 [[files]]
 file = "mods/tacz-1-21-1.pw.toml"
-hash = "31a8483cdc81e1230207735e8e91b08204d6f1b2c2c5903e3b7de2666787f65b"
+hash = "bb5aec52942c79e677ee8916e56aafcf5ff5df631ac7d819915cd5bf8bfaadff"
 metafile = true
 
 [[files]]

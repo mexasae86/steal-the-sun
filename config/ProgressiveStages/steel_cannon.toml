@@ -1,0 +1,42 @@
+[stage]
+id = "steel_cannon"
+display_name = "Steel Cannon"
+description = "Golden standard in firepower"
+icon = "createbigcannons:steel_screw_breech"
+unlock_message = "Steel Cannon is unlocked! Modernity."
+dependency = "bronze_cannon"
+
+[recipes]
+locked_items = [
+	"createbigcannons:steel_sliding_breech",
+    "createbigcannons:steel_quickfiring_breech",
+    "createbigcannons:steel_screw_breech",
+    "createbigcannons:thick_steel_cannon_chamber",
+    "createbigcannons:built_up_steel_cannon_chamber",
+    "createbigcannons:steel_cannon_chamber",
+    "createbigcannons:built_up_steel_cannon_barrel",
+    "createbigcannons:steel_cannon_barrel",
+    "createbigcannons:unbored_very_small_steel_cannon_layer",
+    "createbigcannons:unbored_small_steel_cannon_layer",
+    "createbigcannons:unbored_medium_steel_cannon_layer",
+    "createbigcannons:unbored_large_steel_cannon_layer",
+    "createbigcannons:unbored_very_large_steel_cannon_layer",
+    "createbigcannons:very_small_steel_cannon_layer",
+    "createbigcannons:small_steel_cannon_layer",
+    "createbigcannons:medium_steel_cannon_layer",
+    "createbigcannons:large_steel_cannon_layer",
+    "createbigcannons:very_large_steel_cannon_layer",
+    "createbigcannons:unbored_steel_sliding_breech",
+    "createbigcannons:incomplete_steel_sliding_breech",
+    "createbigcannons:steel_sliding_breechblock",
+    "createbigcannons:unbored_steel_screw_breech",
+    "createbigcannons:incomplete_steel_screw_breech",
+    "createbigcannons:steel_screw_lock",
+    "createbigcannons:molten_steel_bucket",
+    "createbigcannons:screw_breech_cast_mould",
+    "createbigcannons:small_cast_mould",
+    "createbigcannons:very_large_cast_mould",
+    "createbigcannons:large_cast_mould",
+    "createbigcannons:cannon_builder"
+]
+always_unlocked = []

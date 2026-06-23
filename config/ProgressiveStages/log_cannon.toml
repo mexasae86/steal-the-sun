@@ -1,0 +1,29 @@
+[stage]
+id = "log_cannon"
+display_name = "Log Cannon"
+description = "Cannon made from wood! Unreliable but usable."
+icon = "createbigcannons:log_cannon_end"
+unlock_message = "Log Cannon is unlocked! Boom-boom!"
+dependency = ""
+
+[recipes]
+locked_items = [
+	"createbigcannons:log_cannon_chamber",
+    "createbigcannons:log_cannon_end",
+    "createbigcannons:solid_shot",
+    "createbigcannons:ap_shot",
+    "createbigcannons:mortar_stone",
+    "createbigcannons:bag_of_grapeshot",
+    "createbigcannons:powder_charge",
+    "createbigcannons:empty_powder_charge",
+    "createbigcannons:packed_gunpowder",
+    "createbigcannons:cannon_carriage",
+    "createbigcannons:worm",
+    "createbigcannons:ram_rod",
+    "createbigcannons:pair_of_cannon_wheels",
+    "createbigcannons:block_armor_inspection_tool",
+    "createbigcannons:shot_balls",
+    "createbigcannons:recoil_spring",
+    "createbigcannons:spring_wire"
+]
+always_unlocked = []

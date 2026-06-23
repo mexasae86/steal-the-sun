@@ -1,0 +1,32 @@
+[stage]
+id = "wrought_iron_cannon"
+display_name = "Wrought Iron Cannon"
+description = "Reliable cannon, drop mortar, proper shells, and fuzes."
+icon = "createbigcannons:wrought_iron_cannon_end"
+unlock_message = "Wrought Iron Cannon is unlocked! Proper firepower."
+dependency = "log_cannon"
+
+[recipes]
+locked_items = [
+	"createbigcannons:wrought_iron_cannon_end",
+    "createbigcannons:wrought_iron_cannon_chamber",
+    "createbigcannons:wrought_iron_drop_mortar_end",
+    "createbigcannons:he_shell",
+    "createbigcannons:ap_shell",
+    "createbigcannons:shrapnel_shell",
+    "createbigcannons:fluid_shell",
+    "createbigcannons:smoke_shell",
+    "createbigcannons:drop_mortar_shell",
+    "createbigcannons:impact_fuze",
+    "createbigcannons:timed_fuze",
+    "createbigcannons:proximity_fuze",
+    "createbigcannons:delayed_impact_fuze",
+    "createbigcannons:wired_fuze",
+    "createbigcannons:inertia_fuze",
+    "createbigcannons:delayed_inertia_fuze",
+    "createbigcannons:tracer_tip",
+    "createbigcannons:guncotton",
+    "createbigcannons:packed_guncotton",
+    "createbigcannons:gas_mask"
+]
+always_unlocked = []

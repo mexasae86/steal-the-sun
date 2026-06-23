@@ -1,0 +1,28 @@
+[stage]
+id = "bronze_cannon"
+display_name = "Bronze Cannon"
+description = "Even better parts, gunpowder casings"
+icon = "createbigcannons:bronze_cannon_end"
+unlock_message = "Bronze Cannon is unlocked! Tsar Pushka!"
+dependency = "cast_iron_cannon"
+
+[recipes]
+locked_items = [
+	"createbigcannons:bronze_cannon_end",
+    "createbigcannons:bronze_sliding_breech",
+    "createbigcannons:bronze_quickfiring_breech",
+    "createbigcannons:bronze_cannon_chamber",
+    "createbigcannons:bronze_cannon_barrel",
+    "createbigcannons:big_cartridge_sheet",
+    "createbigcannons:big_cartridge",
+    "createbigcannons:congealed_nitro",
+    "createbigcannons:hardened_nitro",
+    "createbigcannons:nitropowder",
+    "createbigcannons:molten_bronze_bucket",
+    "createbigcannons:unbored_bronze_cannon_barrel",
+    "createbigcannons:unbored_bronze_cannon_chamber",
+    "createbigcannons:unbored_bronze_sliding_breech",
+    "createbigcannons:incomplete_bronze_sliding_breech",
+    "createbigcannons:bronze_sliding_breechblock"
+]
+always_unlocked = []
