@@ -187,13 +187,13 @@
 				}
 				{
 					icon: {
-						id: "create:mechanical_plough"
+						id: "create:mechanical_harvester"
 					}
-					id: "460A86473DCFD35D"
+					id: "77FF606C30CC3131"
 					type: "custom"
 				}
 			]
-			x: -3.0d
+			x: -4.5d
 			y: 3.5d
 		}
 		{
@@ -259,7 +259,7 @@
 					type: "custom"
 				}
 			]
-			x: -4.5d
+			x: -6.0d
 			y: 3.5d
 		}
 		{
@@ -325,7 +325,7 @@
 					type: "custom"
 				}
 			]
-			x: 3.0d
+			x: -3.0d
 			y: 3.5d
 		}
 		{
@@ -635,7 +635,7 @@
 					type: "custom"
 				}
 			]
-			x: -4.5d
+			x: -6.0d
 			y: 5.0d
 		}
 		{
@@ -696,7 +696,7 @@
 					type: "custom"
 				}
 			]
-			x: 3.0d
+			x: -3.0d
 			y: 6.5d
 		}
 		{
@@ -765,7 +765,7 @@
 					type: "custom"
 				}
 			]
-			x: -4.5d
+			x: -6.0d
 			y: 6.5d
 		}
 		{
@@ -872,7 +872,7 @@
 					type: "custom"
 				}
 			]
-			x: -4.5d
+			x: -6.0d
 			y: 8.0d
 		}
 		{
@@ -924,7 +924,7 @@
 					type: "custom"
 				}
 			]
-			x: -4.5d
+			x: -6.0d
 			y: 9.5d
 		}
 		{
@@ -1246,7 +1246,7 @@
 					type: "custom"
 				}
 			]
-			x: 3.0d
+			x: -3.0d
 			y: 5.0d
 		}
 		{
@@ -1277,7 +1277,7 @@
 					type: "custom"
 				}
 			]
-			x: -3.0d
+			x: -4.5d
 			y: 5.0d
 		}
 		{
@@ -1498,6 +1498,487 @@
 			]
 			x: 1.5d
 			y: 5.0d
+		}
+		{
+			dependencies: ["0E9E0B24967C70E5"]
+			icon: {
+				id: "tfmg:coke_oven"
+			}
+			id: "673AB8B904F442C7"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "7D8226CD2CE6C8C0"
+					ignore_reward_blocking: true
+					stage: "Coal_coke_production"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "tfmg:coke_oven"
+					}
+					id: "0878BA4458AD2C9B"
+					type: "custom"
+				}
+			]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["338379D12866952D"]
+			id: "726EE04552C18667"
+			rewards: [{
+				auto: "invisible"
+				id: "3501841C3FCFC0CE"
+				stage: "Chemical_science_pack"
+				type: "gamestage"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["673AB8B904F442C7"]
+			icon: {
+				id: "tfmg:blast_furnace_output"
+			}
+			id: "322CCD19DB3A18DF"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "573B44A6FAEDEE32"
+					stage: "Advanced_material_processing"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "tfmg:blast_stove"
+					}
+					id: "757C8FD3B4F27F3E"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:air_intake"
+					}
+					id: "28DD5EF241F0D5E4"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:blast_furnace_output"
+					}
+					id: "0E6DC4B06FA9E884"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:blast_furnace_hatch"
+					}
+					id: "3FE68985242B4374"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:casting_basin"
+					}
+					id: "15E3FF14E472DD33"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:fireproof_bricks"
+					}
+					id: "663C6B76B9AB737B"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:fireproof_brick_reinforcement"
+					}
+					id: "49BC87BEC78F3CD1"
+					type: "custom"
+				}
+			]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"322CCD19DB3A18DF"
+				"1109E68DF8996AA0"
+				"2614A07F6414C8BE"
+			]
+			icon: {
+				id: "tfmg:heavy_oil_bucket"
+			}
+			id: "5F33C4B2D3A7292F"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "027D6E800FE064CA"
+					stage: "Oil_gathering"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "tfmg:surface_scanner"
+					}
+					id: "6900DDF1B7248153"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:industrial_pipe"
+					}
+					id: "4C0976DD65FBEF4A"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:pumpjack_hammer_part"
+					}
+					id: "4B072CAC024EDB9E"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:pumpjack_crank"
+					}
+					id: "66124686018DB6D1"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:pumpjack_hammer"
+					}
+					id: "65A01D6DB5AC7F1D"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:pumpjack_hammer_head"
+					}
+					id: "2CD40D49D564433C"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:pumpjack_hammer_connector"
+					}
+					id: "0FAADB09BA51E2CA"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:pumpjack_base"
+					}
+					id: "19ECDF4E7D2CEE2B"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:large_pumpjack_hammer_part"
+					}
+					id: "24476C2F36796BD3"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:large_pumpjack_hammer_head"
+					}
+					id: "70DFF84931ED8544"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:large_pumpjack_hammer_connector"
+					}
+					id: "706501718CE23AED"
+					type: "custom"
+				}
+			]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5F33C4B2D3A7292F"]
+			icon: {
+				id: "tfmg:steel_distillation_controller"
+			}
+			id: "1FBAC0E627E3F8A2"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "54999A282C030908"
+					stage: "Oil_processing"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "tfmg:steel_distillation_output"
+					}
+					id: "23A3F184A61EC228"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:steel_distillation_controller"
+					}
+					id: "6EF812DD90A567A8"
+					type: "custom"
+				}
+			]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["726EE04552C18667"]
+			icon: {
+				id: "tfmg:steel_chemical_vat"
+			}
+			id: "0CDC61B1F09E0546"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "068595177F17BA78"
+					stage: "Chemical_processing"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "tfmg:cast_iron_chemical_vat"
+					}
+					id: "5364627D84F28EF2"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:steel_chemical_vat"
+					}
+					id: "3A6DAB7FEEBA0E9E"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:industrial_mixer"
+					}
+					id: "42438DB382637363"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:electrode_holder"
+					}
+					id: "47C766969E5CE99B"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:mixer_blade"
+					}
+					id: "5A2ECEAA394CA2A1"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:centrifuge"
+					}
+					id: "23CEDBE709CBD0B5"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:zinc_electrode"
+					}
+					id: "4E1CD67044384803"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:copper_electrode"
+					}
+					id: "21BE1B61C8D5214D"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:graphite_electrode"
+					}
+					id: "6916662A2937AC2E"
+					type: "custom"
+				}
+			]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["256DDB50A337ED6A"]
+			icon: {
+				id: "tfmg:simple_large_engine"
+			}
+			id: "0F53BE92898A45B7"
+			rewards: [
+				{
+					icon: {
+						id: "tfmg:simple_large_engine"
+					}
+					id: "162EFF888193E8FF"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					id: "6917EDB8C34355B8"
+					stage: "Simple_large_engine"
+					type: "gamestage"
+				}
+			]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"0F53BE92898A45B7"
+				"0CDC61B1F09E0546"
+			]
+			icon: {
+				id: "tfmg:large_engine"
+			}
+			id: "0066BFB49E9D0F12"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "6E0E9783511B7CCB"
+					stage: "Large_engine"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "tfmg:large_engine"
+					}
+					id: "10C3C15C5B70F7A8"
+					type: "custom"
+				}
+			]
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0066BFB49E9D0F12"]
+			icon: {
+				id: "tfmg:regular_engine"
+			}
+			id: "7EDAF2F2692222AA"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "5AAFE98A8B507717"
+					stage: "Advanced_engines"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "tfmg:regular_engine"
+					}
+					id: "52AE9468591058E5"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:radial_engine"
+					}
+					id: "61A8259C87FA6A0F"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:engine_cylinder"
+					}
+					id: "0A41E9BB27FB4A31"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:diesel_engine_cylinder"
+					}
+					id: "144FB22798D0E4B5"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:simple_engine_cylinder"
+					}
+					id: "3FA0383467C7DA69"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:turbine_blade"
+					}
+					id: "2C162E1A40BED98C"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:turbo"
+					}
+					id: "3EB75A0418D1648A"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:golden_turbo"
+					}
+					id: "798D0DC9068DBFE9"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:crankshaft"
+					}
+					id: "1B878C6F78A43973"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:transmission"
+					}
+					id: "53B7C8FD43913760"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tfmg:turbine_engine"
+					}
+					id: "431DF71BEB08EA5F"
+					type: "custom"
+				}
+			]
+			x: 1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0CDC61B1F09E0546"]
+			icon: {
+				id: "tfmg:fireproof_chemical_vat"
+			}
+			id: "76CCCC8E73F332FB"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "0405845ECB5A16FD"
+					stage: "Advanced_chemical_processing"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "tfmg:fireproof_chemical_vat"
+					}
+					id: "11D6998C10E742A9"
+					type: "custom"
+				}
+			]
+			x: 0.0d
+			y: 11.0d
 		}
 	]
 }

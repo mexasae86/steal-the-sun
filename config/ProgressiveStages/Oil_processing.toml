@@ -1,0 +1,28 @@
+[stage]
+id = "Oil_processing"
+display_name = "Oil processing"
+description = ""
+icon = "create:mechanical_press"
+unlock_message = "&7&lOil processing Unlocked!"
+
+# Starting stage: no dependency. To require another stage, add:
+dependency = ["Oil_gathering"]
+# or multiple:
+#   dependency = ["tutorial_complete", "spawn_visit"]
+
+[items]
+locked = [   
+      "tfmg:steel_distillation_output",
+      "tfmg:steel_distillation_controller" 
+]
+always_unlocked = []
+
+[blocks]
+locked = []
+always_unlocked = []
+
+[dimensions]
+locked = []
+
+# See diamond_age.toml for a complete 2.0 category reference (crops, loot,
+# enchants, pets, screens, mobs, regions, structures, etc.).

@@ -1,0 +1,27 @@
+[stage]
+id = "Large_engine"
+display_name = "Large engine"
+description = ""
+icon = "create:mechanical_press"
+unlock_message = "&7&lLarge engine Unlocked!"
+
+# Starting stage: no dependency. To require another stage, add:
+dependency = ["Simple_large_engine", "Chemical_processing"]
+# or multiple:
+#   dependency = ["tutorial_complete", "spawn_visit"]
+
+[items]
+locked = [    
+      "tfmg:large_engine"
+]
+always_unlocked = []
+
+[blocks]
+locked = []
+always_unlocked = []
+
+[dimensions]
+locked = []
+
+# See diamond_age.toml for a complete 2.0 category reference (crops, loot,
+# enchants, pets, screens, mobs, regions, structures, etc.).

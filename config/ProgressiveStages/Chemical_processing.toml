@@ -1,0 +1,35 @@
+[stage]
+id = "Chemical_processing"
+display_name = "Chemical processing"
+description = ""
+icon = ""
+unlock_message = "&7&Chemical processing Unlocked!"
+
+# Starting stage: no dependency. To require another stage, add:
+# dependency = "Chemical_science_pack"
+# or multiple:
+dependency = ["Chemical_science_pack"]
+
+[items]
+locked = [
+      "tfmg:steel_chemical_vat",
+      "tfmg:cast_iron_chemical_vat",
+      "tfmg:industrial_mixer",
+      "tfmg:electrode_holder",
+      "tfmg:mixer_blade",
+      "tfmg:centrifuge",
+      "tfmg:zinc_electrode",
+      "tfmg:copper_electrode",
+      "tfmg:graphite_electrode"
+]
+always_unlocked = []
+
+[blocks]
+locked = []
+always_unlocked = []
+
+[dimensions]
+locked = []
+
+# See diamond_age.toml for a complete 2.0 category reference (crops, loot,
+# enchants, pets, screens, mobs, regions, structures, etc.).

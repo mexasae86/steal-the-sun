@@ -1,0 +1,27 @@
+[stage]
+id = "Advanced_chemical_processing"
+display_name = "Advanced chemical processing"
+description = ""
+icon = ""
+unlock_message = "&7&Advanced chemical processing Unlocked!"
+
+# Starting stage: no dependency. To require another stage, add:
+# dependency = "Chemical_processing"
+# or multiple:
+dependency = ["Chemical_processing"]
+
+[items]
+locked = [
+    "tfmg:fireproof_chemical_vat"
+]
+always_unlocked = []
+
+[blocks]
+locked = []
+always_unlocked = []
+
+[dimensions]
+locked = []
+
+# See diamond_age.toml for a complete 2.0 category reference (crops, loot,
+# enchants, pets, screens, mobs, regions, structures, etc.).

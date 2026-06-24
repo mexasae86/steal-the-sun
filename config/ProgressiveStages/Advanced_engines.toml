@@ -1,0 +1,37 @@
+[stage]
+id = "Advanced_engines"
+display_name = "Advanced engines"
+description = ""
+icon = "create:mechanical_press"
+unlock_message = "&7&lAdvanced engines Unlocked!"
+
+# Starting stage: no dependency. To require another stage, add:
+dependency = ["Large_engine"]
+# or multiple:
+#   dependency = ["tutorial_complete", "spawn_visit"]
+
+[items]
+locked = [    
+      "tfmg:regular_engine",
+      "tfmg:radial_engine",
+      "tfmg:engine_cylinder",
+      "tfmg:diesel_engine_cylinder",
+      "tfmg:simple_engine_cylinder",
+      "tfmg:turbine_blade",
+      "tfmg:turbo",
+      "tfmg:golden_turbo",
+      "tfmg:crankshaft",
+      "tfmg:transmission",
+      "tfmg:turbine_engine"
+]
+always_unlocked = []
+
+[blocks]
+locked = []
+always_unlocked = []
+
+[dimensions]
+locked = []
+
+# See diamond_age.toml for a complete 2.0 category reference (crops, loot,
+# enchants, pets, screens, mobs, regions, structures, etc.).
