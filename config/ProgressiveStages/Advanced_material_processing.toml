@@ -1,0 +1,33 @@
+[stage]
+id = "Advanced_material_processing"
+display_name = "Advanced material processing"
+description = ""
+icon = "create:mechanical_press"
+unlock_message = "&7&lAdvanced material processing Unlocked!"
+
+# Starting stage: no dependency. To require another stage, add:
+dependency = ["Coal_coke_production"]
+# or multiple:
+#   dependency = ["tutorial_complete", "spawn_visit"]
+
+[items]
+locked = [    
+      "tfmg:blast_stove",
+      "tfmg:air_intake",
+      "tfmg:blast_furnace_output",
+      "tfmg:blast_furnace_hatch",
+      "tfmg:casting_basin",
+      "tfmg:fireproof_bricks",
+      "tfmg:fireproof_brick_reinforcement"
+]
+always_unlocked = []
+
+[blocks]
+locked = []
+always_unlocked = []
+
+[dimensions]
+locked = []
+
+# See diamond_age.toml for a complete 2.0 category reference (crops, loot,
+# enchants, pets, screens, mobs, regions, structures, etc.).
