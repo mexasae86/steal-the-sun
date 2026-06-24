@@ -1,0 +1,13 @@
+name = "TaCZ JS"
+filename = "taczjs-neoforge-1.4.2+mc1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a7afb74bff9af5a58e0469dd58d805a696ace62d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8075284
+project-id = 1130998

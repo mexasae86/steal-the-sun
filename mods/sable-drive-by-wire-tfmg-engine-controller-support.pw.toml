@@ -1,0 +1,13 @@
+name = "Sable Drive-By-Wire TFMG engine controller support"
+filename = "drivebywire-0.2.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3a5f16c4f1aaf029508759ad18baa6fa52fc385a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8078767
+project-id = 1541332

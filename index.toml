@@ -213,8 +213,32 @@ file = "config/aeronautics-server.toml"
 hash = "a9302b0253e494e7d80f0a2785bf4514b0b67da85796437ca032482db62be514"
 
 [[files]]
+file = "config/azimuth-client.toml"
+hash = "c74cfa25fddf439d78dc58eee2c453a2dd66b2b5b80e67124f7eaad5ae7f6191"
+
+[[files]]
+file = "config/azimuth-common.toml"
+hash = "4a9cd37863c26859ac84d949fb46855e1e0d27401611b171353c5d9933c76f26"
+
+[[files]]
 file = "config/better-advanced-tooltips-client.toml"
 hash = "5b0da765c45397402cffe340f632544a8e740a767937f353a3a8206b6cdde0fa"
+
+[[files]]
+file = "config/bits_n_bobs-common.toml"
+hash = "4411be1aa585b7bc235e423d4581bf3e654db1792774a82d53480fa8f6e17fd3"
+
+[[files]]
+file = "config/bits_n_bobs-server.toml"
+hash = "5b93ee134ff0313f9843cf7f017bc0516c63619139540124ab85c94202453486"
+
+[[files]]
+file = "config/bits_n_tracks-client.toml"
+hash = "4174a35a367c25368a728492f25fbfe3c9a12a4551a00cc4a1b501ec7bb4bb29"
+
+[[files]]
+file = "config/bits_n_tracks-server.toml"
+hash = "857fb8885d78aaa6d06d15eefd7038fad3c383e9bcdc77b0dd8fb7f976fded41"
 
 [[files]]
 file = "config/create-client.toml"
@@ -243,6 +267,22 @@ hash = "dbdf8de6288bee0d8c431dc1a8c93ef79b81c79cd7157d12e289be7f9d39a3e2"
 [[files]]
 file = "config/createbigcannons-server.toml"
 hash = "f9b43150ae555d8c43f6a65f41a0c3b31dc344eb01c7f6b2608fd0a016294b0c"
+
+[[files]]
+file = "config/createlowheated-common.toml"
+hash = "ced8d8a6e26bcd29e405f9a5c41c5fbd962ecb1aa502d03796ad2196ce31dc95"
+
+[[files]]
+file = "config/createoreexcavation-common.toml"
+hash = "68918aeea1ff71d7102b6554fd60a3111a7bb6601431aa1dbcdf50750e6df4dd"
+
+[[files]]
+file = "config/createoreexcavation-server.toml"
+hash = "2c51e07416eee0783db1decb5309e0d7a886f6e4f41749122aa007f3da6b36e5"
+
+[[files]]
+file = "config/drivebywire-common.toml"
+hash = "3bdc58f943d72ff54aa92e0efd1f50613f93d4cd54798e05ef0793c4c3f61dab"
 
 [[files]]
 file = "config/emi.css"
@@ -274,7 +314,7 @@ hash = "834968e3bae7ab81b9728d2ffa47073ce685657f67d3a129971995687b1b3849"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tech_tree.snbt"
-hash = "fb72a851f128c6feaa46be7375c8d4c528bf6a52bafb1fbe23142bbbe355df27"
+hash = "2b219084721d157c2820ce3405c7e47ecb9460cb0dd15e88fa1ebe08bf3918e8"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -318,7 +358,7 @@ hash = "6a91c09d1cabc1980d90ab102a03ec58c0551213ab16a459b599d768b334d054"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "b9e45a9e886d6cd1423895a1d898b167664afd366926833fc90287269036a3eb"
+hash = "01bc4f2090d865a2bdf2484b72b80a5c3cdeb8426b6bd19adc36149e74323f76"
 
 [[files]]
 file = "config/neoforge-client.toml"
@@ -370,7 +410,7 @@ hash = "fbcf40465f120ceac12fdc297e8e196ca2774936406404165402d94009f0e53c"
 
 [[files]]
 file = "config/tacz-client-1.toml.bak"
-hash = "c07add48fc94ea98b89760e8e2d54068eb9e826e2590a6777f96d7cf08b7d8d9"
+hash = "e81eeb5e173a460b6ea1810a2694b207f3039dac1c818176867c96e5949139f0"
 
 [[files]]
 file = "config/tacz-client.toml"
@@ -378,7 +418,7 @@ hash = "95f4b4e43349699d4af80303b902daf6197d9a9f3a120f58e826f00ffa818dea"
 
 [[files]]
 file = "config/tacz-common-1.toml.bak"
-hash = "928e27427b06daef85b310f813e6fa4e5a6ba27f66b62e8e9ed7a32c489a7421"
+hash = "16f550186361073a6598de9b4bfc30281591a285f3620c40bf029136dd6c43e4"
 
 [[files]]
 file = "config/tacz-common.toml"
@@ -386,11 +426,11 @@ hash = "eaa145c521e5cede1d746c93e43d86c98f73d38deb038e6cd7ca975bc0782bb2"
 
 [[files]]
 file = "config/tacz-pre.toml"
-hash = "7760750454ef480008f25f13dd654ee1146a92b12bf7dbc104404ad3499c782b"
+hash = "b127fc761c8e000a8f1aceaa19d28c644e64ed00137bdcd2d48a372540cc7bdc"
 
 [[files]]
 file = "config/tacz-server-1.toml.bak"
-hash = "dfecc97965426fc2a9f8c195aff2a0cb40657dcfa2b8637cf7b89034f1a92d99"
+hash = "da587f9b673c1e52c4c1582174afd49d81e08c6e388871d07b8aacf72b845889"
 
 [[files]]
 file = "config/tacz-server.toml"
@@ -411,6 +451,10 @@ hash = "e2cb1af1f715e53b078f2053442162b43cd3c862b9ca1552ecbf31c4df5614d8"
 [[files]]
 file = "config/tfmg-server.toml"
 hash = "f0324f5a9542ea073b7005aa56cb598546f01c7b4e984eab707e5f8082e5fb69"
+
+[[files]]
+file = "config/tracks-server.toml"
+hash = "5670de4aa967e03b3ccdc4feb44e9f68656204051b68cac5ec993d349036afdf"
 
 [[files]]
 file = "emi.json"
@@ -458,6 +502,15 @@ hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
 metafile = true
 
 [[files]]
+file = "mods/azimuth-api.pw.toml"
+hash = "acc26e4596526ff930bf0fb531aabd8a99911f13544392a189176fad5fe01f22"
+metafile = true
+
+[[files]]
+file = "mods/bits_n_bobs-2.0.2.jar"
+hash = "c1b11f4c32a207c1823bb3ebe5da7792c79ee9ab7a1879dad691eeba036b1603"
+
+[[files]]
 file = "mods/create-aeronautics.pw.toml"
 hash = "59beba57945e374108e22789e8fc32d2758174929ebd9bf17fc139956dc32e30"
 metafile = true
@@ -468,13 +521,48 @@ hash = "b6ac94e91f766466186d350ed45a79fdcf7805f34d9170ccc8612ff47983a5f5"
 metafile = true
 
 [[files]]
+file = "mods/create-bits-n-tracks.pw.toml"
+hash = "a1aa489c1ccb34ab3ccfc0c4146574dd8d94fca58d68f5b84c2cdf2dd6c9732d"
+metafile = true
+
+[[files]]
+file = "mods/create-immersive-tacz-integration.pw.toml"
+hash = "c46994a478361d9949a814e7769d003e4415501d52f1b271f5f0e80862bde7e1"
+metafile = true
+
+[[files]]
 file = "mods/create-industry.pw.toml"
 hash = "6cf57a4d0b0d2f7bc04196d22719ca676286d4c1d4435241b7fe9512313a7332"
 metafile = true
 
 [[files]]
+file = "mods/create-low-heated.pw.toml"
+hash = "6c3e9e4080fb19168d98020371eff4b9124a62215893921ec8db69b05eaee39e"
+metafile = true
+
+[[files]]
+file = "mods/create-ore-excavation.pw.toml"
+hash = "cba6d7d04b6068e326445672253580520a87873fc1065f7682984a9b9d91deb5"
+metafile = true
+
+[[files]]
+file = "mods/create-tracks.pw.toml"
+hash = "6652073f815bed51608dc9d6a9e769ec783a131526054b35e8de6f47c8745fa2"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "4b0ca63279620ec9ba4c63820a9d4f9ceea9b717227137ea19e5c420c820f858"
+metafile = true
+
+[[files]]
+file = "mods/drive-by-wire-typewriter.pw.toml"
+hash = "04da648c0f2752edb6960bec46b65d491e499f90361f2533fb0505b91eb27fbf"
+metafile = true
+
+[[files]]
+file = "mods/drive-by-wire-with-sable.pw.toml"
+hash = "9cae535d0e517933a95ce8819a52f0bc603dab6924de89f65de22d180fa5d6fe"
 metafile = true
 
 [[files]]
@@ -538,13 +626,43 @@ hash = "c62b51a8248d15e3cb63880ac123a92dd6a67973a1eafc4c4cb09f3f74481f78"
 metafile = true
 
 [[files]]
+file = "mods/sable-drive-by-wire-tfmg-engine-controller-support.pw.toml"
+hash = "64d13bc566ab8014fa3193226b8d3f79cddca1e5232e96b4a5f07a01bcf1f460"
+metafile = true
+
+[[files]]
 file = "mods/sable.pw.toml"
 hash = "56c47f4f4732d86a144c8c86af80411238c3ea74f6b96b0bc5174d2f20073a98"
 metafile = true
 
 [[files]]
+file = "mods/strut-your-stuff.pw.toml"
+hash = "0b93007c779590a73372bcc10c09c8ed1c2125ff2c0099ba30e5dde7276d653b"
+metafile = true
+
+[[files]]
 file = "mods/tacz-1-21-1.pw.toml"
 hash = "bb5aec52942c79e677ee8916e56aafcf5ff5df631ac7d819915cd5bf8bfaadff"
+metafile = true
+
+[[files]]
+file = "mods/tacz-aeronautics-compat.pw.toml"
+hash = "56f8281643a4471c6e6bd5bd8d5b8b6d2984f8569f44344ce8a2bf00c97461f9"
+metafile = true
+
+[[files]]
+file = "mods/tacz-js.pw.toml"
+hash = "9fd80edfc38bfa174ab46eff0992a931f31a1a56c9ce5a14dcd879a6601fbc1a"
+metafile = true
+
+[[files]]
+file = "mods/tacz-mechanics.pw.toml"
+hash = "877b76fe35b9e9e6c2fddc13af99bfc552628e59d897c4ca35c3445d585129ac"
+metafile = true
+
+[[files]]
+file = "mods/tacz-pack-upgrader.pw.toml"
+hash = "b00ed08929dfb011fc43b3ba5ad6daec3fbea85b0b065ccec039c971bff2661b"
 metafile = true
 
 [[files]]
@@ -554,6 +672,10 @@ hash = "917ad4e127900a3a43f77aa84ba60921e95fa6c2fd8a8a71d6cfe29078359a10"
 [[files]]
 file = "tacz/.export-state.json"
 hash = "f292a48416f6451b6cb193da698926bc0e568926c86977fc8b3af6b6739a3024"
+
+[[files]]
+file = "tacz/Create Armorer-v1.2.0+1.21.1.zip"
+hash = "306addccf1ba1f4db3e95f2f4cd8d5d092cfc3b43ab9e40ec9d9082eaa08f6f1"
 
 [[files]]
 file = "tacz/tacz_default_gun/README.txt"

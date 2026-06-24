@@ -1,0 +1,13 @@
+name = "Create: Immersive Tacz Integration"
+filename = "createimmersivetacz-1.6-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d5b810b76dc6c25c7c33a1364692e5b5e3b0a6a0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8255149
+project-id = 1152431

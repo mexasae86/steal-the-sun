@@ -38,3 +38,6 @@ build/
 Thumbs.db
 .vscode/
 .idea/
+
+# Exception for tacz 1.20.1 port addons
+!"tacz/Create Armorer-v1.2.0+1.21.1.zip"

@@ -1,0 +1,13 @@
+name = "TaCZ Pack Upgrader"
+filename = "tacz-pack-upgrader-2.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6d3be0d3aacc19a88fb6dcec90367256924aa9f6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8062328
+project-id = 1353465
