@@ -6,7 +6,7 @@ icon = "create:gearbox"
 unlock_message = "&7&lKinetic energy distribution 2 Unlocked!"
 
 # Starting stage: no dependency. To require another stage, add:
-dependency = ["Kinetic_energy_distribution_1"]
+dependency = "Kinetic_energy_distribution_1"
 # or multiple:
 #   dependency = ["tutorial_complete", "spawn_visit"]
 
