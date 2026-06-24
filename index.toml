@@ -229,16 +229,24 @@ file = "config/create-server.toml"
 hash = "36216a05f3ed63106ba587c8c24ed6315385829e7f3dae695dcf545aba41a270"
 
 [[files]]
-file = "config/createbigcannons-client.toml"
+file = "config/createbigcannons-client-1.toml.bak"
 hash = "3e53488c6916d472a728eb6fe94d81329898c8b7d40602ad574e3a51dc6973a6"
 
 [[files]]
-file = "config/createbigcannons-server.toml"
+file = "config/createbigcannons-client.toml"
+hash = "2d14d343a8fb8130c42d1b7bc9116d1646f74d9a0877d796892c6ec3b666b2b6"
+
+[[files]]
+file = "config/createbigcannons-server-1.toml.bak"
 hash = "dbdf8de6288bee0d8c431dc1a8c93ef79b81c79cd7157d12e289be7f9d39a3e2"
 
 [[files]]
+file = "config/createbigcannons-server.toml"
+hash = "f9b43150ae555d8c43f6a65f41a0c3b31dc344eb01c7f6b2608fd0a016294b0c"
+
+[[files]]
 file = "config/emi.css"
-hash = "dc54a38b8eb61f7200d1653487fc26dab639c964dd51b79c931d078d7b8ed4ec"
+hash = "3a3a729bae12441b0efc87563d3db165cc11be87d36a8159f95f64ca8719fbdb"
 
 [[files]]
 file = "config/flywheel-client.toml"
@@ -266,7 +274,7 @@ hash = "834968e3bae7ab81b9728d2ffa47073ce685657f67d3a129971995687b1b3849"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tech_tree.snbt"
-hash = "8cb5c5568960309c7040b778eee0c0539d039ccca1937700f7cefda6467dfb64"
+hash = "fb72a851f128c6feaa46be7375c8d4c528bf6a52bafb1fbe23142bbbe355df27"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -274,7 +282,7 @@ hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "886c20a94506a70657a34085bb6a5eef4598d6f1fe1585cb3ea305c1a09bb759"
+hash = "04281bc4398ba142c7880d1e6b14dbf168bc3a048296921776ab17eb2f6f84bb"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -361,20 +369,32 @@ file = "config/simulated-server.toml"
 hash = "fbcf40465f120ceac12fdc297e8e196ca2774936406404165402d94009f0e53c"
 
 [[files]]
-file = "config/tacz-client.toml"
+file = "config/tacz-client-1.toml.bak"
 hash = "c07add48fc94ea98b89760e8e2d54068eb9e826e2590a6777f96d7cf08b7d8d9"
 
 [[files]]
-file = "config/tacz-common.toml"
+file = "config/tacz-client.toml"
+hash = "95f4b4e43349699d4af80303b902daf6197d9a9f3a120f58e826f00ffa818dea"
+
+[[files]]
+file = "config/tacz-common-1.toml.bak"
 hash = "928e27427b06daef85b310f813e6fa4e5a6ba27f66b62e8e9ed7a32c489a7421"
+
+[[files]]
+file = "config/tacz-common.toml"
+hash = "eaa145c521e5cede1d746c93e43d86c98f73d38deb038e6cd7ca975bc0782bb2"
 
 [[files]]
 file = "config/tacz-pre.toml"
 hash = "7760750454ef480008f25f13dd654ee1146a92b12bf7dbc104404ad3499c782b"
 
 [[files]]
-file = "config/tacz-server.toml"
+file = "config/tacz-server-1.toml.bak"
 hash = "dfecc97965426fc2a9f8c195aff2a0cb40657dcfa2b8637cf7b89034f1a92d99"
+
+[[files]]
+file = "config/tacz-server.toml"
+hash = "e5492f87645292181b422af6b453d6f91a813cfc7d6a6b11ecfb9c2d034d65f8"
 
 [[files]]
 file = "config/tfmg-common-1.toml.bak"
@@ -444,12 +464,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-big-cannons.pw.toml"
-hash = "f550933f14c47b36004a27a8273048cfb262106a61f5aa568b0a7e4c366674a2"
+hash = "b6ac94e91f766466186d350ed45a79fdcf7805f34d9170ccc8612ff47983a5f5"
 metafile = true
 
 [[files]]
 file = "mods/create-industry.pw.toml"
-hash = "1494b3b8415a9620f0ab0cfc7869c36f03ce0a7031b980ed92bfe40cc9971eb9"
+hash = "6cf57a4d0b0d2f7bc04196d22719ca676286d4c1d4435241b7fe9512313a7332"
 metafile = true
 
 [[files]]
