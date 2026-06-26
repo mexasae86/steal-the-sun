@@ -1985,59 +1985,59 @@
 			icon: {
 				id: "createbigcannons:log_cannon_end"
 			}
-			id: "6314AC3EB4FDCD63"
+			id: "495DBC458020F831"
 			rewards: [
 				{
 					icon: {
 						id: "createbigcannons:log_cannon_end"
 					}
-					id: "63B4335E7E34C1CE"
+					id: "11402324E6166204"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:log_cannon_chamber"
 					}
-					id: "345EAA7BC199B74B"
+					id: "2A793ED1F65F8AE2"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:cannon_carriage"
 					}
-					id: "382F789D8351D8E4"
+					id: "0A0B24A725224CAD"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:solid_shot"
 					}
-					id: "0C15F553148C5A4B"
+					id: "0286EDBE977F97E2"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:ap_shot"
 					}
-					id: "21B3F42E61F662BE"
+					id: "09355441A762FB7D"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:mortar_stone"
 					}
-					id: "56B59778DE1399E6"
+					id: "164B14DC5A4A8B6C"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:bag_of_grapeshot"
 					}
-					id: "62AB05D0B5179591"
+					id: "13E782CF55E8C864"
 					type: "custom"
 				}
 				{
-					id: "171ECC07F6DAD020"
+					id: "22E3C1111620DF08"
 					item: {
 						count: 1
 						id: "createbigcannons:ram_rod"
@@ -2048,98 +2048,98 @@
 					icon: {
 						id: "createbigcannons:worm"
 					}
-					id: "44FAB4FF4C3D32B7"
+					id: "3A30C8637A2BC388"
 					type: "custom"
 				}
 				{
 					auto: "invisible"
-					id: "5858BD1B8693C61C"
+					id: "1C14A2F910EBFE5C"
 					stage: "log_cannon"
 					type: "gamestage"
 				}
 			]
 			tasks: [{
-				id: "4A131C8AC16FCCAF"
+				id: "19BA7342FCF1ACF6"
 				type: "checkmark"
 			}]
 			x: -7.5d
 			y: 3.5d
 		}
 		{
-			dependencies: ["6314AC3EB4FDCD63"]
+			dependencies: ["495DBC458020F831"]
 			icon: {
 				id: "createbigcannons:wrought_iron_cannon_end"
 			}
-			id: "796F358298DC8C80"
+			id: "63E4417CBCFAC705"
 			rewards: [
 				{
 					icon: {
 						id: "createbigcannons:wrought_iron_cannon_end"
 					}
-					id: "3FED6324B931D801"
+					id: "76E87344370423E6"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:wrought_iron_drop_mortar_end"
 					}
-					id: "32B01C535386B422"
+					id: "2C15F2F394FE8A65"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:wrought_iron_cannon_chamber"
 					}
-					id: "72DDA72BF1003DF0"
+					id: "40796ED0AE5B3DC5"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:drop_mortar_shell"
 					}
-					id: "1258E627E7B19FA9"
+					id: "52757F5CC1070E22"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:he_shell"
 					}
-					id: "43E3676F29FF9337"
+					id: "6272CE46EA3AEE0E"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:ap_shell"
 					}
-					id: "2F2AB6D744D64F3F"
+					id: "1B83DD2DC54F6AB2"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:shrapnel_shell"
 					}
-					id: "1E171BEC2806643D"
+					id: "5228BECF363688EF"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:fluid_shell"
 					}
-					id: "20BABA8C6BC0098A"
+					id: "59ADF99CAB03C509"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:smoke_shell"
 					}
-					id: "7EC2A0BA4C2B01EC"
+					id: "7C8C01552BA58981"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:impact_fuze"
 					}
-					id: "5472E55FFF1C5C0B"
+					id: "1D0E03C11161C1FA"
 					type: "custom"
 				}
 				{
@@ -2149,7 +2149,7 @@
 						}
 						id: "createbigcannons:timed_fuze"
 					}
-					id: "0C1B342D603AFED7"
+					id: "746AA00A258F98C5"
 					type: "custom"
 				}
 				{
@@ -2159,33 +2159,33 @@
 						}
 						id: "createbigcannons:proximity_fuze"
 					}
-					id: "50ABCDCE3BFF1ED1"
+					id: "2AF8A7786808476C"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:wired_fuze"
 					}
-					id: "1C6CF2EB7E2BCC1D"
+					id: "3B25BEAC7A8C5D93"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:inertia_fuze"
 					}
-					id: "475A59C88B4E3129"
+					id: "3138300C118F65E4"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:tracer_tip"
 					}
-					id: "76580F0561E1E848"
+					id: "5C15B4F223F22BC5"
 					type: "custom"
 				}
 				{
 					auto: "invisible"
-					id: "79C67ADC41281E35"
+					id: "18B479F546D58F48"
 					stage: "wrought_iron_cannon"
 					type: "gamestage"
 				}
@@ -2194,99 +2194,99 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["796F358298DC8C80"]
+			dependencies: ["63E4417CBCFAC705"]
 			icon: {
 				id: "createbigcannons:cast_iron_cannon_end"
 			}
-			id: "01C1B09C1DBFEB3B"
+			id: "645CBEA2F69CF2BD"
 			rewards: [
 				{
 					icon: {
 						id: "createbigcannons:cast_iron_cannon_end"
 					}
-					id: "08B8DCF84A02810B"
+					id: "6D3A318A0A8D56E2"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:cast_iron_sliding_breech"
 					}
-					id: "1E0BDDFC77DEC656"
+					id: "30F989B43B59E715"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:cast_iron_quickfiring_breech"
 					}
-					id: "16DA3DBEE21B4A71"
+					id: "4B4C5F6FE050EB62"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:cast_iron_cannon_chamber"
 					}
-					id: "18637CAEAE42C8B7"
+					id: "0DFD3192715CAB49"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:cast_iron_cannon_barrel"
 					}
-					id: "5E07820CF1276E18"
+					id: "2BB7D40C88D9D479"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:cannon_drill"
 					}
-					id: "67BACF198E97FA2B"
+					id: "0C165ACDFAB5D061"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:cannon_loader"
 					}
-					id: "646B0FFF7B3AC78E"
+					id: "41CDE5E816F7AC40"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:ram_head"
 					}
-					id: "6BB05929F1E00369"
+					id: "4F66F27AEC9DCA86"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:worm_head"
 					}
-					id: "32BCFF6AB94F66C0"
+					id: "42EC5A0C943B8A7B"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:cannon_mount"
 					}
-					id: "0B63C4EC7C5C90BA"
+					id: "504C460C412F138A"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:fixed_cannon_mount"
 					}
-					id: "796F0940AC1E1003"
+					id: "27ED66701A3CCE2D"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:cannon_mount_extension"
 					}
-					id: "760A53D530C43725"
+					id: "1A915EF86AE25C44"
 					type: "custom"
 				}
 				{
 					auto: "invisible"
-					id: "5E2646D6E87AB2A5"
+					id: "2D55CA1F7A0BF6AC"
 					stage: "cast_iron_cannon"
 					type: "gamestage"
 				}
@@ -2295,45 +2295,45 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["01C1B09C1DBFEB3B"]
+			dependencies: ["645CBEA2F69CF2BD"]
 			icon: {
 				id: "createbigcannons:bronze_cannon_end"
 			}
-			id: "4BCC057F380B4BAB"
+			id: "65457F74B282803A"
 			rewards: [
 				{
 					icon: {
 						id: "createbigcannons:bronze_cannon_end"
 					}
-					id: "0D564F03DCD1526C"
+					id: "5D7971D0B724E2B9"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:bronze_sliding_breech"
 					}
-					id: "2A6F46CC9496B9F3"
+					id: "7C40DF45E2FD45CB"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:bronze_quickfiring_breech"
 					}
-					id: "43F28489E97129CF"
+					id: "4472C69FC9E5CDF6"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:bronze_cannon_chamber"
 					}
-					id: "6911A346F1B676E3"
+					id: "0E956DD17A482117"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:bronze_cannon_barrel"
 					}
-					id: "16D907F1D5186841"
+					id: "31955F18A8A6DFC9"
 					type: "custom"
 				}
 				{
@@ -2343,12 +2343,12 @@
 						}
 						id: "createbigcannons:big_cartridge"
 					}
-					id: "1170475367263D6E"
+					id: "1085ABD8FB0F848C"
 					type: "custom"
 				}
 				{
 					auto: "invisible"
-					id: "689AF3AACFC3DEA7"
+					id: "075BEC111E5C2D44"
 					stage: "bronze_cannon"
 					type: "gamestage"
 				}
@@ -2357,78 +2357,78 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["4BCC057F380B4BAB"]
+			dependencies: ["65457F74B282803A"]
 			icon: {
 				id: "createbigcannons:steel_screw_breech"
 			}
-			id: "694D60A9968D6A36"
+			id: "02E990D2A9DD30EA"
 			rewards: [
 				{
 					icon: {
 						id: "createbigcannons:steel_sliding_breech"
 					}
-					id: "1DDD5481F6A221BB"
+					id: "2C96A6300B9CB0BE"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:steel_quickfiring_breech"
 					}
-					id: "6A4DB2E18929B10C"
+					id: "67C7C6A597CE7544"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:steel_screw_breech"
 					}
-					id: "5905C0160B5DB8AD"
+					id: "19235D0D68C507A8"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:thick_steel_cannon_chamber"
 					}
-					id: "6EF242CC05AC1389"
+					id: "303168F6CA808952"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:built_up_steel_cannon_chamber"
 					}
-					id: "3155479B42AD79FB"
+					id: "2F38E880A673FE29"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:steel_cannon_chamber"
 					}
-					id: "02DFE26586B75DC5"
+					id: "176A072A8C7EAD86"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:built_up_steel_cannon_barrel"
 					}
-					id: "744C6E1C9A541C7B"
+					id: "645D09FDCB42CA71"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:steel_cannon_barrel"
 					}
-					id: "054E0CB7D1325551"
+					id: "73D9450594FD224E"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:cannon_builder"
 					}
-					id: "5A66BDD45F1D62C6"
+					id: "5932C68011C49969"
 					type: "custom"
 				}
 				{
 					auto: "invisible"
-					id: "41F9739D7F14E259"
+					id: "2A0B8BB4BD455235"
 					stage: "steel_cannon"
 					type: "gamestage"
 				}
@@ -2437,57 +2437,57 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["694D60A9968D6A36"]
+			dependencies: ["02E990D2A9DD30EA"]
 			icon: {
 				id: "createbigcannons:nethersteel_screw_breech"
 			}
-			id: "4F1034105478267B"
+			id: "2E105770FA8E03EB"
 			rewards: [
 				{
 					icon: {
 						id: "createbigcannons:nethersteel_screw_breech"
 					}
-					id: "130247E42743C485"
+					id: "13813F97715501B8"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:thick_nethersteel_cannon_chamber"
 					}
-					id: "0C3CE180A90389A5"
+					id: "3BE523D63D4FFF15"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:built_up_nethersteel_cannon_chamber"
 					}
-					id: "310526E3636A7EB3"
+					id: "3587F93144FCDF17"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:nethersteel_cannon_chamber"
 					}
-					id: "44478156853E89FF"
+					id: "5A21D470A42DC0AF"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:built_up_nethersteel_cannon_barrel"
 					}
-					id: "2313474D95987307"
+					id: "17866C8A340A9AC6"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:nethersteel_cannon_barrel"
 					}
-					id: "60C7659CF7DBD0C5"
+					id: "75D624B133E38EB4"
 					type: "custom"
 				}
 				{
 					auto: "invisible"
-					id: "4E3872F3511C656A"
+					id: "5F9AED0F83853E57"
 					stage: "nethersteel_cannon"
 					type: "gamestage"
 				}
@@ -2496,31 +2496,31 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["01C1B09C1DBFEB3B"]
+			dependencies: ["645CBEA2F69CF2BD"]
 			icon: {
 				id: "createbigcannons:cast_iron_autocannon_recoil_spring"
 			}
-			id: "1B75A740166B2618"
+			id: "718D4ED727EAA8A9"
 			rewards: [
 				{
 					icon: {
 						id: "createbigcannons:cast_iron_autocannon_breech"
 					}
-					id: "6AC85C0D6C3B293F"
+					id: "3D74368D64669D8A"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:cast_iron_autocannon_recoil_spring"
 					}
-					id: "4A34B1CAAAF5D089"
+					id: "1FE34FEEE1643259"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:cast_iron_autocannon_barrel"
 					}
-					id: "185C3D1C3D67E043"
+					id: "49B92A9D3E287DCE"
 					type: "custom"
 				}
 				{
@@ -2536,7 +2536,7 @@
 						}
 						id: "createbigcannons:autocannon_cartridge"
 					}
-					id: "102379DD87479317"
+					id: "30C0B159697CFD5D"
 					type: "custom"
 				}
 				{
@@ -2552,26 +2552,26 @@
 						}
 						id: "createbigcannons:autocannon_cartridge"
 					}
-					id: "4142A69543F62FAA"
+					id: "5ACC1365DB27C98F"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:machine_gun_round"
 					}
-					id: "305F457E6D301A08"
+					id: "62D7C796A7DB6DD8"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:autocannon_ammo_container"
 					}
-					id: "43E9437CC6A4F0E3"
+					id: "25E3F75C3431E746"
 					type: "custom"
 				}
 				{
 					auto: "invisible"
-					id: "40B7041D496F3935"
+					id: "4BDCF6D1EDD1EEC5"
 					stage: "cast_iron_autocannon"
 					type: "gamestage"
 				}
@@ -2581,38 +2581,38 @@
 		}
 		{
 			dependencies: [
-				"4BCC057F380B4BAB"
-				"1B75A740166B2618"
+				"718D4ED727EAA8A9"
+				"65457F74B282803A"
 			]
 			icon: {
 				id: "createbigcannons:bronze_autocannon_recoil_spring"
 			}
-			id: "746ED17DC30CAA46"
+			id: "5F6F808B63B2423A"
 			rewards: [
 				{
 					icon: {
 						id: "createbigcannons:bronze_autocannon_breech"
 					}
-					id: "120ADFCBAEC98402"
+					id: "3623FDA2244DA5C5"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:bronze_autocannon_recoil_spring"
 					}
-					id: "532EA7A0E795C6E9"
+					id: "102342E258DFD623"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:bronze_autocannon_barrel"
 					}
-					id: "0A8888CEF84AA8F0"
+					id: "3E6A2FF8DF773A92"
 					type: "custom"
 				}
 				{
 					auto: "invisible"
-					id: "28C6EB9C64A40DF7"
+					id: "29646F307D23D72E"
 					stage: "bronze_autocannon"
 					type: "gamestage"
 				}
@@ -2622,44 +2622,69 @@
 		}
 		{
 			dependencies: [
-				"694D60A9968D6A36"
-				"746ED17DC30CAA46"
+				"02E990D2A9DD30EA"
+				"5F6F808B63B2423A"
 			]
 			icon: {
 				id: "createbigcannons:steel_autocannon_recoil_spring"
 			}
-			id: "6417B4CDADF498F4"
+			id: "696CCADBBCFF6EB3"
 			rewards: [
 				{
 					icon: {
 						id: "createbigcannons:steel_autocannon_breech"
 					}
-					id: "706B55424192D90C"
+					id: "308BB2E4061E5DD4"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:steel_autocannon_recoil_spring"
 					}
-					id: "1818E2C66FCC9299"
+					id: "673DE9B819DC60B2"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:steel_autocannon_barrel"
 					}
-					id: "2E21835D56790F83"
+					id: "7787E8A7FC09012B"
 					type: "custom"
 				}
 				{
 					auto: "invisible"
-					id: "5DA93584F2C5E273"
+					id: "63139389F382F6EE"
 					stage: "steel_autocannon"
 					type: "gamestage"
 				}
 			]
 			x: -9.0d
 			y: 9.5d
+		}
+		{
+			id: "2FCAAED9F0D5AEAC"
+			rewards: [{
+				id: "180082B7BB10BE13"
+				item: {
+					components: {
+						"minecraft:custom_data": {
+							GunCurrentAmmoCount: 1
+							GunFireMode: "SEMI"
+							GunId: "create_armorer:special_melee_wrench"
+							HasBulletInBarrel: 1b
+						}
+					}
+					count: 1
+					id: "tacz:modern_kinetic_gun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D17EA6B4731325C"
+				type: "custom"
+			}]
+			x: 9.0d
+			y: 3.5d
 		}
 	]
 }
