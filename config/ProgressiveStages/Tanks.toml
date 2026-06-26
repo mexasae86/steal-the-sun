@@ -1,0 +1,40 @@
+[stage]
+id = "Tanks"
+display_name = "Tanks"
+description = ""
+icon = "create:mechanical_press"
+unlock_message = "&7&lTanks Unlocked!"
+
+# Starting stage: no dependency. To require another stage, add:
+#dependency = "Basic_physics"
+# or multiple:
+   dependency = ["Automobilism", "Logistics_science_pack"]
+
+[items]
+locked = [    
+      "bits_n_tracks:tiny_flanged_cogwheel",
+      "bits_n_tracks:industrial_belt",
+      "bits_n_tracks:flanged_cogwheel",
+      "bits_n_tracks:medium_flanged_cogwheel",
+      "bits_n_tracks:large_flanged_cogwheel",
+      "bits_n_tracks:cog_alignment_lever",
+      "bits_n_tracks:industrial_tiny_flanged_cogwheel",
+      "bits_n_tracks:industrial_flanged_cogwheel",
+      "bits_n_tracks:medium_industrial_flanged_cogwheel",
+      "bits_n_tracks:large_industrial_flanged_cogwheel",
+      "tracks:track_mount",
+      "tracks:small_suspension_track",
+      "tracks:small_track_drive_wheel",
+      "tracks:suspension_key"
+]
+always_unlocked = []
+
+[blocks]
+locked = []
+always_unlocked = []
+
+[dimensions]
+locked = []
+
+# See diamond_age.toml for a complete 2.0 category reference (crops, loot,
+# enchants, pets, screens, mobs, regions, structures, etc.).

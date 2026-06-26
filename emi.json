@@ -1,6 +1,76 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:tracks:suspension_key",
+    "item:bits_n_tracks:cog_alignment_lever",
+    "item:bits_n_tracks:medium_flanged_cogwheel",
+    "item:bits_n_tracks:large_industrial_flanged_cogwheel",
+    "item:bits_n_tracks:industrial_flanged_cogwheel",
+    "item:bits_n_tracks:flanged_cogwheel",
+    "item:bits_n_bobs:large_nixie_tube",
+    "item:bits_n_bobs:lightbulb",
+    "item:bits_n_bobs:headlamp",
+    "item:create:rope_pulley",
+    "item:bits_n_bobs:chain_pulley",
+    "item:bits_n_bobs:cogwheel_chain_carriage",
+    "item:bits_n_bobs:nixie_board",
+    "item:bits_n_bobs:large_flanged_cogwheel",
+    "item:bits_n_bobs:small_flanged_cogwheel",
+    "item:drivebywiretypewriter:typewriter_hub",
+    "item:drivebywire:backup_block",
+    "item:drivebywire:wire",
+    "item:drivebywire:wire_cutter",
+    "item:drivebywire:controller_hub",
+    "item:create:sturdy_sheet",
+    "item:createoreexcavation:drilling_machine",
+    "item:create:empty_blaze_burner",
+    "item:createoreexcavation:vein_atlas",
+    "#item:c:chests",
+    "item:createoreexcavation:vein_finder",
+    "item:minecraft:blaze_powder",
+    "item:minecraft:ender_eye",
+    "item:createoreexcavation:sample_drill",
+    "item:createoreexcavation:extractor",
+    "item:createbigcannons:cannon_welder",
+    "item:create:blaze_burner",
+    {
+      "type": "fluid",
+      "id": "tfmg:propane",
+      "amount": 0
+    },
+    "item:tfmg:propane_bucket",
+    {
+      "type": "fluid",
+      "id": "createbigcannons:molten_nethersteel",
+      "amount": 1080
+    },
+    "item:createbigcannons:unbored_medium_nethersteel_cannon_layer",
+    "fluid:createbigcannons:molten_steel",
+    {
+      "type": "tag",
+      "registry": "minecraft:fluid",
+      "id": "c:molten_steel",
+      "amount": 1080
+    },
+    "item:createbigcannons:unbored_medium_steel_cannon_layer",
+    "item:createbigcannons:medium_steel_cannon_layer",
+    "item:createbigcannons:built_up_steel_cannon_chamber",
+    "item:createbigcannons:thick_steel_cannon_chamber",
+    {
+      "type": "fluid",
+      "id": "createbigcannons:molten_bronze",
+      "amount": 1080
+    },
+    "item:createbigcannons:unbored_bronze_cannon_chamber",
+    "item:createbigcannons:bronze_cannon_chamber",
+    {
+      "type": "fluid",
+      "id": "createbigcannons:molten_cast_iron",
+      "amount": 1080
+    },
+    "item:createbigcannons:unbored_cast_iron_cannon_chamber",
+    "item:createbigcannons:cast_iron_cannon_chamber",
+    "item:createlowheated:basic_burner",
     "item:tfmg:fireproof_chemical_vat",
     "item:tfmg:concrete_hose",
     "item:tfmg:circuit_board",
@@ -138,8 +208,6 @@
     "item:aeronautics:steam_vent",
     "item:create:steam_whistle",
     "item:create:steam_engine",
-    "item:create:empty_blaze_burner",
-    "item:create:blaze_burner",
     "item:create:stockpile_switch",
     "item:create:content_observer",
     "item:simulated:modulating_linked_receiver",
@@ -186,7 +254,6 @@
     "item:create:deployer",
     "item:create:encased_fan",
     "item:create:elevator_pulley",
-    "item:create:rope_pulley",
     "item:create:hose_pulley",
     "item:create:fluid_valve",
     "item:create:spout",
@@ -219,7 +286,6 @@
     "item:create:red_postbox",
     "item:create:black_postbox",
     "item:create:item_hatch",
-    "item:create:sturdy_sheet",
     "item:create:schedule",
     "item:create:packager",
     "item:create:stock_link"
@@ -245,6 +311,9 @@
     },
     "item:aeronautics:levitite_blend_bucket",
     "item:aeronautics:end_stone_powder",
-    "item:simulated:creative_physics_staff"
+    "item:simulated:creative_physics_staff",
+    "item:create:empty_blaze_burner",
+    "item:create:blaze_burner",
+    "item:bits_n_bobs:flywheel_bearing"
   ]
 }

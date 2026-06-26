@@ -16,7 +16,8 @@ locked = [
     "create:mechanical_mixer",
     "create:mechanical_press",
     "create:basin",
-    "create:depot"
+    "create:depot",
+    "createlowheated:basic_burner"
 ]
 always_unlocked = []
 

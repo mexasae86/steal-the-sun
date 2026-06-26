@@ -1,18 +1,3 @@
-/progressivestages validate
-/progressivestages reload
-/progressivestages validate
-/progressivestages reload
-/progressivestages validate
-/progressivestages reload
-/progressivestages validate
-/progressivestages reload
-/progressivestages validate
-/progressivestages reload
-/progressivestages validate
-/progressivestages reload
-/progressivestages validate
-/progressivestages reload
-/progressivestages validate
 /progressivestages reload
 /progressivestages validate
 /progressivestages reload
@@ -42,6 +27,21 @@
 /progressivestages validate
 /progressivestages reload
 /stage revoke INiKkEI kinetic_energy_distribution_2
+/progressivestages validate
+/progressivestages reload
+/progressivestages validate
+/progressivestages reload
+/progressivestages validate
+/progressivestages reload
+/progressivestages validate
+/progressivestages reload
+/reload
+/progressivestages validate
+/progressivestages reload
+/progressivestages validate
+/progressivestages reload
+/progressivestages validate
+/progressivestages reload
 /progressivestages validate
 /progressivestages reload
 /progressivestages validate

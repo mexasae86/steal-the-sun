@@ -6,7 +6,7 @@ icon = "create:mechanical_press"
 unlock_message = "&7&lAdvanced combinators Unlocked!"
 
 # Starting stage: no dependency. To require another stage, add:
-dependency = ["Logistics_science_pack", "Circuit_network"]
+dependency = ["Logistics_science_pack", "Drive_by_wire"]
 # or multiple:
 #   dependency = ["tutorial_complete", "spawn_visit"]
 
@@ -25,7 +25,12 @@ locked = [
       "simulated:modulating_linked_receiver",
       "simulated:redstone_inductor",
       "simulated:linked_typewriter",
-      "simulated:optical_sensor"
+      "simulated:optical_sensor",
+      "drivebywire:backup_block",
+      "drivebywire:controller_hub",
+      "drivebywiretypewriter:typewriter_hub",
+      "bits_n_bobs:nixie_board",
+      "bits_n_bobs:large_nixie_tube"
 ]
 always_unlocked = []
 

@@ -25,7 +25,9 @@ locked = [
       "create:sticker",
       "create:redstone_contact",
       "create:encased_fan",
-      "create:nozzle"
+      "create:nozzle",
+      "bits_n_bobs:chain_pulley",
+      "bits_n_bobs:cogwheel_chain_carriage"
 ]
 always_unlocked = []
 

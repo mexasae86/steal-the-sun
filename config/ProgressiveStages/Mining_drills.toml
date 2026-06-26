@@ -1,0 +1,34 @@
+[stage]
+id = "Mining_drills"
+display_name = "Mining drills"
+description = ""
+icon = "create:mechanical_harvester"
+unlock_message = "&7&lMining drills Unlocked!"
+
+# Starting stage: no dependency. To require another stage, add:
+dependency = "Bore"
+# or multiple:
+#   dependency = ["tutorial_complete", "spawn_visit"]
+
+[items]
+locked = [    
+      "createoreexcavation:drilling_machine",
+      "createoreexcavation:extractor",
+      "createoreexcavation:sample_drill",
+      "createoreexcavation:drill",
+      "createoreexcavation:diamond_drill",
+      "createoreexcavation:netherite_drill",
+      "createoreexcavation:vein_finder",
+      "createoreexcavation:vein_atlas"
+]
+always_unlocked = []
+
+[blocks]
+locked = []
+always_unlocked = []
+
+[dimensions]
+locked = []
+
+# See diamond_age.toml for a complete 2.0 category reference (crops, loot,
+# enchants, pets, screens, mobs, regions, structures, etc.).

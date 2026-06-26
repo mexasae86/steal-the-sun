@@ -147,6 +147,13 @@
 					id: "27DDA03FAF0DEAE2"
 					type: "custom"
 				}
+				{
+					icon: {
+						id: "createlowheated:basic_burner"
+					}
+					id: "694A41086C9446EF"
+					type: "custom"
+				}
 			]
 			x: -1.5d
 			y: 3.5d
@@ -444,6 +451,20 @@
 						id: "create:nozzle"
 					}
 					id: "69883ABF289D51C0"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_bobs:cogwheel_chain_carriage"
+					}
+					id: "135AE83590C09800"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_bobs:chain_pulley"
+					}
+					id: "1446A58241C79A18"
 					type: "custom"
 				}
 			]
@@ -1002,8 +1023,8 @@
 		}
 		{
 			dependencies: [
-				"2D3D43D08F46F1DE"
 				"2614A07F6414C8BE"
+				"5AA31817C68C9DED"
 			]
 			icon: {
 				id: "create:pulse_repeater"
@@ -1112,6 +1133,41 @@
 						id: "simulated:optical_sensor"
 					}
 					id: "2B475805293E9D69"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "drivebywire:backup_block"
+					}
+					id: "152CCCEBD7A6CB27"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "drivebywire:controller_hub"
+					}
+					id: "1821D3DC056B447C"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "drivebywiretypewriter:typewriter_hub"
+					}
+					id: "17E13C8B3131D7F9"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_bobs:nixie_board"
+					}
+					id: "19AFD5E997C037DE"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_bobs:large_nixie_tube"
+					}
+					id: "5E7DEBA8AAE4B6BA"
 					type: "custom"
 				}
 			]
@@ -2660,6 +2716,231 @@
 			]
 			x: -9.0d
 			y: 9.5d
+		}
+		{
+			dependencies: [
+				"43209B46F1BE6235"
+				"2614A07F6414C8BE"
+			]
+			icon: {
+				id: "createoreexcavation:drilling_machine"
+			}
+			id: "5C6038F4CAFDA6E2"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "49EDCFA3A2FE8185"
+					stage: "Mining_drills"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "createoreexcavation:drilling_machine"
+					}
+					id: "180C01568E1A706E"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "createoreexcavation:extractor"
+					}
+					id: "042A5E29A1E6CB0A"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "createoreexcavation:sample_drill"
+					}
+					id: "1F6C1846665EB631"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "createoreexcavation:drill"
+					}
+					id: "45A1B479357D98A9"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "createoreexcavation:diamond_drill"
+					}
+					id: "7B5FC8D0A222E3E6"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "createoreexcavation:netherite_drill"
+					}
+					id: "50DFE5D35E242D6C"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "createoreexcavation:vein_finder"
+					}
+					id: "2F2D5FE9F9B995D0"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "createoreexcavation:vein_atlas"
+					}
+					id: "5EFF512AA480B02C"
+					type: "custom"
+				}
+			]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2D3D43D08F46F1DE"]
+			icon: {
+				id: "drivebywire:wire"
+			}
+			id: "5AA31817C68C9DED"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "2E5FD553BD2D4D34"
+					stage: "Drive_by_wire"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "drivebywire:wire"
+					}
+					id: "6F45709D4772FE87"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "drivebywire:wire_cutter"
+					}
+					id: "434D24D409256177"
+					type: "custom"
+				}
+			]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"7F83F11058174280"
+				"2614A07F6414C8BE"
+			]
+			icon: {
+				id: "bits_n_tracks:industrial_belt"
+			}
+			id: "7A7C2432D44305D0"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "51230A6140EECDC9"
+					stage: "Tanks"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "bits_n_tracks:tiny_flanged_cogwheel"
+					}
+					id: "3860460CE431F9EC"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_tracks:industrial_belt"
+					}
+					id: "621AD07CA7F6D3BD"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_tracks:medium_flanged_cogwheel"
+					}
+					id: "71F5099DE9209D24"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_tracks:flanged_cogwheel"
+					}
+					id: "407D9D8ABC0F6EE8"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_tracks:large_flanged_cogwheel"
+					}
+					id: "117E69D6399E4C0D"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_tracks:cog_alignment_lever"
+					}
+					id: "413D08AC38298EE6"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_tracks:industrial_tiny_flanged_cogwheel"
+					}
+					id: "4B3131A1B9A59875"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_tracks:industrial_flanged_cogwheel"
+					}
+					id: "4A28E716EE82ED0C"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_tracks:medium_industrial_flanged_cogwheel"
+					}
+					id: "73F6A3EA448F56A5"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_tracks:large_industrial_flanged_cogwheel"
+					}
+					id: "410A1929D5CC15EB"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tracks:track_mount"
+					}
+					id: "5EFF264D76398E84"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tracks:small_suspension_track"
+					}
+					id: "1EFD91340C00A544"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tracks:small_track_drive_wheel"
+					}
+					id: "299453C064B607FB"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tracks:suspension_key"
+					}
+					id: "3F80B8D2EFC180F4"
+					type: "custom"
+				}
+			]
+			x: 7.5d
+			y: 6.5d
 		}
 	]
 }
