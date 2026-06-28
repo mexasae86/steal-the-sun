@@ -39,8 +39,8 @@
 #  17.  [structures]         — entry push-back + per-structure rule flags
 #  18.  [[regions]]          — 3D boxes with flags + debuffs
 #  19.  [curios]             — per-slot gating when Curios is installed
-#  20.  KubeJS integration  — scripting hooks
-#  21.  Lootr integration   — per-player chests, filter chain
+#  20.  KubeJS integration   — scripting hooks
+#  21.  Lootr integration    — per-player chests, filter chain
 #  22.  [enforcement]        — per-stage exemptions to global enforcement
 #  23.  TROUBLESHOOTING      — "why isn't my lock working?"
 # ============================================================================

@@ -1,0 +1,24 @@
+[stage]
+id             = "torque_tacz_ca"
+display_name   = "Torque Revolver"
+description     = "Unlocked after the Special Melee Wrench."
+icon           = "minecraft:stone_sword"
+unlock_message = "&6&lTorque Revolver Unlocked!"
+dependency     = "wrench_tacz_ca"
+
+[items]
+locked = []
+always_unlocked = []
+
+[recipes]
+# Verify these recipe IDs against /progressivestages validate or data/createimmersivetacz/recipe/
+# before relying on this — they're transformed from JEI breadcrumb strings
+# (jei:/createimmersivetacz/X/Y -> createimmersivetacz:X/Y), not confirmed against the actual recipe JSONs.
+locked_ids = [
+	"createimmersivetacz:guns/revolver",
+	"createimmersivetacz:attachments/bigger_cylinder",
+	"createimmersivetacz:attachments/wooden_grip",
+	"createimmersivetacz:attachments/simple_mechanical_sight",
+	"createimmersivetacz:ammo/rimmed_blunt_ap_casing",
+	"createimmersivetacz:ammo/rimmed_blunt_ap_casing_fill",
+]

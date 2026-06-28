@@ -1,0 +1,20 @@
+[stage]
+id             = "m1_tacz_ca"
+display_name   = "Classical M1"
+description     = "Convergence point: requires BOTH the Torque Revolver and the Roller Assault Rifle."
+icon           = "minecraft:golden_sword"
+unlock_message = "&6&lClassical M1 Unlocked!"
+dependency     = ["torque_tacz_ca", "roller_tacz_ca"]
+
+[items]
+locked = []
+always_unlocked = []
+
+[recipes]
+# Verify these recipe IDs against /progressivestages validate or data/createimmersivetacz/recipe/
+# before relying on this — they're transformed from JEI breadcrumb strings
+# (jei:/createimmersivetacz/X/Y -> createimmersivetacz:X/Y), not confirmed against the actual recipe JSONs.
+locked_ids = [
+	"createimmersivetacz:guns/semi_rifle",
+	"createimmersivetacz:attachments/medium_distance_scope",
+]

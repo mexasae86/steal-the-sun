@@ -6,8 +6,8 @@ icon = "createbigcannons:steel_screw_breech"
 unlock_message = "Steel Cannon is unlocked! Modernity."
 dependency = "bronze_cannon"
 
-[recipes]
-locked_items = [
+[items]
+locked = [
 	"createbigcannons:steel_sliding_breech",
     "createbigcannons:steel_quickfiring_breech",
     "createbigcannons:steel_screw_breech",

@@ -6,8 +6,8 @@ icon = "createbigcannons:cast_iron_autocannon_recoil_spring"
 unlock_message = "Cast Iron Autocannon is unlocked! Pitipiwpiw wiw wiw!"
 dependency = "cast_iron_cannon"
 
-[recipes]
-locked_items = [
+[items]
+locked = [
 	"createbigcannons:empty_autocannon_cartridge",
     "createbigcannons:filled_autocannon_cartridge",
     "createbigcannons:autocannon_cartridge",

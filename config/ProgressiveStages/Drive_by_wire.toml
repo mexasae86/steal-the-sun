@@ -1,23 +1,19 @@
 [stage]
-id = "Automation"
-display_name = "Automation"
+id = "Drive_by_wire"
+display_name = "Drive by wire"
 description = ""
 icon = "create:mechanical_press"
-unlock_message = "&7&lAutomation Unlocked!"
+unlock_message = "&7&lDrive by wire Unlocked!"
 
 # Starting stage: no dependency. To require another stage, add:
-dependency = "Automation_science_pack"
+dependency = "Circuit_network"
 # or multiple:
 #   dependency = ["tutorial_complete", "spawn_visit"]
 
 [items]
 locked = [    
-    "create:millstone",
-    "create:mechanical_mixer",
-    "create:mechanical_press",
-    "create:basin",
-    "create:depot",
-    "createlowheated:basic_burner"
+    "drivebywire:wire",
+    "drivebywire:wire_cutter"
 ]
 always_unlocked = []
 

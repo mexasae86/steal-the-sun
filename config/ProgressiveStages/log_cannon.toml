@@ -6,8 +6,8 @@ icon = "createbigcannons:log_cannon_end"
 unlock_message = "Log Cannon is unlocked! Boom-boom!"
 dependency = ""
 
-[recipes]
-locked_items = [
+[items]
+locked = [
 	"createbigcannons:log_cannon_chamber",
     "createbigcannons:log_cannon_end",
     "createbigcannons:solid_shot",

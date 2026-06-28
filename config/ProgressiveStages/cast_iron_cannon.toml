@@ -6,8 +6,8 @@ icon = "createbigcannons:cast_iron_cannon_end"
 unlock_message = "Cast Iron Cannon is unlocked! Zzzzzooommm!"
 dependency = "wrought_iron_cannon"
 
-[recipes]
-locked_items = [
+[items]
+locked = [
 	"createbigcannons:recoil_spring",
     "createbigcannons:spring_wire",
     "createbigcannons:cast_iron_cannon_end",

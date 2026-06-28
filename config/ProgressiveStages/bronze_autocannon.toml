@@ -6,8 +6,8 @@ icon = "bronze_autocannon_recoil_spring"
 unlock_message = "Bronze Autocannon is unlocked! Heavier hardware, heavier hitter."
 dependency = ["bronze_cannon", "cast_iron_autocannon"]
 
-[recipes]
-locked_items = [
+[items]
+locked = [
 	"createbigcannons:bronze_autocannon_breech",
     "createbigcannons:bronze_autocannon_recoil_spring",
     "createbigcannons:bronze_autocannon_barrel",

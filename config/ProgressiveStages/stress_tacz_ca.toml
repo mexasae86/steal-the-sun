@@ -1,0 +1,21 @@
+[stage]
+id             = "stress_tacz_ca"
+display_name   = "Stress Auto Pistol"
+description     = "Unlocked after the Torque Revolver."
+icon           = "minecraft:iron_sword"
+unlock_message = "&6&lStress Auto Pistol Unlocked!"
+dependency     = "torque_tacz_ca"
+
+[items]
+locked = []
+always_unlocked = []
+
+[recipes]
+# Verify these recipe IDs against /progressivestages validate or data/createimmersivetacz/recipe/
+# before relying on this — they're transformed from JEI breadcrumb strings
+# (jei:/createimmersivetacz/X/Y -> createimmersivetacz:X/Y), not confirmed against the actual recipe JSONs.
+locked_ids = [
+	"createimmersivetacz:guns/pistol",
+	"createimmersivetacz:ammo/pneumatic_pistol_casing",
+	"createimmersivetacz:ammo/pneumatic_pistol_casing_fill",
+]

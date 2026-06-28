@@ -6,8 +6,8 @@ icon = "createbigcannons:bronze_cannon_end"
 unlock_message = "Bronze Cannon is unlocked! Tsar Pushka!"
 dependency = "cast_iron_cannon"
 
-[recipes]
-locked_items = [
+[items]
+locked = [
 	"createbigcannons:bronze_cannon_end",
     "createbigcannons:bronze_sliding_breech",
     "createbigcannons:bronze_quickfiring_breech",

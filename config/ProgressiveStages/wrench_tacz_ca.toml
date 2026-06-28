@@ -1,0 +1,20 @@
+[stage]
+id             = "wrench_tacz_ca"
+display_name   = "Special Melee Wrench"
+description     = "Root of the Create Armorer firearms tree."
+icon           = "minecraft:wooden_sword"
+unlock_message = "&6&lSpecial Melee Wrench Unlocked!"
+dependency     = ""
+
+[items]
+locked = []
+always_unlocked = []
+
+[recipes]
+# Verify these recipe IDs against /progressivestages validate or data/createimmersivetacz/recipe/
+# before relying on this — they're transformed from JEI breadcrumb strings
+# (jei:/createimmersivetacz/X/Y -> createimmersivetacz:X/Y), not confirmed against the actual recipe JSONs.
+locked_ids = [
+	"createimmersivetacz:guns/melee_wrench",
+	"createimmersivetacz:attachments/wrench_iron_spike",
+]

@@ -6,8 +6,8 @@ icon = "createbigcannons:nethersteel_screw_breech"
 unlock_message = "Nethersteel Cannon is unlocked! Dominance."
 dependency = "steel_cannon"
 
-[recipes]
-locked_items = [
+[items]
+locked = [
 	"createbigcannons:nethersteel_screw_breech",
     "createbigcannons:thick_nethersteel_cannon_chamber",
     "createbigcannons:built_up_nethersteel_cannon_chamber",

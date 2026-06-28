@@ -1,0 +1,22 @@
+[stage]
+id             = "salamander_tacz_ca"
+display_name   = "Salamander 40mm Cannon"
+description     = "End of the heavy branch. Unlocked after the Devastator Grenade Launcher."
+icon           = "minecraft:netherite_sword"
+unlock_message = "&6&lSalamander 40mm Cannon Unlocked!"
+dependency     = "devastator_tacz_ca"
+
+[items]
+locked = []
+always_unlocked = []
+
+[recipes]
+# Verify these recipe IDs against /progressivestages validate or data/createimmersivetacz/recipe/
+# before relying on this — they're transformed from JEI breadcrumb strings
+# (jei:/createimmersivetacz/X/Y -> createimmersivetacz:X/Y), not confirmed against the actual recipe JSONs.
+locked_ids = [
+	"createimmersivetacz:guns/field_gun",
+	"createimmersivetacz:attachments/blasting_protocol",
+	"createimmersivetacz:ammo/40mmhe_casing",
+	"createimmersivetacz:ammo/40mmhe_casing_fill",
+]

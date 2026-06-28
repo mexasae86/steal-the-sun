@@ -1,0 +1,21 @@
+[stage]
+id             = "stone_tacz_ca"
+display_name   = "Stone Double-Barrel Shotgun"
+description     = "Unlocked after the Classical M1. Starts the shotgun/heavy branch."
+icon           = "minecraft:diamond_sword"
+unlock_message = "&6&lStone Double-Barrel Shotgun Unlocked!"
+dependency     = "m1_tacz_ca"
+
+[items]
+locked = []
+always_unlocked = []
+
+[recipes]
+# Verify these recipe IDs against /progressivestages validate or data/createimmersivetacz/recipe/
+# before relying on this — they're transformed from JEI breadcrumb strings
+# (jei:/createimmersivetacz/X/Y -> createimmersivetacz:X/Y), not confirmed against the actual recipe JSONs.
+locked_ids = [
+	"createimmersivetacz:guns/double_barrel_shotgun",
+	"createimmersivetacz:ammo/twelve_gauge_shell",
+	"createimmersivetacz:ammo/twelve_gauge_shell_fill",
+]

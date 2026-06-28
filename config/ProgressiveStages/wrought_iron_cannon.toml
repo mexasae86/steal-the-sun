@@ -6,8 +6,8 @@ icon = "createbigcannons:wrought_iron_cannon_end"
 unlock_message = "Wrought Iron Cannon is unlocked! Proper firepower."
 dependency = "log_cannon"
 
-[recipes]
-locked_items = [
+[items]
+locked = [
 	"createbigcannons:wrought_iron_cannon_end",
     "createbigcannons:wrought_iron_cannon_chamber",
     "createbigcannons:wrought_iron_drop_mortar_end",

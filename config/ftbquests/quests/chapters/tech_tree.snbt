@@ -147,6 +147,13 @@
 					id: "27DDA03FAF0DEAE2"
 					type: "custom"
 				}
+				{
+					icon: {
+						id: "createlowheated:basic_burner"
+					}
+					id: "694A41086C9446EF"
+					type: "custom"
+				}
 			]
 			x: -1.5d
 			y: 3.5d
@@ -444,6 +451,20 @@
 						id: "create:nozzle"
 					}
 					id: "69883ABF289D51C0"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_bobs:cogwheel_chain_carriage"
+					}
+					id: "135AE83590C09800"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_bobs:chain_pulley"
+					}
+					id: "1446A58241C79A18"
 					type: "custom"
 				}
 			]
@@ -1002,8 +1023,8 @@
 		}
 		{
 			dependencies: [
-				"2D3D43D08F46F1DE"
 				"2614A07F6414C8BE"
+				"5AA31817C68C9DED"
 			]
 			icon: {
 				id: "create:pulse_repeater"
@@ -1112,6 +1133,41 @@
 						id: "simulated:optical_sensor"
 					}
 					id: "2B475805293E9D69"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "drivebywire:backup_block"
+					}
+					id: "152CCCEBD7A6CB27"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "drivebywire:controller_hub"
+					}
+					id: "1821D3DC056B447C"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "drivebywiretypewriter:typewriter_hub"
+					}
+					id: "17E13C8B3131D7F9"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_bobs:nixie_board"
+					}
+					id: "19AFD5E997C037DE"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_bobs:large_nixie_tube"
+					}
+					id: "5E7DEBA8AAE4B6BA"
 					type: "custom"
 				}
 			]
@@ -1982,164 +2038,388 @@
 			y: 11.0d
 		}
 		{
+			dependencies: [
+				"43209B46F1BE6235"
+				"2614A07F6414C8BE"
+			]
+			icon: {
+				id: "createoreexcavation:drilling_machine"
+			}
+			id: "5C6038F4CAFDA6E2"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "49EDCFA3A2FE8185"
+					stage: "Mining_drills"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "createoreexcavation:drilling_machine"
+					}
+					id: "180C01568E1A706E"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "createoreexcavation:extractor"
+					}
+					id: "042A5E29A1E6CB0A"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "createoreexcavation:sample_drill"
+					}
+					id: "1F6C1846665EB631"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "createoreexcavation:drill"
+					}
+					id: "45A1B479357D98A9"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "createoreexcavation:diamond_drill"
+					}
+					id: "7B5FC8D0A222E3E6"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "createoreexcavation:netherite_drill"
+					}
+					id: "50DFE5D35E242D6C"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "createoreexcavation:vein_finder"
+					}
+					id: "2F2D5FE9F9B995D0"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "createoreexcavation:vein_atlas"
+					}
+					id: "5EFF512AA480B02C"
+					type: "custom"
+				}
+			]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2D3D43D08F46F1DE"]
+			icon: {
+				id: "drivebywire:wire"
+			}
+			id: "5AA31817C68C9DED"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "2E5FD553BD2D4D34"
+					stage: "Drive_by_wire"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "drivebywire:wire"
+					}
+					id: "6F45709D4772FE87"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "drivebywire:wire_cutter"
+					}
+					id: "434D24D409256177"
+					type: "custom"
+				}
+			]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"7F83F11058174280"
+				"2614A07F6414C8BE"
+			]
+			icon: {
+				id: "bits_n_tracks:industrial_belt"
+			}
+			id: "7A7C2432D44305D0"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "51230A6140EECDC9"
+					stage: "Tanks"
+					type: "gamestage"
+				}
+				{
+					icon: {
+						id: "bits_n_tracks:tiny_flanged_cogwheel"
+					}
+					id: "3860460CE431F9EC"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_tracks:industrial_belt"
+					}
+					id: "621AD07CA7F6D3BD"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_tracks:medium_flanged_cogwheel"
+					}
+					id: "71F5099DE9209D24"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_tracks:flanged_cogwheel"
+					}
+					id: "407D9D8ABC0F6EE8"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_tracks:large_flanged_cogwheel"
+					}
+					id: "117E69D6399E4C0D"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_tracks:cog_alignment_lever"
+					}
+					id: "413D08AC38298EE6"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_tracks:industrial_tiny_flanged_cogwheel"
+					}
+					id: "4B3131A1B9A59875"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_tracks:industrial_flanged_cogwheel"
+					}
+					id: "4A28E716EE82ED0C"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_tracks:medium_industrial_flanged_cogwheel"
+					}
+					id: "73F6A3EA448F56A5"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "bits_n_tracks:large_industrial_flanged_cogwheel"
+					}
+					id: "410A1929D5CC15EB"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tracks:track_mount"
+					}
+					id: "5EFF264D76398E84"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tracks:small_suspension_track"
+					}
+					id: "1EFD91340C00A544"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tracks:small_track_drive_wheel"
+					}
+					id: "299453C064B607FB"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "tracks:suspension_key"
+					}
+					id: "3F80B8D2EFC180F4"
+					type: "custom"
+				}
+			]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
 			icon: {
 				id: "createbigcannons:log_cannon_end"
 			}
-			id: "6314AC3EB4FDCD63"
+			id: "7BE99284BFC959B1"
 			rewards: [
 				{
 					icon: {
 						id: "createbigcannons:log_cannon_end"
 					}
-					id: "63B4335E7E34C1CE"
+					id: "5B05DD9D401E8723"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:log_cannon_chamber"
 					}
-					id: "345EAA7BC199B74B"
+					id: "168BFF72D83D10EB"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:cannon_carriage"
 					}
-					id: "382F789D8351D8E4"
+					id: "6B736F6BC8E34682"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:solid_shot"
 					}
-					id: "0C15F553148C5A4B"
+					id: "23806C107BF16AE9"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:ap_shot"
 					}
-					id: "21B3F42E61F662BE"
+					id: "71420951123E29CE"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:mortar_stone"
 					}
-					id: "56B59778DE1399E6"
+					id: "16DC311FBDE67392"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:bag_of_grapeshot"
 					}
-					id: "62AB05D0B5179591"
+					id: "0329D7669543F92A"
 					type: "custom"
 				}
 				{
-					id: "171ECC07F6DAD020"
-					item: {
-						count: 1
+					icon: {
 						id: "createbigcannons:ram_rod"
 					}
-					type: "item"
+					id: "5A5C17BB63A5711B"
+					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:worm"
 					}
-					id: "44FAB4FF4C3D32B7"
+					id: "1E265725F196FD06"
 					type: "custom"
 				}
 				{
 					auto: "invisible"
-					id: "5858BD1B8693C61C"
+					id: "22014777218BFB9D"
 					stage: "log_cannon"
 					type: "gamestage"
 				}
 			]
 			tasks: [{
-				id: "4A131C8AC16FCCAF"
+				id: "0E27131F6ABDCBC5"
 				type: "checkmark"
 			}]
-			x: -7.5d
-			y: 3.5d
+			x: 18.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["6314AC3EB4FDCD63"]
+			dependencies: ["7BE99284BFC959B1"]
 			icon: {
 				id: "createbigcannons:wrought_iron_cannon_end"
 			}
-			id: "796F358298DC8C80"
+			id: "1CB139A3456E2CA1"
 			rewards: [
 				{
 					icon: {
 						id: "createbigcannons:wrought_iron_cannon_end"
 					}
-					id: "3FED6324B931D801"
+					id: "0851AC30536A9CF2"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:wrought_iron_drop_mortar_end"
 					}
-					id: "32B01C535386B422"
+					id: "1BF9353658AE8010"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:wrought_iron_cannon_chamber"
 					}
-					id: "72DDA72BF1003DF0"
+					id: "16C77351710AF250"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:drop_mortar_shell"
 					}
-					id: "1258E627E7B19FA9"
+					id: "3F0B3BEE617AB5DE"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:he_shell"
 					}
-					id: "43E3676F29FF9337"
+					id: "799F09C54F04DBBC"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:ap_shell"
 					}
-					id: "2F2AB6D744D64F3F"
+					id: "5F16D05037FC2442"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:shrapnel_shell"
 					}
-					id: "1E171BEC2806643D"
+					id: "0BD12A467F52296E"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:fluid_shell"
 					}
-					id: "20BABA8C6BC0098A"
+					id: "02CD76F61F4855F4"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:smoke_shell"
 					}
-					id: "7EC2A0BA4C2B01EC"
+					id: "185BE43A3355A760"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:impact_fuze"
 					}
-					id: "5472E55FFF1C5C0B"
+					id: "61C433C0D9BF93C4"
 					type: "custom"
 				}
 				{
@@ -2149,7 +2429,7 @@
 						}
 						id: "createbigcannons:timed_fuze"
 					}
-					id: "0C1B342D603AFED7"
+					id: "6477874D1A7582E8"
 					type: "custom"
 				}
 				{
@@ -2159,181 +2439,181 @@
 						}
 						id: "createbigcannons:proximity_fuze"
 					}
-					id: "50ABCDCE3BFF1ED1"
+					id: "66E3210EFE99C2F7"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:wired_fuze"
 					}
-					id: "1C6CF2EB7E2BCC1D"
+					id: "1B1259C10A405F07"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:inertia_fuze"
 					}
-					id: "475A59C88B4E3129"
+					id: "3EE6A7493F61496B"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:tracer_tip"
 					}
-					id: "76580F0561E1E848"
+					id: "1D60E5C8E048B5A6"
 					type: "custom"
 				}
 				{
 					auto: "invisible"
-					id: "79C67ADC41281E35"
+					id: "5FDD6A0CA4B81BCC"
 					stage: "wrought_iron_cannon"
 					type: "gamestage"
 				}
 			]
-			x: -7.5d
-			y: 5.0d
+			x: 18.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["796F358298DC8C80"]
+			dependencies: ["1CB139A3456E2CA1"]
 			icon: {
 				id: "createbigcannons:cast_iron_cannon_end"
 			}
-			id: "01C1B09C1DBFEB3B"
+			id: "7B2AD4A3ECD061F0"
 			rewards: [
 				{
 					icon: {
 						id: "createbigcannons:cast_iron_cannon_end"
 					}
-					id: "08B8DCF84A02810B"
+					id: "2C320DB1C064A98A"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:cast_iron_sliding_breech"
 					}
-					id: "1E0BDDFC77DEC656"
+					id: "6278D8CCB12CC174"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:cast_iron_quickfiring_breech"
 					}
-					id: "16DA3DBEE21B4A71"
+					id: "3DF2EC7D86438B9F"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:cast_iron_cannon_chamber"
 					}
-					id: "18637CAEAE42C8B7"
+					id: "576A7F43FE05DA6C"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:cast_iron_cannon_barrel"
 					}
-					id: "5E07820CF1276E18"
+					id: "4BA9E2C84BE0CBE2"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:cannon_drill"
 					}
-					id: "67BACF198E97FA2B"
+					id: "3871564B01114AF3"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:cannon_loader"
 					}
-					id: "646B0FFF7B3AC78E"
+					id: "09246C3A0A7CEB32"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:ram_head"
 					}
-					id: "6BB05929F1E00369"
+					id: "624706D8EF197620"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:worm_head"
 					}
-					id: "32BCFF6AB94F66C0"
+					id: "5F41676A5F12C808"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:cannon_mount"
 					}
-					id: "0B63C4EC7C5C90BA"
+					id: "0E402D1C4C9A0ED1"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:fixed_cannon_mount"
 					}
-					id: "796F0940AC1E1003"
+					id: "7732C4427C09113A"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:cannon_mount_extension"
 					}
-					id: "760A53D530C43725"
+					id: "6781C4803C7C6A3A"
 					type: "custom"
 				}
 				{
 					auto: "invisible"
-					id: "5E2646D6E87AB2A5"
+					id: "0C640B029C8BC8B5"
 					stage: "cast_iron_cannon"
 					type: "gamestage"
 				}
 			]
-			x: -7.5d
-			y: 6.5d
+			x: 18.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["01C1B09C1DBFEB3B"]
+			dependencies: ["7B2AD4A3ECD061F0"]
 			icon: {
 				id: "createbigcannons:bronze_cannon_end"
 			}
-			id: "4BCC057F380B4BAB"
+			id: "58E7DB3FB5A6628D"
 			rewards: [
 				{
 					icon: {
 						id: "createbigcannons:bronze_cannon_end"
 					}
-					id: "0D564F03DCD1526C"
+					id: "56C09DD328ACB330"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:bronze_sliding_breech"
 					}
-					id: "2A6F46CC9496B9F3"
+					id: "0145F74808EFE454"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:bronze_quickfiring_breech"
 					}
-					id: "43F28489E97129CF"
+					id: "03D5DBB277E80C3F"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:bronze_cannon_chamber"
 					}
-					id: "6911A346F1B676E3"
+					id: "58A94002B469B67B"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:bronze_cannon_barrel"
 					}
-					id: "16D907F1D5186841"
+					id: "7D51320606D4286F"
 					type: "custom"
 				}
 				{
@@ -2343,184 +2623,184 @@
 						}
 						id: "createbigcannons:big_cartridge"
 					}
-					id: "1170475367263D6E"
+					id: "558AFDE60C2D8A33"
 					type: "custom"
 				}
 				{
 					auto: "invisible"
-					id: "689AF3AACFC3DEA7"
+					id: "45DCAEAE268547B5"
 					stage: "bronze_cannon"
 					type: "gamestage"
 				}
 			]
-			x: -7.5d
-			y: 8.0d
+			x: 18.5d
+			y: 6.5d
 		}
 		{
-			dependencies: ["4BCC057F380B4BAB"]
+			dependencies: ["58E7DB3FB5A6628D"]
 			icon: {
 				id: "createbigcannons:steel_screw_breech"
 			}
-			id: "694D60A9968D6A36"
+			id: "21D8AC6BE0AABCC4"
 			rewards: [
 				{
 					icon: {
 						id: "createbigcannons:steel_sliding_breech"
 					}
-					id: "1DDD5481F6A221BB"
+					id: "2C04E2F079B33B92"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:steel_quickfiring_breech"
 					}
-					id: "6A4DB2E18929B10C"
+					id: "21FB66D0F0917251"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:steel_screw_breech"
 					}
-					id: "5905C0160B5DB8AD"
+					id: "1591858E1985BFDA"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:thick_steel_cannon_chamber"
 					}
-					id: "6EF242CC05AC1389"
+					id: "17BA3622F08DF6FF"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:built_up_steel_cannon_chamber"
 					}
-					id: "3155479B42AD79FB"
+					id: "46A185D37851FB13"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:steel_cannon_chamber"
 					}
-					id: "02DFE26586B75DC5"
+					id: "2F3CF4258F8C3210"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:built_up_steel_cannon_barrel"
 					}
-					id: "744C6E1C9A541C7B"
+					id: "7933B77477B5CF45"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:steel_cannon_barrel"
 					}
-					id: "054E0CB7D1325551"
+					id: "1660078825A949D1"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:cannon_builder"
 					}
-					id: "5A66BDD45F1D62C6"
+					id: "1ECEAC996D862B1C"
 					type: "custom"
 				}
 				{
 					auto: "invisible"
-					id: "41F9739D7F14E259"
+					id: "03CD0C0B4559FCF4"
 					stage: "steel_cannon"
 					type: "gamestage"
 				}
 			]
-			x: -7.5d
-			y: 9.5d
+			x: 18.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["694D60A9968D6A36"]
+			dependencies: ["21D8AC6BE0AABCC4"]
 			icon: {
 				id: "createbigcannons:nethersteel_screw_breech"
 			}
-			id: "4F1034105478267B"
+			id: "7B000B8F8CF3BEFB"
 			rewards: [
 				{
 					icon: {
 						id: "createbigcannons:nethersteel_screw_breech"
 					}
-					id: "130247E42743C485"
+					id: "57C061A3DE1633D5"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:thick_nethersteel_cannon_chamber"
 					}
-					id: "0C3CE180A90389A5"
+					id: "5700DC0E43AE2DC6"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:built_up_nethersteel_cannon_chamber"
 					}
-					id: "310526E3636A7EB3"
+					id: "5DDB1A324A5F58F9"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:nethersteel_cannon_chamber"
 					}
-					id: "44478156853E89FF"
+					id: "56F5CF283E847361"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:built_up_nethersteel_cannon_barrel"
 					}
-					id: "2313474D95987307"
+					id: "670F32E626A55220"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:nethersteel_cannon_barrel"
 					}
-					id: "60C7659CF7DBD0C5"
+					id: "33D855304C24F792"
 					type: "custom"
 				}
 				{
 					auto: "invisible"
-					id: "4E3872F3511C656A"
+					id: "022926CB05D16FE5"
 					stage: "nethersteel_cannon"
 					type: "gamestage"
 				}
 			]
-			x: -7.5d
+			x: 18.5d
 			y: 11.0d
 		}
 		{
-			dependencies: ["01C1B09C1DBFEB3B"]
+			dependencies: ["7B2AD4A3ECD061F0"]
 			icon: {
 				id: "createbigcannons:cast_iron_autocannon_recoil_spring"
 			}
-			id: "1B75A740166B2618"
+			id: "39AFA65F61D582BB"
 			rewards: [
 				{
 					icon: {
 						id: "createbigcannons:cast_iron_autocannon_breech"
 					}
-					id: "6AC85C0D6C3B293F"
+					id: "513B81CF60FABF0C"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:cast_iron_autocannon_recoil_spring"
 					}
-					id: "4A34B1CAAAF5D089"
+					id: "78FB14EC4E8B663B"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:cast_iron_autocannon_barrel"
 					}
-					id: "185C3D1C3D67E043"
+					id: "42974A3A0C14EBCD"
 					type: "custom"
 				}
 				{
@@ -2536,7 +2816,7 @@
 						}
 						id: "createbigcannons:autocannon_cartridge"
 					}
-					id: "102379DD87479317"
+					id: "0A84A21BEED80354"
 					type: "custom"
 				}
 				{
@@ -2552,114 +2832,720 @@
 						}
 						id: "createbigcannons:autocannon_cartridge"
 					}
-					id: "4142A69543F62FAA"
+					id: "2A25F80A383AB1BC"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:machine_gun_round"
 					}
-					id: "305F457E6D301A08"
+					id: "1F1BB8816062483E"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:autocannon_ammo_container"
 					}
-					id: "43E9437CC6A4F0E3"
+					id: "63125A1DCE9B1B05"
 					type: "custom"
 				}
 				{
 					auto: "invisible"
-					id: "40B7041D496F3935"
+					id: "290956DCF8A5D34A"
 					stage: "cast_iron_autocannon"
 					type: "gamestage"
 				}
 			]
-			x: -9.0d
+			x: 20.0d
 			y: 6.5d
 		}
 		{
 			dependencies: [
-				"4BCC057F380B4BAB"
-				"1B75A740166B2618"
+				"39AFA65F61D582BB"
+				"58E7DB3FB5A6628D"
 			]
 			icon: {
 				id: "createbigcannons:bronze_autocannon_recoil_spring"
 			}
-			id: "746ED17DC30CAA46"
+			id: "5EC78C2225694A11"
 			rewards: [
 				{
 					icon: {
 						id: "createbigcannons:bronze_autocannon_breech"
 					}
-					id: "120ADFCBAEC98402"
+					id: "0F8D958A6E992EA8"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:bronze_autocannon_recoil_spring"
 					}
-					id: "532EA7A0E795C6E9"
+					id: "2D024CAF8F93C8A7"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:bronze_autocannon_barrel"
 					}
-					id: "0A8888CEF84AA8F0"
+					id: "3D5B03FF4BDEA70C"
 					type: "custom"
 				}
 				{
 					auto: "invisible"
-					id: "28C6EB9C64A40DF7"
+					id: "336BB62B7B742D88"
 					stage: "bronze_autocannon"
 					type: "gamestage"
 				}
 			]
-			x: -9.0d
+			x: 20.0d
 			y: 8.0d
 		}
 		{
 			dependencies: [
-				"694D60A9968D6A36"
-				"746ED17DC30CAA46"
+				"5EC78C2225694A11"
+				"21D8AC6BE0AABCC4"
 			]
 			icon: {
 				id: "createbigcannons:steel_autocannon_recoil_spring"
 			}
-			id: "6417B4CDADF498F4"
+			id: "6BC0306E5EA860E2"
 			rewards: [
 				{
 					icon: {
 						id: "createbigcannons:steel_autocannon_breech"
 					}
-					id: "706B55424192D90C"
+					id: "2EF45F8CF930A667"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:steel_autocannon_recoil_spring"
 					}
-					id: "1818E2C66FCC9299"
+					id: "5FF60A40F5484B72"
 					type: "custom"
 				}
 				{
 					icon: {
 						id: "createbigcannons:steel_autocannon_barrel"
 					}
-					id: "2E21835D56790F83"
+					id: "0680A228D7BDC460"
 					type: "custom"
 				}
 				{
 					auto: "invisible"
-					id: "5DA93584F2C5E273"
+					id: "20B4592B78D94DA7"
 					stage: "steel_autocannon"
 					type: "gamestage"
 				}
 			]
-			x: -9.0d
+			x: 20.0d
 			y: 9.5d
+		}
+		{
+			dependencies: ["19FF89C96D18614F"]
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						GunCurrentAmmoCount: 4
+						GunFireMode: "SEMI"
+						GunId: "create_armorer:pistol_revolver_torque"
+						HasBulletInBarrel: 1b
+					}
+				}
+				id: "tacz:modern_kinetic_gun"
+			}
+			id: "3A69DD92F1465786"
+			rewards: [
+				{
+					icon: {
+						components: {
+							"minecraft:custom_data": {
+								GunCurrentAmmoCount: 4
+								GunFireMode: "SEMI"
+								GunId: "create_armorer:pistol_revolver_torque"
+								HasBulletInBarrel: 1b
+							}
+						}
+						id: "tacz:modern_kinetic_gun"
+					}
+					id: "58A654F9F92F5713"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					id: "4091C9DD0BDE7E84"
+					ignore_reward_blocking: true
+					stage: "torque_tacz_ca"
+					type: "gamestage"
+				}
+			]
+			x: 17.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3A69DD92F1465786"]
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						GunCurrentAmmoCount: 16
+						GunFireMode: "SEMI"
+						GunId: "create_armorer:pistol_auto_stress"
+						HasBulletInBarrel: 1b
+					}
+				}
+				id: "tacz:modern_kinetic_gun"
+			}
+			id: "5E33177A6E51B4A7"
+			rewards: [
+				{
+					icon: {
+						components: {
+							"minecraft:custom_data": {
+								GunCurrentAmmoCount: 16
+								GunFireMode: "SEMI"
+								GunId: "create_armorer:pistol_auto_stress"
+								HasBulletInBarrel: 1b
+							}
+						}
+						id: "tacz:modern_kinetic_gun"
+					}
+					id: "4EE02883E0C96075"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					id: "60021D1CF6662462"
+					ignore_reward_blocking: true
+					stage: "stress_tacz_ca"
+					type: "gamestage"
+				}
+			]
+			x: 17.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						GunCurrentAmmoCount: 1
+						GunFireMode: "SEMI"
+						GunId: "create_armorer:special_melee_wrench"
+						HasBulletInBarrel: 1b
+					}
+				}
+				id: "tacz:modern_kinetic_gun"
+			}
+			id: "19FF89C96D18614F"
+			rewards: [
+				{
+					icon: {
+						components: {
+							"minecraft:custom_data": {
+								GunCurrentAmmoCount: 1
+								GunFireMode: "SEMI"
+								GunId: "create_armorer:special_melee_wrench"
+								HasBulletInBarrel: 1b
+							}
+						}
+						id: "tacz:modern_kinetic_gun"
+					}
+					id: "73397DB54460A204"
+					type: "custom"
+				}
+				{
+					icon: {
+						components: {
+							"minecraft:custom_data": {
+								AttachmentId: "create_armorer:muzzle_refit_iron_spike"
+							}
+						}
+						id: "tacz:attachment"
+					}
+					id: "3987D5C272E0BE5F"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					id: "70EFF00ED77F1F5E"
+					ignore_reward_blocking: true
+					stage: "wrench_tacz_ca"
+					type: "gamestage"
+				}
+			]
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3A69DD92F1465786"]
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						GunCurrentAmmoCount: 8
+						GunFireMode: "SEMI"
+						GunId: "create_armorer:sniper_semi_m1"
+						HasBulletInBarrel: 1b
+					}
+				}
+				id: "tacz:modern_kinetic_gun"
+			}
+			id: "2893B3F08C798F04"
+			rewards: [
+				{
+					icon: {
+						components: {
+							"minecraft:custom_data": {
+								GunCurrentAmmoCount: 8
+								GunFireMode: "SEMI"
+								GunId: "create_armorer:sniper_semi_m1"
+								HasBulletInBarrel: 1b
+							}
+						}
+						id: "tacz:modern_kinetic_gun"
+					}
+					id: "0AF0CB5E82F1198A"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					id: "046C9976377ECB8E"
+					stage: "m1_tacz_ca"
+					type: "gamestage"
+				}
+			]
+			x: 15.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2893B3F08C798F04"]
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						GunCurrentAmmoCount: 8
+						GunFireMode: "SEMI"
+						GunId: "create_armorer:sniper_semi_clockwork"
+						HasBulletInBarrel: 1b
+					}
+				}
+				id: "tacz:modern_kinetic_gun"
+			}
+			id: "426B21628A45396D"
+			rewards: [
+				{
+					icon: {
+						components: {
+							"minecraft:custom_data": {
+								GunCurrentAmmoCount: 8
+								GunFireMode: "SEMI"
+								GunId: "create_armorer:sniper_semi_clockwork"
+								HasBulletInBarrel: 1b
+							}
+						}
+						id: "tacz:modern_kinetic_gun"
+					}
+					id: "3AB71F054307D27E"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					id: "49F5679C1B2537C2"
+					ignore_reward_blocking: true
+					stage: "clockwork_tacz_ca"
+					type: "gamestage"
+				}
+			]
+			x: 14.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5E33177A6E51B4A7"]
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						GunCurrentAmmoCount: 30
+						GunFireMode: "AUTO"
+						GunId: "create_armorer:smg_auto_crank"
+						HasBulletInBarrel: 1b
+					}
+				}
+				id: "tacz:modern_kinetic_gun"
+			}
+			id: "3BA9154A2EAEB919"
+			rewards: [
+				{
+					icon: {
+						components: {
+							"minecraft:custom_data": {
+								GunCurrentAmmoCount: 30
+								GunFireMode: "AUTO"
+								GunId: "create_armorer:smg_auto_crank"
+								HasBulletInBarrel: 1b
+							}
+						}
+						id: "tacz:modern_kinetic_gun"
+					}
+					id: "73958F74422A5466"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					id: "28254911F7452712"
+					ignore_reward_blocking: true
+					stage: "crank_tacz_ca"
+					type: "gamestage"
+				}
+			]
+			x: 17.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2893B3F08C798F04"]
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						GunCurrentAmmoCount: 2
+						GunFireMode: "SEMI"
+						GunId: "create_armorer:shotgun_db_stone"
+						HasBulletInBarrel: 1b
+					}
+				}
+				id: "tacz:modern_kinetic_gun"
+			}
+			id: "29C9A9B97E660D47"
+			rewards: [
+				{
+					icon: {
+						components: {
+							"minecraft:custom_data": {
+								GunCurrentAmmoCount: 2
+								GunFireMode: "SEMI"
+								GunId: "create_armorer:shotgun_db_stone"
+								HasBulletInBarrel: 1b
+							}
+						}
+						id: "tacz:modern_kinetic_gun"
+					}
+					id: "3F656FB690964FB0"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					id: "54F07256D7A51970"
+					ignore_reward_blocking: true
+					stage: "stone_tacz_ca"
+					type: "gamestage"
+				}
+			]
+			x: 15.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["29C9A9B97E660D47"]
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						GunCurrentAmmoCount: 4
+						GunFireMode: "SEMI"
+						GunId: "create_armorer:shotgun_pump_bearing"
+						HasBulletInBarrel: 1b
+					}
+				}
+				id: "tacz:modern_kinetic_gun"
+			}
+			id: "001866ACE6E85390"
+			rewards: [
+				{
+					icon: {
+						components: {
+							"minecraft:custom_data": {
+								GunCurrentAmmoCount: 4
+								GunFireMode: "SEMI"
+								GunId: "create_armorer:shotgun_pump_bearing"
+								HasBulletInBarrel: 1b
+							}
+						}
+						id: "tacz:modern_kinetic_gun"
+					}
+					id: "0BF00025870688DC"
+					type: "custom"
+				}
+				{
+					icon: {
+						components: {
+							"minecraft:custom_data": {
+								AttachmentId: "create_armorer:muzzle_refit_brass_retractor"
+							}
+						}
+						id: "tacz:attachment"
+					}
+					id: "563C1A068959CF87"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					id: "71238EC7E7E910A2"
+					ignore_reward_blocking: true
+					stage: "bearing_tacz_ca"
+					type: "gamestage"
+				}
+			]
+			x: 15.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"3BA9154A2EAEB919"
+				"2893B3F08C798F04"
+			]
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						GunCurrentAmmoCount: 10
+						GunFireMode: "AUTO"
+						GunId: "create_armorer:rifle_assult_roller"
+						HasBulletInBarrel: 1b
+					}
+				}
+				id: "tacz:modern_kinetic_gun"
+			}
+			id: "1FD97D8E338C7993"
+			rewards: [
+				{
+					icon: {
+						components: {
+							"minecraft:custom_data": {
+								GunCurrentAmmoCount: 10
+								GunFireMode: "AUTO"
+								GunId: "create_armorer:rifle_assult_roller"
+								HasBulletInBarrel: 1b
+							}
+						}
+						id: "tacz:modern_kinetic_gun"
+					}
+					id: "303018D775FB0EF9"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					id: "20387FFA7EABB2C4"
+					ignore_reward_blocking: true
+					stage: "roller_tacz_ca"
+					type: "gamestage"
+				}
+			]
+			x: 17.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1FD97D8E338C7993"]
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						GunCurrentAmmoCount: 10
+						GunFireMode: "AUTO"
+						GunId: "create_armorer:rifle_assult_crane"
+						HasBulletInBarrel: 1b
+					}
+				}
+				id: "tacz:modern_kinetic_gun"
+			}
+			id: "2FF25A66B41618FD"
+			rewards: [
+				{
+					icon: {
+						components: {
+							"minecraft:custom_data": {
+								GunCurrentAmmoCount: 10
+								GunFireMode: "AUTO"
+								GunId: "create_armorer:rifle_assult_crane"
+								HasBulletInBarrel: 1b
+							}
+						}
+						id: "tacz:modern_kinetic_gun"
+					}
+					id: "089BBC3F822C212D"
+					type: "custom"
+				}
+				{
+					icon: {
+						components: {
+							"minecraft:custom_data": {
+								AttachmentId: "create_armorer:muzzle_refit_lava_perfusion_bottle"
+							}
+						}
+						id: "tacz:attachment"
+					}
+					id: "412C8BF4E04FDE98"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					id: "481BE5957CE5582A"
+					ignore_reward_blocking: true
+					stage: "crane_tacz_ca"
+					type: "gamestage"
+				}
+			]
+			x: 17.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["001866ACE6E85390"]
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						GunCurrentAmmoCount: 8
+						GunFireMode: "SEMI"
+						GunId: "create_armorer:gl_revolver_devastator"
+						HasBulletInBarrel: 1b
+					}
+				}
+				id: "tacz:modern_kinetic_gun"
+			}
+			id: "27F2B3452D98F32E"
+			rewards: [
+				{
+					icon: {
+						components: {
+							"minecraft:custom_data": {
+								GunCurrentAmmoCount: 8
+								GunFireMode: "SEMI"
+								GunId: "create_armorer:gl_revolver_devastator"
+								HasBulletInBarrel: 1b
+							}
+						}
+						id: "tacz:modern_kinetic_gun"
+					}
+					id: "3685E05C4DC066C6"
+					type: "custom"
+				}
+				{
+					icon: {
+						components: {
+							"minecraft:custom_data": {
+								AttachmentId: "create_armorer:muzzle_refit_ap_grenade"
+							}
+						}
+						id: "tacz:attachment"
+					}
+					id: "1988461DA5CDF8F0"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					id: "41126FA8E7D10E7A"
+					ignore_reward_blocking: true
+					stage: "devastator_tacz_ca"
+					type: "gamestage"
+				}
+			]
+			x: 15.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["27F2B3452D98F32E"]
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						GunCurrentAmmoCount: 1
+						GunFireMode: "SEMI"
+						GunId: "create_armorer:cannon_40mm_salamander"
+						HasBulletInBarrel: 1b
+					}
+				}
+				id: "tacz:modern_kinetic_gun"
+			}
+			id: "7211F1CFDEA64AE0"
+			rewards: [
+				{
+					icon: {
+						components: {
+							"minecraft:custom_data": {
+								GunCurrentAmmoCount: 1
+								GunFireMode: "SEMI"
+								GunId: "create_armorer:cannon_40mm_salamander"
+								HasBulletInBarrel: 1b
+							}
+						}
+						id: "tacz:modern_kinetic_gun"
+					}
+					id: "46BE905DA1918862"
+					type: "custom"
+				}
+				{
+					icon: {
+						components: {
+							"minecraft:custom_data": {
+								AttachmentId: "create_armorer:refit_blasting_protocol"
+							}
+						}
+						id: "tacz:attachment"
+					}
+					id: "0003E200F397808E"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					id: "458120F1CB5CF985"
+					ignore_reward_blocking: true
+					stage: "salamander_tacz_ca"
+					type: "gamestage"
+				}
+			]
+			x: 15.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2FF25A66B41618FD"]
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						GunCurrentAmmoCount: 50
+						GunFireMode: "AUTO"
+						GunId: "create_armorer:mg_platemag_flywheel"
+						HasBulletInBarrel: 1b
+					}
+				}
+				id: "tacz:modern_kinetic_gun"
+			}
+			id: "6034ACAAA26142CE"
+			rewards: [
+				{
+					icon: {
+						components: {
+							"minecraft:custom_data": {
+								GunCurrentAmmoCount: 50
+								GunFireMode: "AUTO"
+								GunId: "create_armorer:mg_platemag_flywheel"
+								HasBulletInBarrel: 1b
+							}
+						}
+						id: "tacz:modern_kinetic_gun"
+					}
+					id: "7E5343F36A1FAAF1"
+					type: "custom"
+				}
+				{
+					icon: {
+						components: {
+							"minecraft:custom_data": {
+								AttachmentId: "create_armorer:muzzle_refit_bigger_cylinder"
+							}
+						}
+						id: "tacz:attachment"
+					}
+					id: "49EB0371F540A819"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					id: "49DBAE1292E2AEBD"
+					ignore_reward_blocking: true
+					stage: "flywheel_tacz_ca"
+					type: "gamestage"
+				}
+			]
+			x: 17.0d
+			y: 11.0d
 		}
 	]
 }

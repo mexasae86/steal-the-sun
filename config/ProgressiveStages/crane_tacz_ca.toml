@@ -1,0 +1,21 @@
+[stage]
+id             = "crane_tacz_ca"
+display_name   = "Crane Advanced AR"
+description     = "Unlocked after the Roller Assault Rifle."
+icon           = "minecraft:diamond_sword"
+unlock_message = "&6&lCrane Advanced AR Unlocked!"
+dependency     = "roller_tacz_ca"
+
+[items]
+locked = []
+always_unlocked = []
+
+[recipes]
+# Verify these recipe IDs against /progressivestages validate or data/createimmersivetacz/recipe/
+# before relying on this — they're transformed from JEI breadcrumb strings
+# (jei:/createimmersivetacz/X/Y -> createimmersivetacz:X/Y), not confirmed against the actual recipe JSONs.
+locked_ids = [
+	"createimmersivetacz:guns/assault_rifle",
+	"createimmersivetacz:attachments/lava_perfusion_bottle",
+	"createimmersivetacz:attachments/gantry_shaft_grip",
+]
