@@ -18,7 +18,8 @@ locked = [
       "create:contraption_controls",
       "create:controller_rail",
       "create:crushing_wheel",
-      "create:crafter_slot_cover"
+      "create:crafter_slot_cover",
+      "create_power_loader:empty_brass_chunk_loader"
 ]
 always_unlocked = []
 

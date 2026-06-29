@@ -1,0 +1,13 @@
+name = "CBC fuze Sable fix"
+filename = "cbc_fuze_sable_fix-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a53bf6d01b03935c467bba1de6e024446f358aac"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8031344
+project-id = 1532428

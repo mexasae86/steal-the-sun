@@ -467,6 +467,13 @@
 					id: "1446A58241C79A18"
 					type: "custom"
 				}
+				{
+					icon: {
+						id: "create_power_loader:empty_andesite_chunk_loader"
+					}
+					id: "60AE1EA8C582B99A"
+					type: "custom"
+				}
 			]
 			x: -1.5d
 			y: 5.0d
@@ -2107,6 +2114,13 @@
 						id: "createoreexcavation:vein_atlas"
 					}
 					id: "5EFF512AA480B02C"
+					type: "custom"
+				}
+				{
+					icon: {
+						id: "coebetterfinder:radar_prospecteur"
+					}
+					id: "0900BFC2DEDDD0D7"
 					type: "custom"
 				}
 			]

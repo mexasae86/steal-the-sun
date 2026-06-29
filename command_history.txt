@@ -16,10 +16,6 @@
 /progressivestages reload
 /progressivestages validate
 /progressivestages reload
-/progressivestages validate
-/progressivestages reload
-/progressivestages validate
-/progressivestages reload
 /stage revoke INiKkEI kinetic_energy_distribution_2
 /ftbquests reload
 /progressivestages validate
@@ -42,6 +38,10 @@
 /progressivestages validate
 /progressivestages reload
 /stage revoke INiKkEI kinetic_energy_distribution_2
+/progressivestages validate
+/progressivestages reload
+/progressivestages validate
+/progressivestages reload
 /progressivestages validate
 /progressivestages reload
 /progressivestages validate

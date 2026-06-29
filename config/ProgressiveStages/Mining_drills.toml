@@ -19,7 +19,8 @@ locked = [
       "createoreexcavation:diamond_drill",
       "createoreexcavation:netherite_drill",
       "createoreexcavation:vein_finder",
-      "createoreexcavation:vein_atlas"
+      "createoreexcavation:vein_atlas",
+      "coebetterfinder:radar_prospecteur"
 ]
 always_unlocked = []
 
